@@ -1,0 +1,528 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>124
+<FILENAME>R28.xml
+<DESCRIPTION>IDEA: Earnings per Share
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Earnings per Share</ReportName>
+  <ReportLongName>12101 - Disclosure - Earnings per Share</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Earnings per Share</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_EarningsPerShareAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Earnings per Share</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_EarningsPerShareTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&lt;a name="tx17525_42"&gt; &lt;/a&gt;21.&amp;nbsp;&amp;nbsp;Earnings per Share &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The calculation of basic and diluted earnings per share (EPS)&amp;nbsp;is as follows: &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;
+&lt;/font&gt;
+&lt;div&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td width="67%"&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="2%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="7%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="5%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;30&amp;nbsp;September&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;2008&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Numerator&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Net Income Attributable to Air Products (used in basic and diluted EPS)&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Income from continuing operations&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$1,029.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$639.9&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$1,090.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Loss&amp;nbsp;from discontinued operations, net of tax&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;#8212;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;(8.6&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;(180.8&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Net Income Attributable to Air Products&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$1,029.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$631.3&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$909.7&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Denominator&lt;/b&gt; (in millions)&lt;b&gt; &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Weighted average number of common shares used in basic EPS&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;212.2&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;209.9&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;212.2&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Effect of dilutive securities&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Employee stock options&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;3.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;2.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;5.9&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Other award plans&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;1.0&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;1.0&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;1.1&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;4.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;3.6&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;7.0&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Weighted average number of common shares and dilutive potential common shares used in diluted EPS&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;217.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;213.5&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;219.2&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Basic EPS Attributable to Air Products&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Income from continuing operations&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$4.85&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$3.05&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$5.14&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Loss&amp;nbsp;from discontinued operations&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;#8212;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;(.04&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;(.85&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Net Income Attributable to Air Products&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$4.85&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$3.01&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$4.29&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Diluted EPS Attributable to Air Products&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Income from continuing operations&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$4.74&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$3.00&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$4.97&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Loss&amp;nbsp;from discontinued operations&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;#8212;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;(.04&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;(.82&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Net Income Attributable to Air Products&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$4.74&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$2.96&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$4.15&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Diluted &lt;/font&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&amp;nbsp;EPS attributable to Air Products reflects the potential dilution that could occur if stock options or other share-based awards were exercised or converted into common stock. The dilutive effect is computed using the treasury stock method, which assumes all share-based awards are exercised and the hypothetical proceeds from exercise are used by the Company to purchase common stock at the average market price during the period. The incremental shares (difference between shares assumed to be issued versus purchased), to the extent they would have been dilutive, are included in the denominator of the diluted EPS calculation. Options on&amp;nbsp;&lt;font class="_mt"&gt;2.2&lt;/font&gt;&amp;nbsp;million shares,&amp;nbsp;&lt;font class="_mt"&gt;5.8&lt;/font&gt;&amp;nbsp;million shares, and&amp;nbsp;&lt;font class="_mt"&gt;1.2&lt;/font&gt;&amp;nbsp;million shares were antidilutive and therefore excluded from the computation of diluted EPS for 2010, 2009, and 2008, respe
+ctively. &lt;/p&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>21.&amp;nbsp;&amp;nbsp;Earnings per Share
+The calculation of basic and diluted earnings per share (EPS)&amp;nbsp;is as follows:
+&amp;nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>This element may be used to capture the complete disclosure pertaining to an entity's earnings per share.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 128
+ -Paragraph 40
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

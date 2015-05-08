@@ -1,0 +1,611 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>140
+<FILENAME>R115.xml
+<DESCRIPTION>IDEA: Retirement Benefits (Schedule of Other Postretirement Benefit Plans' Cost Components) (Details)
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>true</hasSegments>
+  <ReportName>Retirement Benefits (Schedule of Other Postretirement Benefit Plans' Cost Components) (Details) (Other Postretirement Benefits [Member], USD $)</ReportName>
+  <ReportLongName>41616 - Disclosure - Retirement Benefits (Schedule of Other Postretirement Benefit Plans' Cost Components) (Details)</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption>In Millions</RoundingOption>
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>true</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>Other Postretirement Benefits [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_OtherPostretirementBenefitsMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+      </Segments>
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>2</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2009" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>true</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>Other Postretirement Benefits [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_OtherPostretirementBenefitsMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+      </Segments>
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>3</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2008" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>true</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>Other Postretirement Benefits [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_OtherPostretirementBenefitsMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+      </Segments>
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Service cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanServiceCost</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>4700000</NumericAmount>
+          <RoundedNumericAmount>4.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>4000000</NumericAmount>
+          <RoundedNumericAmount>4.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>5900000</NumericAmount>
+          <RoundedNumericAmount>5.9</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The actuarial present value of benefits attributed by the pension benefit formula to services rendered by employees during the period. The portion of the expected postretirement benefit obligation attributed to employee service during the period. The service cost component is a portion of the benefit obligation and is unaffected by the funded status of the plan.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 106
+ -Paragraph 518
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 87
+ -Paragraph 264
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 5
+ -Subparagraph a, h
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Interest cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanInterestCost</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>4600000</NumericAmount>
+          <RoundedNumericAmount>4.6</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>6500000</NumericAmount>
+          <RoundedNumericAmount>6.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>5800000</NumericAmount>
+          <RoundedNumericAmount>5.8</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The increase in a defined benefit pension plan's projected benefit obligation or a defined benefit postretirement plan's accumulated postretirement benefit obligation due to the passage of time.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 106
+ -Paragraph 518
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 87
+ -Paragraph 264
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 5
+ -Subparagraph a, h
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>4</Id>
+      <Label>Prior service credit</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanAmortizationOfPriorServiceCostCredit</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>-100000</NumericAmount>
+          <RoundedNumericAmount>-0.1</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>-1400000</NumericAmount>
+          <RoundedNumericAmount>-1.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>-1400000</NumericAmount>
+          <RoundedNumericAmount>-1.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The amount of the prior service cost or credit recognized in net periodic benefit cost relating to benefit changes attributable to plan participants' prior service pursuant to a plan amendment or a plan initiation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 5
+ -Subparagraph h
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>5</Id>
+      <Label>Actuarial loss</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanAmortizationOfGainsLosses</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>credit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>true</IsReverseSign>
+      <PreferredLabelRole>negated</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2900000</NumericAmount>
+          <RoundedNumericAmount>2.9</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>100000</NumericAmount>
+          <RoundedNumericAmount>0.1</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1700000</NumericAmount>
+          <RoundedNumericAmount>1.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The amount of gains or losses recognized in net periodic benefit cost</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 5
+ -Subparagraph h
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>6</Id>
+      <Label>Net Periodic Postretirement Cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanNetPeriodicBenefitCost</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>totallabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>12100000</NumericAmount>
+          <RoundedNumericAmount>12.1</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>9200000</NumericAmount>
+          <RoundedNumericAmount>9.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>12000000</NumericAmount>
+          <RoundedNumericAmount>12.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The total amount of net periodic benefit cost for defined benefit plans for the period. Periodic benefit costs include the following components: service cost, interest cost, expected return on plan assets, gain or loss, prior service cost or credit, transition asset or obligation, and gain or loss due to settlements or curtailments).</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 5
+ -Subparagraph h
+
+</ElementReferences>
+      <IsTotalLabel>true</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>3</NumberOfCols>
+  <NumberOfRows>5</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>HundredThousands</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

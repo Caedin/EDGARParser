@@ -1,0 +1,914 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>88
+<FILENAME>R113.xml
+<DESCRIPTION>IDEA: Retirement Benefits (Schedule of Pension Plans Where the ABO Exceeds the Value of Plan Assets) (Details)
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>true</hasSegments>
+  <ReportName>Retirement Benefits (Schedule of Pension Plans Where the ABO Exceeds the Value of Plan Assets) (Details) (Accumulated Benefit Obligation [Member], USD $)</ReportName>
+  <ReportLongName>41614 - Disclosure - Retirement Benefits (Schedule of Pension Plans Where the ABO Exceeds the Value of Plan Assets) (Details)</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption>In Millions</RoundingOption>
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>true</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>Accumulated Benefit Obligation [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_AccumulatedBenefitObligationMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>U.S. [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_USMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+      </Segments>
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>2</Id>
+      <Labels>
+        <Label Id="1" Label="Sep. 30, 2009" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>true</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>Accumulated Benefit Obligation [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_AccumulatedBenefitObligationMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+        <Segment>
+          <IsDefaultForEntity>false</IsDefaultForEntity>
+          <Name />
+          <IsFromEntityGroup>false</IsFromEntityGroup>
+          <ValueName>U.S. [Member]</ValueName>
+          <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+          <Namespace>xbrldi</Namespace>
+          <Schema>http://xbrl.org/2006/xbrldi</Schema>
+          <DimensionInfo>
+            <Id>apd_USMember</Id>
+            <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+            <type>explicitMember</type>
+          </DimensionInfo>
+        </Segment>
+      </Segments>
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>1</Id>
+      <Label>Accumulated Benefit Obligation [Member] | U.S. [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureretirementbenefitsscheduleofpensionplanswhereaboexceedsvalueofplanassetsdetails</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>1</Id>
+          <Labels>
+            <Label Id="1" Label="Sep. 30, 2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Accumulated Benefit Obligation [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_AccumulatedBenefitObligationMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>U.S. [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_USMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>2</Id>
+          <Labels>
+            <Label Id="1" Label="Sep. 30, 2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Accumulated Benefit Obligation [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_AccumulatedBenefitObligationMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>U.S. [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_USMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>2</Id>
+      <Label>PBO</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateProjectedBenefitObligation</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>credit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2446200000</NumericAmount>
+          <RoundedNumericAmount>2446.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2210500000</NumericAmount>
+          <RoundedNumericAmount>2210.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>If aggregate disclosures are presented, the aggregate projected benefit obligation for pension plans with accumulated benefit obligations in excess of plan assets as of the measurement date of each statement of financial position presented.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph C3
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>ABO</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateAccumulatedBenefitObligation</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>credit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2121500000</NumericAmount>
+          <RoundedNumericAmount>2121.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1885000000</NumericAmount>
+          <RoundedNumericAmount>1885.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>If aggregate disclosures are presented, the aggregate pension accumulated benefit obligation for pension plans with accumulated benefit obligations in excess of plan assets as of the measurement date of each statement of financial position presented.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 6
+ -Subparagraph b
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>4</Id>
+      <Label>Plan assets</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateFairValueOfPlanAssets</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1727200000</NumericAmount>
+          <RoundedNumericAmount>1727.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1457700000</NumericAmount>
+          <RoundedNumericAmount>1457.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>If aggregate disclosures are presented, the aggregate fair value of plan assets for pension plans with accumulated benefit obligations in excess of plan assets as of the measurement date of each statement of financial position presented.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 6
+ -Subparagraph b
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>5</Id>
+      <Label>Accumulated Benefit Obligation [Member] | International [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureretirementbenefitsscheduleofpensionplanswhereaboexceedsvalueofplanassetsdetails</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>3</Id>
+          <Labels>
+            <Label Id="2" Label="International [Member]" />
+            <Label Id="3" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Accumulated Benefit Obligation [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_AccumulatedBenefitObligationMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>International [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_InternationalMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>4</Id>
+          <Labels>
+            <Label Id="2" Label="International [Member]" />
+            <Label Id="3" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Accumulated Benefit Obligation [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_AccumulatedBenefitObligationMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlanByPlanAssetCategoriesAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>International [Member]</ValueName>
+              <ValueType>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_InternationalMember</Id>
+                <dimensionId>us-gaap_DefinedBenefitPlansDisclosuresDefinedBenefitPlansAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>6</Id>
+      <Label>PBO</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateProjectedBenefitObligation</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>credit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1263400000</NumericAmount>
+          <RoundedNumericAmount>1263.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1008400000</NumericAmount>
+          <RoundedNumericAmount>1008.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>If aggregate disclosures are presented, the aggregate projected benefit obligation for pension plans with accumulated benefit obligations in excess of plan assets as of the measurement date of each statement of financial position presented.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph C3
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>7</Id>
+      <Label>ABO</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateAccumulatedBenefitObligation</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>credit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1170400000</NumericAmount>
+          <RoundedNumericAmount>1170.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>955800000</NumericAmount>
+          <RoundedNumericAmount>955.8</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>If aggregate disclosures are presented, the aggregate pension accumulated benefit obligation for pension plans with accumulated benefit obligations in excess of plan assets as of the measurement date of each statement of financial position presented.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 6
+ -Subparagraph b
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>8</Id>
+      <Label>Plan assets</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateFairValueOfPlanAssets</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>944500000</NumericAmount>
+          <RoundedNumericAmount>944.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>620200000</NumericAmount>
+          <RoundedNumericAmount>620.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>If aggregate disclosures are presented, the aggregate fair value of plan assets for pension plans with accumulated benefit obligations in excess of plan assets as of the measurement date of each statement of financial position presented.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 132R
+ -Paragraph 6
+ -Subparagraph b
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>2</NumberOfCols>
+  <NumberOfRows>8</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>HundredThousands</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

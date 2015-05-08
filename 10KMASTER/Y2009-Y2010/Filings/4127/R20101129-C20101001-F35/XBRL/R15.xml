@@ -1,0 +1,1610 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>26
+<FILENAME>R15.xml
+<DESCRIPTION>IDEA: Borrowing Arrangements
+<TEXT>
+<XBRL>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Borrowing Arrangements</ReportName>
+  <ReportLongName>0209 - Disclosure - Borrowing Arrangements</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Oct. 01, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Borrowing Arrangements [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>swks_BorrowingArrangementsAbstract</ElementName>
+      <ElementPrefix>swks</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Borrowing Arrangements.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>Borrowing Arrangements.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>BORROWING ARRANGEMENTS</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_DebtDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 9 - us-gaap:DebtDisclosureTextBlock--&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;9. BORROWING ARRANGEMENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;&lt;b&gt;LONG-TERM DEBT&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;Long-term debt consists of the following (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="76%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="6" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Fiscal Years Ended&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;October 1,&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;October 2,&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;2009&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="7" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2007 Convertible Notes
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;24,743&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;73,348&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Less-current maturities
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;31,865&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Total long-term debt
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;24,743&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;41,483&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;On March&amp;#160;2, 2007, the Company issued $200.0&amp;#160;million aggregate principal amount of convertible
+   subordinated notes (&amp;#8220;2007 Convertible Notes&amp;#8221;). The offering contained two tranches. The first
+   tranche consisted of $100.0&amp;#160;million of 1.25% convertible subordinated notes due March&amp;#160;2010 (the
+   &amp;#8220;1.25% Notes&amp;#8221;). The second tranche consisted of $100.0&amp;#160;million aggregate principal amount of 1.50%
+   convertible subordinated notes due March&amp;#160;2012 (the &amp;#8220;1.50% Notes&amp;#8221;). The Company pays interest in
+   cash semi-annually in arrears on March 1 and September 1 of each year on the 1.50% Notes. The
+   conversion price of the 1.50% Notes is 105.0696 shares per $1,000 principal amount of notes to be
+   redeemed, which is the equivalent of a conversion price of approximately $9.52 per share, plus
+   accrued and unpaid interest, if any, to the conversion date. Holders of the 1.50% Notes may
+   require the Company to repurchase the 2007 Convertible Notes upon a change in control of the
+   Company.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;These 2007 Convertible Notes contain cash settlement provisions, which permit the application of
+   the treasury stock method in determining potential share dilution of the conversion spread should
+   the share price of the Company&amp;#8217;s common stock exceed $9.52. It has been the Company&amp;#8217;s historical
+   practice to cash settle the principal and interest components of convertible debt instruments, and
+   it is our intention to continue to do so in the future.
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;On October&amp;#160;3, 2009, the Company adopted ASC 470-20 &amp;#8212; &lt;i&gt;Debt, Debt with Conversions and Other Options&lt;/i&gt;
+   (&amp;#8220;ASC 470-20&amp;#8221;). Our financial statements and the accompanying footnotes for all prior periods
+   presented have been adjusted to reflect the retrospective adoption of this new accounting
+   principle. ASC 470-20 requires the issuer of convertible debt instruments with cash settlement
+   features to separately account for the liability and equity components of the convertible debt
+   instrument and requires retrospective application to all periods presented in the financial
+   statements to which it is applicable. ASC 470-20 applies to the Company&amp;#8217;s 2007 Convertible Notes.
+   Using a non-convertible borrowing rate of 6.86%, the Company estimated the fair value of the
+   liability component of the 1.50% Notes to be $77.3&amp;#160;million. As of the issuance date, the difference
+   between the fair value of the liability component of the 1.50% Notes and the corresponding
+   aggregate principal amount of such notes, which is equal to the fair value of the equity component
+   of the 1.50% Notes ($22.7&amp;#160;million), was retrospectively recorded as a debt discount and as an
+   increase to additional paid-in capital, net of tax. The discount of the liability component of the
+   1.50% Notes is being amortized over the life of the instrument.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;During the fiscal year ending October&amp;#160;1, 2010, the Company redeemed the remaining $32.6&amp;#160;million of
+   aggregate principal amount of the 1.25% Notes and redeemed $20.4&amp;#160;million of aggregate principal
+   amount of the 1.50% Notes. The Company paid a cash premium (cash paid less principal amount) of
+   $15.1&amp;#160;million and $12.4&amp;#160;million on the retirements of the 1.25% and 1.50% Notes, respectively.
+   After applying ASC 470-20, the Company recorded a total gain on the transaction of approximately
+   $0.1&amp;#160;million (including commissions and deferred financing).
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The following tables provide additional information about the Company&amp;#8217;s 2007 Convertible Notes (in
+   thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="76%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="7" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Fiscal Years Ended&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;October 1,&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;October 2,&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;2009&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="7" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Equity component of the convertible notes outstanding
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;6,061&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;15,670&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Principal amount of the convertible notes
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;26,677&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;79,733&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Unamortized discount of the liability component
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;1,934&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;6,385&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net carrying amount of the liability component
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;24,743&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;73,348&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="76%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="7" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Fiscal Years Ended&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;October 1,&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;October 2,&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;2009&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="7" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Effective interest rate on the liability component
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;6.86&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;%&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;6.86&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;%&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Cash interest expense recognized (contractual interest)
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;734&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;1,391&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Effective interest expense recognized
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;2,502&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;4,954&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The remaining unamortized discount on the 1.50% Notes will be amortized over the next seventeen
+   months. As of October&amp;#160;1, 2010, the if converted value of the remaining 1.50% Notes exceeds the
+   related principal amount by approximately $31.2&amp;#160;million. As of October&amp;#160;1, 2010 and October&amp;#160;2, 2009,
+   the number of shares of the Company&amp;#8217;s common stock underlying the then remaining 2007 Convertible
+   Notes (which at October&amp;#160;2, 2009 included both the 1.25% Notes and the 1.50% Notes) were 2.8&amp;#160;million
+   and 8.4&amp;#160;million, respectively.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The retrospective application of ASC 470-20 had the following effect on the Company&amp;#8217;s Consolidated
+   Statements of Operations as follows (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="28%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11"&gt;&lt;b&gt;Fiscal Year Ended&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11"&gt;&lt;b&gt;Fiscal Year Ended&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;October 2, 2009&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;October 3, 2008&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Previously&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;As&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Effect of&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Previously&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;As&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Effect of&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Reported&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Adjusted&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Change&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Reported&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Adjusted&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Change&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="11" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="11" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Interest expense
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(3,644&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(8,290&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(4,646&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(7,330&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(16,324&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(8,994&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;(Loss) Gain on early
+   retirement of convertible debt
+   (1)
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(4,066&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;4,590&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;8,656&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(6,836&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,158&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;8,994&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;(Benefit)  for income
+   taxes
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(27,543&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(25,227&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(2,316&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(28,818&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(28,818&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net income
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;93,289&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;94,983&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;1,694&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;111,006&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;111,006&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Per share information:
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net income, basic
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.56&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.57&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.01&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.69&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.69&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net income, diluted
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.55&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.56&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.01&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.67&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;0.67&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left"&gt;
+   &lt;div style="font-size: 3pt; margin-top: 16pt; width: 18%; border-top: 1px solid #000000"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 2pt"&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; text-align: left"&gt;
+   &lt;tr valign="top" style="font-size: 10pt; color: #000000; background: transparent"&gt;
+       &lt;td width="1%" nowrap="nowrap" align="left"&gt;(1)&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;The previously reported gain on early retirement of the 1.25% and
+   1.50% Notes for the fiscal year ended October&amp;#160;2, 2009 was net of
+   deferred financing cost write-downs of $0.9&amp;#160;million.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The retrospective application of ASC 470-20 had the following effect on the Company&amp;#8217;s Consolidated
+   Balance Sheet as of October&amp;#160;2, 2009 (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="64%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Previously Reported&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;As Adjusted&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Effect of Change&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="11" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Other assets
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;10,283&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;9,864&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(419&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Deferred tax assets
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;91,479&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;89,163&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(2,316&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Short-term debt
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;82,617&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;81,865&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(752&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Long-term debt
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;47,116&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;41,483&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(5,633&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Additional paid-in capital
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;1,499,406&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;1,568,416&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;69,010&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Accumulated deficit
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(399,794&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(465,154&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(65,360&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The retrospective application of ASC 470-20 had the following effect on the Company&amp;#8217;s Consolidated
+   Statement of Cash Flows as follows (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="28%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11"&gt;&lt;b&gt;Fiscal Year Ended&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11"&gt;&lt;b&gt;Fiscal Year Ended&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;October 2, 2009&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="11" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;October 3, 2008&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Previously&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;As&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Effect of&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Previously&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;As&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Effect of&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Reported&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Adjusted&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Change&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Reported&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Adjusted&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="3"&gt;&lt;b&gt;Change&lt;/b&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="23" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&lt;b&gt;Cash flows from operating
+   activities:&lt;/b&gt;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net income
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;93,289&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;94,983&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;1,694&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;111,006&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;111,006&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Amortization of
+   deferred financing
+   costs and
+   discount on
+   convertible debt
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;943&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;5,589&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;4,646&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;1,753&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;10,748&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;8,995&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Deferred income taxes
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(27,182&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(24,866&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,316&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(36,648&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(36,648&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net cash
+   provided by
+   operating
+   activities:
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;210,149&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;218,805&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;8,656&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;173,678&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;182,673&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;8,995&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;&lt;!-- Blank Space --&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&lt;b&gt;Cash flows from
+   financing
+   activities:&lt;/b&gt;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Retirement of 2007
+   Convertible Notes
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(57,883&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(51,107&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;6,776&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(62,384&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(56,570&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;5,814&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Reacquisition of
+   equity component of
+   convertible notes
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(15,432&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(15,432&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(14,809&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(14,809&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Net cash used in
+   financing
+   activities:
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(21,504&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(30,160&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(8,656&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(95,192&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(104,187&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="right"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(8,995&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Aggregate annual maturities of long-term debt are as follows (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="88%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&lt;b&gt;Fiscal Year&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Maturity&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td colspan="5" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;&lt;!-- Blank Space --&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2011
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2012
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;24,743&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;24,743&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;SHORT-TERM DEBT&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Short-term debt consists of the following (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="76%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="6" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Fiscal Years Ended&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;October 1,&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;October 2,&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;2009&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="7" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Current maturities of long-term debt
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;31,865&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Credit Facility
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;50,000&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;50,000&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;50,000&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;81,865&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;On July&amp;#160;15, 2003, the Company entered into a receivables purchase agreement under which it has
+   agreed to sell from time to time certain of its accounts receivable to Skyworks USA, Inc.
+   (&amp;#8220;Skyworks USA&amp;#8221;), a wholly-owned special purpose entity that is consolidated for accounting
+   purposes. Concurrently, Skyworks USA entered into an agreement with Wells Fargo Bank, N.A.
+   (previously Wachovia Bank, N.A.) providing for a $50.0&amp;#160;million Credit Facility  secured by the purchased accounts receivable. As a part of the consolidation, any
+   interest incurred by Skyworks USA related to monies it borrows under
+   the Credit Facility  is
+   recorded as interest expense in the Company&amp;#8217;s results of operations. The Company performs
+   collections and administrative functions on behalf of Skyworks USA. The Company extended the
+   Credit Facility  effective on July&amp;#160;9, 2010 for an additional term of three months.
+   Interest related to the Credit Facility  is at LIBOR plus 0.75% and was approximately 1.01% at
+   October&amp;#160;1, 2010. As of October&amp;#160;1, 2010, Skyworks USA had borrowed $50.0&amp;#160;million under this
+   agreement. Our ability to borrow under the Credit Facility expired in
+   October&amp;#160;2010 and, given our strong cash position, management has determined that the
+   Credit Facility was no longer required and accordingly, has been substantially repaid as of November 29,&amp;#160;2010.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Information about short-term and long-term debt arrangements, which includes amounts of borrowings under each line of credit, note payable, commercial paper issue, bonds indenture, debenture issue, and any other contractual agreement to repay funds, and about the underlying arrangements, rationale for a classification as long-term, including repayment terms, interest rates, collateral provided, restrictions on use of assets and activities, whether or not in compliance with debt covenants, and other matters important to users of the financial statements, such as the effects of refinancing and noncompliance with debt covenants.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 19, 20, 22
+ -Article 5
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 129
+ -Paragraph 2, 4
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

@@ -1,0 +1,2517 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>59
+<FILENAME>R74.xml
+<DESCRIPTION>IDEA: Plant and Equipment (Schedule of Major Classes of Plant and Equipment at Cost) (Details)
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>true</hasSegments>
+  <ReportName>Plant and Equipment (Schedule of Major Classes of Plant and Equipment at Cost) (Details) (USD $)</ReportName>
+  <ReportLongName>40901 - Disclosure - Plant and Equipment (Schedule of Major Classes of Plant and Equipment at Cost) (Details)</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption>In Millions</RoundingOption>
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>2</Id>
+      <Labels>
+        <Label Id="1" Label="Sep. 30, 2009" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>16309700000</NumericAmount>
+          <RoundedNumericAmount>16309.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>15751300000</NumericAmount>
+          <RoundedNumericAmount>15751.3</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Land [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>3</Id>
+          <Labels>
+            <Label Id="1" Label=" Land [Member]" />
+            <Label Id="2" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Land [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_LandMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>4</Id>
+          <Labels>
+            <Label Id="1" Label=" Land [Member]" />
+            <Label Id="2" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Land [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_LandMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>4</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>172300000</NumericAmount>
+          <RoundedNumericAmount>172.3</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>169400000</NumericAmount>
+          <RoundedNumericAmount>169.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>5</Id>
+      <Label>Buildings [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>5</Id>
+          <Labels>
+            <Label Id="1" Label=" Buildings [Member]" />
+            <Label Id="2" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Buildings [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_BuildingMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>6</Id>
+          <Labels>
+            <Label Id="1" Label=" Buildings [Member]" />
+            <Label Id="2" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Buildings [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_BuildingMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>6</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>886200000</NumericAmount>
+          <RoundedNumericAmount>886.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>875500000</NumericAmount>
+          <RoundedNumericAmount>875.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>7</Id>
+      <Label>Production facilities [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>7</Id>
+          <Labels>
+            <Label Id="1" Label=" Production facilities [Member]" />
+            <Label Id="2" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>8</Id>
+          <Labels>
+            <Label Id="1" Label=" Production facilities [Member]" />
+            <Label Id="2" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>8</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>11395400000</NumericAmount>
+          <RoundedNumericAmount>11395.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>10707100000</NumericAmount>
+          <RoundedNumericAmount>10707.1</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>9</Id>
+      <Label>Production facilities [Member] | Merchant Gases [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>9</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Merchant Gases [Member]" />
+            <Label Id="3" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Merchant Gases [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_MerchantGasesMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>10</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Merchant Gases [Member]" />
+            <Label Id="3" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Merchant Gases [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_MerchantGasesMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>10</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>3346300000</NumericAmount>
+          <RoundedNumericAmount>3346.3</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>3071000000</NumericAmount>
+          <RoundedNumericAmount>3071.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>11</Id>
+      <Label>Production facilities [Member] | Tonnage Gases [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>11</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Tonnage Gases [Member]" />
+            <Label Id="3" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Tonnage Gases [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_TonnageGasesMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>12</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Tonnage Gases [Member]" />
+            <Label Id="3" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Tonnage Gases [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_TonnageGasesMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>12</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>5691400000</NumericAmount>
+          <RoundedNumericAmount>5691.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>5441700000</NumericAmount>
+          <RoundedNumericAmount>5441.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>13</Id>
+      <Label>Production facilities [Member] | Electronics and Performance Materials [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>13</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Electronics and Performance Materials [Member]" />
+            <Label Id="3" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Electronics and Performance Materials [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ElectronicsAndPerformanceMaterialsMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>14</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Electronics and Performance Materials [Member]" />
+            <Label Id="3" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Electronics and Performance Materials [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ElectronicsAndPerformanceMaterialsMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>14</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2061200000</NumericAmount>
+          <RoundedNumericAmount>2061.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1907600000</NumericAmount>
+          <RoundedNumericAmount>1907.6</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>15</Id>
+      <Label>Production facilities [Member] | Equipment and Energy [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>15</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Equipment and Energy [Member]" />
+            <Label Id="3" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Equipment and Energy [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_EquipmentAndEnergyMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>16</Id>
+          <Labels>
+            <Label Id="1" Label="Production facilities [Member]" />
+            <Label Id="2" Label="Equipment and Energy [Member]" />
+            <Label Id="3" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Production facilities [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ProductionFacilitiesMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Equipment and Energy [Member]</ValueName>
+              <ValueType>us-gaap_SegmentReportingInformationBySegmentAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_EquipmentAndEnergyMember</Id>
+                <dimensionId>us-gaap_SegmentReportingInformationBySegmentAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>16</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>296500000</NumericAmount>
+          <RoundedNumericAmount>296.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>286800000</NumericAmount>
+          <RoundedNumericAmount>286.8</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>17</Id>
+      <Label>Distribution equipment [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>17</Id>
+          <Labels>
+            <Label Id="1" Label=" Distribution equipment [Member]" />
+            <Label Id="2" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Distribution equipment [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_DistributionEquipmentMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>18</Id>
+          <Labels>
+            <Label Id="1" Label=" Distribution equipment [Member]" />
+            <Label Id="2" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Distribution equipment [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_DistributionEquipmentMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>18</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2918600000</NumericAmount>
+          <RoundedNumericAmount>2918.6</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>2802500000</NumericAmount>
+          <RoundedNumericAmount>2802.5</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>19</Id>
+      <Label>Other machinery and equipment [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>19</Id>
+          <Labels>
+            <Label Id="1" Label=" Other machinery and equipment [Member]" />
+            <Label Id="2" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Other machinery and equipment [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_OtherMachineryAndEquipmentMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>20</Id>
+          <Labels>
+            <Label Id="1" Label=" Other machinery and equipment [Member]" />
+            <Label Id="2" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Other machinery and equipment [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_OtherMachineryAndEquipmentMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>20</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>248000000</NumericAmount>
+          <RoundedNumericAmount>248.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>273100000</NumericAmount>
+          <RoundedNumericAmount>273.1</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>21</Id>
+      <Label>Construction in progress [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosureplantandequipmentscheduleofmajorclassesofplantandequipmentatcostdetail</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>21</Id>
+          <Labels>
+            <Label Id="1" Label=" Construction in progress [Member]" />
+            <Label Id="2" Label="9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Construction in progress [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_ConstructionInProgressMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>22</Id>
+          <Labels>
+            <Label Id="1" Label=" Construction in progress [Member]" />
+            <Label Id="2" Label="9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Construction in progress [Member]</ValueName>
+              <ValueType>us-gaap_PropertyPlantAndEquipmentByTypeAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>us-gaap_ConstructionInProgressMember</Id>
+                <dimensionId>us-gaap_PropertyPlantAndEquipmentByTypeAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>22</Id>
+      <Label>Plant and Equipment, at cost</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_PropertyPlantAndEquipmentGross</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>instant</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>689200000</NumericAmount>
+          <RoundedNumericAmount>689.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>923700000</NumericAmount>
+          <RoundedNumericAmount>923.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Carrying amount at the balance sheet date for long-lived physical assets used in the normal conduct of business and not intended for resale. This can include land, physical structures, machinery, vehicles, furniture, computer equipment, construction in progress, and similar items. Amount does not include depreciation.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>2</NumberOfCols>
+  <NumberOfRows>21</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>HundredThousands</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

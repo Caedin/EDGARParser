@@ -1,0 +1,734 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>19
+<FILENAME>R8.xml
+<DESCRIPTION>IDEA: Summary of Significant Accounting Policies
+<TEXT>
+<XBRL>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Summary of Significant Accounting Policies</ReportName>
+  <ReportLongName>0202 - Disclosure - Summary of Significant Accounting Policies</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Oct. 01, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Summary of Significant Accounting Policies [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>swks_SummaryOfSignificantAccountingPoliciesAbstract</ElementName>
+      <ElementPrefix>swks</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Summary of Significant Accounting Policies.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>Summary of Significant Accounting Policies.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_SignificantAccountingPoliciesTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 2 - us-gaap:SignificantAccountingPoliciesTextBlock--&gt;
+   &lt;div align="left" style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;2. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;&lt;b&gt;PRINCIPLES OF CONSOLIDATION&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;All majority owned subsidiaries are included in the Company&amp;#8217;s Consolidated Financial Statements and
+   all intercompany balances are eliminated in consolidation.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;FISCAL YEAR&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company&amp;#8217;s fiscal year ends on the Friday closest to September&amp;#160;30. Fiscal years 2010 and 2009
+   each consisted of 52&amp;#160;weeks and ended on October&amp;#160;1, 2010 and October&amp;#160;2, 2009, respectively. Fiscal
+   year 2008 consisted of 53&amp;#160;weeks and ended on October&amp;#160;3, 2008.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;USE OF ESTIMATES&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The preparation of consolidated financial statements in conformity with accounting principles
+   generally accepted in the United States requires management to make estimates and assumptions that
+   affect the reported amounts of assets and liabilities and disclosure of contingent liabilities at
+   the date of the financial statements and the reported amounts of revenues and expenses during the
+   reporting period. On an ongoing basis, management reviews its estimates based upon currently
+   available information. Actual results could differ materially from those estimates.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;REVENUE RECOGNITION&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Revenues from product sales are recognized upon shipment and transfer of title, in accordance with
+   the shipping terms specified in the arrangement with the customer. Revenue from license fees and
+   intellectual property is recognized when due and payable, and all other criteria of ASC 605-&lt;i&gt;Revenue
+   Recognition, &lt;/i&gt;have been met. The Company ships product on consignment to certain customers and only
+   recognize revenue when the customer notifies us that the inventory has been consumed. Revenue
+   recognition is deferred in all instances where the earnings process is incomplete. Certain product
+   sales are made to electronic component distributors under agreements allowing for price protection
+   and/or a right of return (stock rotation) on unsold products. A reserve for sales returns and
+   allowances for customers is recorded based on historical experience or specific identification of a
+   contractual arrangement necessitating a revenue reserve.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;ALLOWANCE FOR DOUBTFUL ACCOUNTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company maintains general allowances for doubtful accounts for losses that they estimate will
+   arise from their customers&amp;#8217; inability to make required payments. These reserves require management
+   to apply judgment in deriving estimates. As the Company becomes aware of any specific receivables
+   which may be uncollectable, they perform additional analysis and reserves are recorded if deemed
+   necessary. Determination of such additional specific reserves require management to make judgments
+   and estimates pertaining to factors such as a customer&amp;#8217;s credit worthiness, intent and ability to
+   pay, and overall financial position. If the data the Company uses to calculate the
+   allowance for doubtful accounts does not reflect the future ability to collect outstanding
+   receivables, additional provisions for doubtful accounts may be needed and its results of
+   operations could be materially affected.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;CASH AND CASH EQUIVALENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company&amp;#8217;s cash and cash equivalents primarily consist of cash money market funds and repurchase
+   agreements where the underlying securities primarily consist of United States treasury obligations,
+   United States agency obligations, overnight repurchase agreements backed by United States
+   treasuries and/or United States agency obligations and highly rated commercial paper.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;INVESTMENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company&amp;#8217;s investment is classified as available for sale and consists of an auction rate
+   security (&amp;#8220;ARS&amp;#8221;).
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;RESTRICTED CASH&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Restricted cash is primarily used to collateralize the Company&amp;#8217;s obligation under
+   the Credit Facility, which management plans to repay during the first
+   quarter of fiscal 2011.
+    For further information regarding the Credit Facility, please see Note 9 to the Consolidated Financial Statements.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;INVENTORIES&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Inventories are stated at the lower of cost, determined on a first-in, first-out basis, or market.
+   Each quarter, the Company estimates and establishes reserves for excess, obsolete or unmarketable
+   inventory. These reserves are generally equal to the historical cost basis of the excess or
+   obsolete inventory and once recorded are considered permanent adjustments. Calculation of the
+   reserves requires management to use judgment and make assumptions about forecasted demand in
+   relation to the inventory on hand, competitiveness of its product offerings, general market
+   conditions and product life cycles upon which the reserves are based. When inventory on hand
+   exceeds foreseeable demand (generally in excess of twelve months), reserves are established for the
+   value of such inventory that is not expected to be sold at the time of the review.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;If actual demand and market conditions are less favorable than those the Company projects,
+   additional inventory reserves may be required and its results of operations could be materially
+   affected. Some or all of the inventories that have been reserved may be retained and made available
+   for sale; however, they are generally scrapped over time.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;PROPERTY, PLANT AND EQUIPMENT&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Property, plant and equipment are carried at cost less accumulated depreciation and amortization.
+   Depreciation is calculated using the straight-line method. Significant renewals and betterments are
+   capitalized and equipment taken out of service is written off. Maintenance and repairs, as well as
+   renewals of a minor amount, are expensed as incurred.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Estimated useful lives used for depreciation purposes are 5 to 30&amp;#160;years for buildings and
+   improvements and 3 to 10&amp;#160;years for machinery and equipment. Leasehold improvements are depreciated
+   over the lesser of the economic life or the life of the associated lease.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;SHARE-BASED COMPENSATION&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company applies ASC 718 &lt;i&gt;Compensation-Stock Compensation &lt;/i&gt;(&amp;#8220;ASC 718&amp;#8221;) which requires the
+   measurement and recognition of compensation expense for all share-based payment awards made to
+   employees and directors including employee stock options, employee stock purchases related to the
+   Company&amp;#8217;s 2002 Employee Stock Purchase Plan, restricted stock
+   and other special share-based awards based
+   on estimated fair values. The Company
+   adopted ASC 718 using the modified prospective transition method, which requires the application of
+   the applicable accounting standard as of October&amp;#160;1, 2005, the first day of the Company&amp;#8217;s fiscal
+   year 2006.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The fair value of stock-based awards is amortized over the requisite service period, which is
+   defined as the period during which an employee is required to provide service in exchange for an
+   award. The Company uses a straight-line attribution method for all grants that
+   include only a service condition. Due to the existence of both performance and service
+   conditions, certain restricted stock grants are expensed over the service period for each
+   separately vesting tranche.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Share-based compensation expense recognized during the period is based on the value of the portion
+   of share-based payment awards that is ultimately expected to vest during the period. Share-based
+   compensation expense recognized in the Company&amp;#8217;s Consolidated Statement of Operations for the
+   fiscal year ended October&amp;#160;1, 2010 only included share-based payment awards granted subsequent to
+   September&amp;#160;30, 2005 based on the grant date fair value estimated in accordance with the provisions
+   of ASC 718. As share-based compensation expense recognized in the Consolidated Statement of
+   Operations for the fiscal year ended October&amp;#160;1, 2010 is based on awards ultimately expected to
+   vest, it has been reduced for estimated forfeitures. ASC 718 requires forfeitures to be estimated
+   at the time of grant and revised, if necessary, in subsequent periods if actual forfeitures differ
+   from those estimates.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Upon adoption of ASC 718, the Company elected to retain its method of valuation for share-based
+   awards using the Black-Scholes option-pricing model (&amp;#8220;Black-Scholes model&amp;#8221;) which was also
+   previously used for the Company&amp;#8217;s pro forma information required under the previous authoritative
+   literature governing stock compensation expense. The Company&amp;#8217;s determination of fair value of
+   share-based payment awards on the date of grant using the Black-Scholes model is affected by the
+   Company&amp;#8217;s stock price as well as assumptions regarding a number of highly complex and subjective
+   variables. These variables include, but are not limited to; the Company&amp;#8217;s expected stock price
+   volatility over the term of the awards, and actual and projected employee stock option exercise
+   behaviors. For more complex awards with market-based performance conditions, the Company employs a
+   Monte Carlo simulation method which calculates many potential outcomes for an award and establishes
+   fair value based on the most likely outcome.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;VALUATION OF LONG-LIVED ASSETS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Carrying values for long-lived assets and definite lived intangible assets, which exclude goodwill,
+   are reviewed for possible impairment as circumstances warrant. Factors considered important that
+   could result in an impairment review include significant underperformance relative to expected,
+   historical or projected future operating results, significant changes in the manner of use of
+   assets or the Company&amp;#8217;s business strategy, significant negative industry or economic trends and a
+   significant decline in its stock price for a sustained period of time. In addition, impairment
+   reviews are conducted at the judgment of management whenever asset / asset group values are deemed
+   to be unrecoverable relative to future undiscounted cash flows expected to be generated by that
+   particular asset / asset group. The determination of recoverability is based on an estimate of
+   undiscounted cash flows expected to result from the use of an asset / asset group and its eventual
+   disposition. Such estimates require management to exercise judgment and make assumptions regarding
+   factors such as future revenue streams, operating expenditures, cost allocation and asset
+   utilization levels, all of which collectively impact future operating performance. The Company&amp;#8217;s
+   estimates of undiscounted cash flows may differ from actual cash flows due to, among other things,
+   technological changes, economic conditions, changes to its business model or changes in its
+   operating performance. If the sum of the undiscounted cash flows (excluding interest) is less than
+   the carrying value of an asset/asset group, the Company would recognize an impairment loss,
+   measured as the amount by which the carrying value exceeds the fair value of the asset or asset
+   group.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;GOODWILL AND INTANGIBLE ASSETS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Goodwill and intangible assets with indefinite useful lives are tested at least annually for
+   impairment in accordance with the provisions of ASC 350 &lt;i&gt;Intangibles-Goodwill and Other &lt;/i&gt;(&amp;#8220;ASC 350&amp;#8221;)&lt;i&gt;.&lt;/i&gt;
+   Intangible assets with indefinite useful lives comprise an insignificant portion of the total book
+   value of the Company&amp;#8217;s goodwill and intangible assets. The Company assesses the need to test its
+   goodwill for impairment on a regular basis. Pursuant to the guidance provided under ASC 280-&lt;i&gt;Segment
+   Reporting &lt;/i&gt;(&amp;#8220;ASC 280&amp;#8221;), the Company has determined that it has only one reporting unit for the
+   purposes of allocating and testing goodwill under ASC 350.
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The goodwill impairment test is a two-step process. The first step of the Company&amp;#8217;s impairment
+   analysis compares its fair value to its net book value to determine if there is an indicator of
+   impairment. To determine fair value, ASC 350 allows for the use of several valuation methodologies,
+   although it states that quoted market prices are the best evidence of fair value and shall be used
+   as the basis for measuring fair value where available. In the Company&amp;#8217;s assessment of its fair
+   value, the Company considers the average market price of its common stock surrounding the selected
+   testing date, the number of shares of its common stock outstanding during such period and other
+   marketplace activity and related control premiums. If the calculated fair value is determined to be
+   less than the book value of the Company, then the Company performs step two of the impairment
+   analysis. Step two of the analysis compares the implied fair value of the Company&amp;#8217;s goodwill, to
+   the book value of its goodwill. If the book value of the Company&amp;#8217;s goodwill exceeds the implied
+   fair value of its goodwill, an impairment loss is recognized equal to that excess. In step two of
+   the Company&amp;#8217;s annual impairment analysis, the Company primarily uses the income approach
+   methodology of valuation, which includes the discounted cash flow method as well as other generally
+   accepted valuation methodologies, to determine the implied fair value of the Company&amp;#8217;s goodwill.
+   Significant management judgment is required in preparing the forecasts of future operating results
+   that are used in the discounted cash flow method of valuation. Should step two of the impairment
+   test be required, the estimates management would use would be consistent with the plans and
+   estimates that the Company uses to manage its business. In addition to testing goodwill for
+   impairment on an annual basis, factors such as unexpected adverse business conditions,
+   deterioration of the economic climate, unanticipated technological changes, adverse changes in the
+   competitive environment, loss of key personnel and acts by governments and courts, are considered
+   by management and may signal that the Company&amp;#8217;s intangible assets have become impaired and result
+   in additional interim impairment testing.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;In fiscal year 2010, the Company performed impairment tests of its goodwill as of the first day of
+   the fourth fiscal quarter in accordance with the Company&amp;#8217;s regularly scheduled annual testing. The
+   results of this test indicated that none of the Company&amp;#8217;s goodwill was impaired based on step one
+   of the test; accordingly step two of the test was not performed.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;DEFERRED FINANCING COSTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Financing costs are capitalized as an asset on the Company&amp;#8217;s balance sheet and amortized on a
+   straight-line basis over the life of the financing. If debt is extinguished early, a proportionate
+   amount of deferred financing costs is charged to earnings.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;INCOME TAXES&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company uses the asset and liability method of accounting for income taxes. Under the asset and
+   liability method, deferred tax assets and liabilities are recognized for the estimated future tax
+   consequences attributable to differences between the financial statement carrying amounts of
+   existing assets and liabilities and their respective tax basis. This method also requires the
+   recognition of future tax benefits such as net operating loss carry forwards, to the extent that
+   realization of such benefits is more likely than not. Deferred tax assets and liabilities are
+   measured using enacted tax rates expected to apply to taxable income in the years in which those
+   temporary differences are expected to be recovered or settled. The effect on deferred tax assets
+   and liabilities of a change in tax rates is recognized in income in the period that includes the
+   enactment date.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The carrying value of the Company&amp;#8217;s net deferred tax assets assumes the Company will be able to
+   generate sufficient future taxable income in certain tax jurisdictions, based on estimates and
+   assumptions. If these estimates and related assumptions change in the future, the Company may be
+   required to record additional valuation allowances against its deferred tax assets resulting in
+   additional income tax expense in its consolidated statement of operations. Management evaluates the
+   realizability of the deferred tax assets and assesses the adequacy of the valuation allowance
+   quarterly. Likewise, in the event the Company were to determine that it would be able to realize
+   its deferred tax assets in the future in excess of their net recorded amount, an adjustment to the
+   deferred tax assets would increase income or decrease the carrying value of goodwill in the period
+   such determination was made.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The determination of recording or releasing tax valuation allowances is made, in part, pursuant to
+   an assessment performed by management regarding the likelihood that the Company will generate
+   future taxable income against
+   which benefits of its deferred tax assets may or may not be realized. This assessment requires
+   management to exercise significant judgment and make estimates with respect to its ability to
+   generate revenues, gross profits, operating income and taxable income in future periods. Amongst
+   other factors, management must make assumptions regarding overall business and semiconductor
+   industry conditions, operating efficiencies, the Company&amp;#8217;s ability to develop products to its
+   customers&amp;#8217; specifications, technological change, the competitive environment and changes in
+   regulatory requirements which may impact its ability to generate taxable income and, in turn,
+   realize the value of its deferred tax assets. In addition, the current uncertain economic
+   environment limits the Company&amp;#8217;s ability to confidently forecast its taxable income. In fiscal
+   years 2010 and 2009, the Company&amp;#8217;s estimates of future taxable income were prepared in a manner
+   consistent with its assessment of various factors, including market and industry conditions,
+   operating trends, product life cycles and competitive and regulatory environments.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The calculation of the Company&amp;#8217;s tax liabilities includes addressing uncertainties in the
+   application of complex tax regulations. With the implementation effective September&amp;#160;29, 2007, ASC
+   740 (formerly referenced as FASB Interpretation No.&amp;#160;48, &lt;i&gt;Accounting for Uncertainty in Income
+   Taxes-an interpretation of FASB Statement No.&amp;#160;109&lt;/i&gt;), clarifies the accounting for uncertainty in
+   income taxes recognized in an enterprise&amp;#8217;s financial statements in accordance with GAAP. ASC 740
+   prescribes a recognition threshold and measurement attribute for the financial statement
+   recognition and measurement of a tax position taken or expected to be taken in a tax return.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company recognizes liabilities for anticipated tax audit issues in the United States and other
+   tax jurisdictions based on its recognition threshold and measurement attribute of whether it is
+   more likely than not that the positions the Company has taken in tax filings will be sustained upon
+   tax audit, and the extent to which, additional taxes would be due. If payment of these amounts
+   ultimately proves to be unnecessary, the reversal of the liabilities would result in tax benefits
+   being recognized in the period in which it is determined the liabilities are no longer necessary.
+   If the estimate of tax liabilities proves to be less than the ultimate assessment, a further charge
+   to expense would result.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;RESEARCH AND DEVELOPMENT COSTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Research and development costs are expensed as incurred.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;FINANCIAL INSTRUMENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The carrying value of cash and cash equivalents, accounts receivable, other current assets,
+   accounts payable, short-term debt and accrued liabilities approximates fair value due to short-term
+   maturities of these assets and liabilities. Fair values of long-term debt and investments are based
+   on quoted market prices if available, and if not available a fair value is determined through a
+   discounted cash flow analysis at the date of measurement.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;ACCUMULATED OTHER COMPREHENSIVE LOSS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company accounts for comprehensive loss in accordance with the provisions of ASC 220 -
+   &lt;i&gt;Comprehensive Income &lt;/i&gt;(&amp;#8220;ASC 220&amp;#8221;). ASC 220 is a financial statement presentation standard that
+   requires the Company to disclose non-owner changes included in equity but not included in net
+   income or loss. Accumulated other comprehensive loss presented in the financial statements consists
+   of adjustments to the Company&amp;#8217;s auction rate securities and minimum pension liability as follows
+   (in thousands):
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="64%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Accumulated&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Auction Rate&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Other&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Pension&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Securities&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Comprehensive&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Adjustments&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Adjustment&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Loss&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Balance as of October&amp;#160;3, 2008
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(268&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(912&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(1,180&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Pension adjustment
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(200&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(200&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Balance as of October&amp;#160;2, 2009
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(468&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(912&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(1,380&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Pension adjustment
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;83&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;83&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Balance as of October&amp;#160;1, 2010
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(385&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(912&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;(1,297&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;RECENTLY ISSUED ACCOUNTING PRONOUNCEMENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;&lt;b&gt;ASC 810&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;In December&amp;#160;2007, the FASB issued amendments to ASC 810-&lt;i&gt;Consolidation &lt;/i&gt;(&amp;#8220;ASC 810&amp;#8221;). ASC 810 amends
+   previously issued authoritative literature to amend accounting and reporting standards for the
+   noncontrolling interest in a subsidiary and for the deconsolidation of a subsidiary. It also amends
+   certain of consolidation procedures for consistency with the requirements of ASC 805. This
+   statement is effective for fiscal years, and interim periods within those fiscal years, beginning
+   on or after December&amp;#160;15, 2008. The statement was applied prospectively as of the beginning of the
+   fiscal year. The adoption of ASC 810 did not have an impact on the Company&amp;#8217;s results of operations
+   or financial position because the Company does not have any minority interests.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;ASC 825&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;In February&amp;#160;2007, the FASB issued ASC 825-&lt;i&gt;Financial Instruments &lt;/i&gt;(&amp;#8220;ASC 825&amp;#8221;), including an
+   amendment of ASC 320-&lt;i&gt;Investments-Debt and Equity Securities &lt;/i&gt;(&amp;#8220;ASC 320&amp;#8221;), which permits entities to
+   choose to measure many financial instruments and certain other items at fair value that are not
+   currently required to be measured at fair value. ASC 825 was effective for the Company beginning on
+   October&amp;#160;3, 2009. The adoption of ASC 825 did not have a material impact on the Company&amp;#8217;s results
+   from operations or financial position.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;ASU 2009-13 and ASU 2009-14&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;In September&amp;#160;2009, the FASB reached a consensus on Accounting Standards Update
+   (&amp;#8220;ASU&amp;#8221;)-2009-13-&lt;i&gt;Revenue Recognition (&amp;#8220;ASC 605&amp;#8221;) &amp;#8212; Multiple-Deliverable Revenue Arrangements &lt;/i&gt;(&amp;#8220;ASU
+   2009-13&amp;#8221;) and ASU 2009-14- &lt;i&gt;Software (&amp;#8220;ASC 985&amp;#8221;) &amp;#8212; Certain Revenue Arrangements That Include
+   Software Elements &lt;/i&gt;(&amp;#8220;ASU 2009-14&amp;#8221;). ASU 2009-13 modifies the requirements that must be met for an
+   entity to recognize revenue from the sale of a delivered item that is part of a multiple-element
+   arrangement when other items have not yet been delivered. ASU 2009-13 eliminates the requirement
+   that all undelivered elements must have either: i) Vendor Specific Objective Evidence or VSOE or
+   ii) third-party evidence, or TPE, before an entity can recognize the portion of an overall
+   arrangement consideration that is attributable to items that already have been delivered. In the
+   absence of VSOE or TPE of the standalone selling price for one or more delivered or undelivered
+   elements in a multiple-element arrangement, entities will be required to estimate the selling
+   prices of those elements. Overall arrangement consideration will be allocated to each element (both
+   delivered and undelivered items) based on their relative selling prices, regardless of whether
+   those selling prices are evidenced by VSOE or TPE or are based on the entity&amp;#8217;s estimated selling
+   price. The residual method of allocating arrangement consideration has been eliminated. ASU 2009-14
+   modifies the software revenue recognition guidance to exclude from its scope tangible products that
+   contain both software and non-software components that function together to deliver a product&amp;#8217;s
+   essential functionality. These new updates are effective for revenue arrangements entered into or
+   materially modified in fiscal years beginning on or after June&amp;#160;15, 2010. The Company is currently
+   evaluating the impact that the adoption of these ASUs will have on its consolidated financial
+   statements.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>This element may be used to describe all significant accounting policies of the reporting entity.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 22
+ -Paragraph 8
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

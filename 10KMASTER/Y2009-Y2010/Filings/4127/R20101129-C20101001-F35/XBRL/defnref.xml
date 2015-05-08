@@ -1,0 +1,566 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>35
+<FILENAME>defnref.xml
+<DESCRIPTION>IDEA: XBRL DOCUMENT
+<TEXT>
+<XBRL>
+<DefinitionAndReference>
+  <Element Id="us-gaap_BusinessCombinationDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_RestructuringCosts">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_Depreciation">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AllowanceForDoubtfulAccountsReceivableCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ReceivablesNetCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_InterestPaid">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncreaseDecreaseInOtherOperatingAssets">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncreaseDecreaseInAccountsPayable">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AssetsCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_QuarterlyFinancialInformationTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherLiabilitiesNoncurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PreferredStockValue">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_ImpairmentOfAuctionRateSecurity">
+    <definition>Impairment of Auction Rate Security.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_DebtCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityPublicFloat">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_NetCashProvidedByUsedInFinancingActivities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ProvisionForDoubtfulAccounts">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansShares">
+    <definition>Issuance and expense of common shares for stock purchase plans, 401(k) and stock option plans, Shares.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_ContingenciesTextBlock">
+    <definition>Contingencies Text Block.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PropertyPlantAndEquipmentDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_InventoryWriteDown">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CostOfGoodsSold">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PensionAndOtherPostretirementBenefitsDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ProceedsFromRepaymentsOfRestrictedCashFinancingActivities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherLiabilitiesCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommonStockSharesOutstanding">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PreferredStockSharesIssued">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_LiabilitiesCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherAssetsNoncurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityVoluntaryFilers">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PaymentsToAcquireBusinessesNetOfCashAcquired">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AssetImpairmentCharges">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_StockholdersEquityNoteDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PreferredStockNoParValue">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AccountsPayableCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityRegistrantName">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_DeferredIncomeTaxExpenseBenefit">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityCentralIndexKey">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ResearchAndDevelopmentExpense">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_ContributionOfCommonSharesToSavingsAndRetirementPlans">
+    <definition>Contribution of common shares to savings and retirement plans.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommitmentsDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_GainLossOnSaleOfPropertyPlantEquipment">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_EarningsPerShareTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_DeferredTaxAssetsNetNoncurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_GoodwillAndIntangibleAssetsDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_GrossProfit">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_InterestExpense">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_SharesWithheldForTaxesValue">
+    <definition>Shares withheld for taxes, Value.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_StockholdersEquity">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncreaseDecreaseInInventories">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ScheduleOfGuaranteeObligationsTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AdditionalPaidInCapitalCommonStock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncomeTaxCreditsAndAdjustments">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_RetainedEarningsAccumulatedDeficit">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IntangibleAssetsNetExcludingGoodwill">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_AmendmentFlag">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CashAndCashEquivalentsAtCarryingValue">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncomeTaxDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommonStockSharesIssued">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_DocumentFiscalPeriodFocus">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue">
+    <definition>Issuance and expense of common shares for restricted stock and performance shares, Value.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_SalesRevenueNet">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_WeightedAverageNumberOfSharesOutstandingBasic">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_Goodwill">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OperatingExpenses">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_Liabilities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_NetIncomeLoss">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ProceedsFromSaleMaturityAndCollectionsOfInvestments">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_SharesIssued">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherAssetsCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PaymentsToAcquireInvestments">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommonStockSharesAuthorized">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncomeTaxesPaid">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_EarningsPerShareBasic">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ComprehensiveIncomeNetOfTax">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_NetCashProvidedByUsedInOperatingActivities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncreaseDecreaseInOtherOperatingLiabilities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_EmployeeRelatedLiabilitiesCurrent">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ConvertibleLongTermNotesPayable">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ProceedsFromStockOptionsExercised">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_SharesWithheldForTaxesShares">
+    <definition>Shares withheld for taxes, Shares.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_EarningsPerShareDiluted">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PreferredStockSharesAuthorized">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_RestrictedCashAndCashEquivalentsAtCarryingValue">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_RepaymentsOfSubordinatedDebt">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherNonoperatingIncomeExpense">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ShareBasedCompensation">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityCommonStockSharesOutstanding">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_RestructuringAndOtherChargesTextBlock">
+    <definition>Restructuring And Other Charges Text Block.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_CurrentFiscalYearEndDate">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityFilerCategory">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OperatingIncomeLoss">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityWellKnownSeasonedIssuer">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_InventoryDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommonStockValue">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ExcessTaxBenefitFromShareBasedCompensationFinancingActivities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_NetCashProvidedByUsedInInvestingActivities">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncreaseDecreaseInReceivables">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesShares">
+    <definition>Issuance and expense of common shares for restricted stock and performance shares, Shares.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_Assets">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_RestructuringCharges">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_RepaymentsOfConvertibleDebt">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_DocumentType">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_ScheduleOfValuationAndQualifyingAccountsDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_DocumentFiscalYearFocus">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_DebtDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_ReacquisitionOfEquityInstruments">
+    <definition>These amounts represent the difference between the fair value of consideration delivered to bondholders, less the sum of the carrying value of the debt and the gain/loss recognized on any retirements of convertible debt which occurred in this period pursuant to ASC 470-20.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_IncomeTaxExpenseBenefit">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_EntityCurrentReportingStatus">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_AmortizationForIntangiblesAssets">
+    <definition>Amortization for intangibles assets.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue">
+    <definition>Issuance and expense of common shares for stock purchase plans, 401(k) and stock option plans, Value.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AmortizationOfIntangibleAssets">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PaymentsForRepurchaseOfCommonStock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PropertyPlantAndEquipmentNet">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AmortizationOfFinancingCostsAndDiscounts">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="swks_SegmentInformationAndConcentrationsTextBlock">
+    <definition>Segment Information and Concentrations Text Block.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_AvailableForSaleSecuritiesTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_FairValueDisclosuresTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_PaymentsToAcquireProductiveAssets">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_LiabilitiesAndStockholdersEquity">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_SellingGeneralAndAdministrativeExpense">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_InventoryNet">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_GainsLossesOnExtinguishmentOfDebt">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommitmentsAndContingencies2009">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_CommonStockParOrStatedValuePerShare">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_TreasuryStockValue">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="dei_DocumentPeriodEndDate">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+  <Element Id="us-gaap_SignificantAccountingPoliciesTextBlock">
+    <definition>No authoritative reference available.</definition>
+    <reference>No authoritative reference available.</reference>
+  </Element>
+</DefinitionAndReference>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

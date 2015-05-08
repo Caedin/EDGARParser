@@ -1,0 +1,520 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>17
+<FILENAME>R11.xml
+<DESCRIPTION>IDEA: Financial Instruments
+<TEXT>
+<XBRL>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Financial Instruments</ReportName>
+  <ReportLongName>0205 - Disclosure - Financial Instruments</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Oct. 01, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Financial Instruments [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>swks_FinancialInstrumentsAbstract</ElementName>
+      <ElementPrefix>swks</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Financial Instruments.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>Financial Instruments.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>FINANCIAL INSTRUMENTS</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_FairValueDisclosuresTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 5 - us-gaap:FairValueDisclosuresTextBlock--&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;5. FINANCIAL INSTRUMENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;On October&amp;#160;4, 2008, the Company adopted ASC 820-&lt;i&gt;Fair Value Measurements and Disclosure &lt;/i&gt;(&amp;#8220;ASC 820&amp;#8221;)
+   for financial assets and liabilities measured at fair value. The Company adopted ASC 820-10-55,
+   for non-financial assets and liabilities including intangible assets and reporting units measured
+   at fair value in the first step of a goodwill impairment test on October&amp;#160;3, 2009. In accordance
+   with ASC 820, the Company groups its financial assets and liabilities measured at fair value on a
+   recurring basis in three levels, based on the markets in which the assets and liabilities are
+   traded and the reliability of the assumptions used to determine fair value. These levels are:
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt"&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; text-align: left"&gt;
+   &lt;tr valign="top" style="font-size: 10pt; color: #000000; background: transparent"&gt;
+       &lt;td width="2%" style="background: transparent"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%" nowrap="nowrap" align="left"&gt;&lt;b&gt;&amp;#8226;&lt;/b&gt;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;Level 1 &amp;#8212; Valuation is based upon quoted market price for identical
+   instruments traded in active markets.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+       &lt;td style="font-size: 6pt"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top" style="font-size: 10pt; color: #000000; background: transparent"&gt;
+       &lt;td width="2%" style="background: transparent"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%" nowrap="nowrap" align="left"&gt;&lt;b&gt;&amp;#8226;&lt;/b&gt;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;Level 2 &amp;#8212; Valuation is based on quoted market prices for similar
+   instruments in active markets, quoted prices for identical or similar
+   instruments in markets that are not active, and model-based valuation
+   techniques for which all significant assumptions are observable in the
+   market.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+       &lt;td style="font-size: 6pt"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top" style="font-size: 10pt; color: #000000; background: transparent"&gt;
+       &lt;td width="2%" style="background: transparent"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%" nowrap="nowrap" align="left"&gt;&lt;b&gt;&amp;#8226;&lt;/b&gt;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;Level 3 &amp;#8212; Valuation is generated from model-based techniques that use
+   significant assumptions not observable in the market. Valuation
+   techniques include use of discounted cash flow models and similar
+   techniques.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company has cash equivalents classified as Level 1 and has no Level 2 securities. The Company&amp;#8217;s
+   ARS, discussed in Note 4, Marketable Securities, is classified as level 3 assets. There have been
+   no transfers between Level 1, Level 2 or Level 3 assets during the fiscal year ending October&amp;#160;1,
+   2010. There have been no purchases, sales, issuances or settlements of the marketable securities
+   classified as Level 3 assets during the fiscal year.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;i&gt;Financial Instruments Measured at Fair Value on a Recurring Basis&lt;/i&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The following table presents the balances of cash equivalents and marketable securities measured at
+   fair value on a recurring basis as of October&amp;#160;1, 2010 (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="52%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="10" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Fair Value Measurements&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Quoted Prices in&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Significant&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Significant&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Active Markets for&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Other&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Unobservable&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Identical Assets&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Observable Inputs&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Inputs&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;Total&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;(Level 1)&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;(Level 2)&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2" style="border-bottom: 1px solid #000000"&gt;&lt;b&gt;(Level 3)&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Cash equivalents:
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Money market/repurchase agreements
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;427,789&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;427,789&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Auction rate securities
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,288&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,288&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Total
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;430,077&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;427,789&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;&amp;#8212;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;2,288&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;i&gt;Non-Financial Assets Measured at Fair Value on a Nonrecurring Basis&lt;/i&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company&amp;#8217;s non-financial assets, such as goodwill, intangible assets, and other long lived
+   assets resulting from business combinations are measured at fair value at the date of acquisition
+   and subsequently re-measured if there is an indicator of impairment. There was no impairment
+   recognized during the fiscal year ending October&amp;#160;1, 2010.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>This item represents the complete disclosure regarding the fair value of financial instruments (as defined), including financial assets and financial liabilities (collectively, as defined), and the measurements of those instruments, assets, and liabilities. Such disclosures about the financial instruments, assets, and liabilities would include: (1) the fair value of the required items together with their carrying amounts (as appropriate); (2) for items for which it is not practicable to estimate fair value, disclosure would include: (a) information pertinent to estimating fair value (including, carrying amount, effective interest rate, and maturity, and (b) the reasons why it is not practicable to estimate fair value; (3) significant concentrations of credit risk including: (a) information about the activity, region, or economic characteristics identifying a concentration, (b) the maximum amount of loss the Company is exposed to based on the gross fair value of the related item, (c) 
+policy for requiring collateral or other security and information as to accessing such collateral or security, and (d) the nature and brief description of such collateral or security; (4) quantitative information about market risks and how such risk is are managed; (5) for items measured on both a recurring and nonrecurring basis information regarding the inputs used to develop the fair value measurement; and (6) for items presented in the financial statement for which fair value measurement is elected: (a) information necessary to understand the reasons for the election, (b) discussion of the effect of fair value changes on earnings, (c) a description of [similar groups] items for which the election is made and the relation thereof to the balance sheet, the aggregate carrying value of items included in the balance sheet that are not eligible for the election; (7) all other required (as defined) and desired information.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 107
+ -Paragraph 15B
+ -Subparagraph a, b
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 107
+ -Paragraph 3, 10, 14, 15
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 133
+ -Paragraph 44A, 44B
+
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 157
+ -Paragraph 32, 33, 34
+
+Reference 5: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 107
+ -Paragraph 15C, 15D
+
+Reference 6: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 107
+ -Paragraph 15A
+ -Subparagraph a-d
+
+Reference 7: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 159
+ -Paragraph 17-22, 27, 28
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

@@ -1,0 +1,1647 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>142
+<FILENAME>R161.xml
+<DESCRIPTION>IDEA: Business Segment and Geographic Information (Schedule of Segment Depreciation and Amortization) (Details)
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>true</hasSegments>
+  <ReportName>Business Segment and Geographic Information (Schedule of Segment Depreciation and Amortization) (Details) (USD $)</ReportName>
+  <ReportLongName>42503 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Depreciation and Amortization) (Details)</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption>In Millions</RoundingOption>
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>2</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2009" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>3</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2008" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Segment depreciation and amortization</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_SegmentReportingInformationDepreciationDepletionAndAmortizationExpense</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>862600000</NumericAmount>
+          <RoundedNumericAmount>862.6</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>838600000</NumericAmount>
+          <RoundedNumericAmount>838.6</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>868900000</NumericAmount>
+          <RoundedNumericAmount>868.9</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Amount of depreciation, depletion, and amortization expense for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 131
+ -Paragraph 27
+ -Subparagraph e
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Other</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_OtherDepreciationAndAmortization</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>800000</NumericAmount>
+          <RoundedNumericAmount>0.8</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>1700000</NumericAmount>
+          <RoundedNumericAmount>1.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>100000</NumericAmount>
+          <RoundedNumericAmount>0.1</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The other noncash expense, not otherwise specified in the taxonomy, charged against earnings in the period to allocate the cost of tangible and intangible assets over their remaining economic lives.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 95
+ -Paragraph 28
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>4</Id>
+      <Label>Consolidated Total</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_DepreciationAndAmortization</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>totallabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>863400000</NumericAmount>
+          <RoundedNumericAmount>863.4</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>840300000</NumericAmount>
+          <RoundedNumericAmount>840.3</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>869000000</NumericAmount>
+          <RoundedNumericAmount>869.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>The current period expense charged against earnings on long-lived, physical assets not used in production, and which are not intended for resale, to allocate or recognize the cost of such assets over their useful lives; or to record the reduction in book value of an intangible asset over the benefit period of such asset; or to reflect consumption during the period of an asset that is not used in production.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 95
+ -Paragraph 28
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 5
+
+</ElementReferences>
+      <IsTotalLabel>true</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>5</Id>
+      <Label>Merchant Gases [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosurebusinesssegmentandgeographicinformationscheduleofsegmentdepreciationandamortizationdetails</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>4</Id>
+          <Labels>
+            <Label Id="1" Label=" Merchant Gases [Member]" />
+            <Label Id="2" Label="10/1/2009 - 9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Merchant Gases [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_MerchantGasesMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>5</Id>
+          <Labels>
+            <Label Id="1" Label=" Merchant Gases [Member]" />
+            <Label Id="2" Label="10/1/2008 - 9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Merchant Gases [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_MerchantGasesMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>6</Id>
+          <Labels>
+            <Label Id="1" Label=" Merchant Gases [Member]" />
+            <Label Id="2" Label="10/1/2007 - 9/30/2008" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Merchant Gases [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_MerchantGasesMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>6</Id>
+      <Label>Segment depreciation and amortization</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_SegmentReportingInformationDepreciationDepletionAndAmortizationExpense</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>377900000</NumericAmount>
+          <RoundedNumericAmount>377.9</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>372300000</NumericAmount>
+          <RoundedNumericAmount>372.3</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>370200000</NumericAmount>
+          <RoundedNumericAmount>370.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Amount of depreciation, depletion, and amortization expense for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 131
+ -Paragraph 27
+ -Subparagraph e
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>9</Id>
+      <Label>Tonnage Gases [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosurebusinesssegmentandgeographicinformationscheduleofsegmentdepreciationandamortizationdetails</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>7</Id>
+          <Labels>
+            <Label Id="1" Label=" Tonnage Gases [Member]" />
+            <Label Id="2" Label="10/1/2009 - 9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Tonnage Gases [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_TonnageGasesMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>8</Id>
+          <Labels>
+            <Label Id="1" Label=" Tonnage Gases [Member]" />
+            <Label Id="2" Label="10/1/2008 - 9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Tonnage Gases [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_TonnageGasesMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>9</Id>
+          <Labels>
+            <Label Id="1" Label=" Tonnage Gases [Member]" />
+            <Label Id="2" Label="10/1/2007 - 9/30/2008" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Tonnage Gases [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_TonnageGasesMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>10</Id>
+      <Label>Segment depreciation and amortization</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_SegmentReportingInformationDepreciationDepletionAndAmortizationExpense</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>303000000</NumericAmount>
+          <RoundedNumericAmount>303.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>272200000</NumericAmount>
+          <RoundedNumericAmount>272.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>278900000</NumericAmount>
+          <RoundedNumericAmount>278.9</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Amount of depreciation, depletion, and amortization expense for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 131
+ -Paragraph 27
+ -Subparagraph e
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>13</Id>
+      <Label>Electronics and Performance Materials [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosurebusinesssegmentandgeographicinformationscheduleofsegmentdepreciationandamortizationdetails</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>10</Id>
+          <Labels>
+            <Label Id="1" Label=" Electronics and Performance Materials [Member]" />
+            <Label Id="2" Label="10/1/2009 - 9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Electronics and Performance Materials [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ElectronicsAndPerformanceMaterialsMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>11</Id>
+          <Labels>
+            <Label Id="1" Label=" Electronics and Performance Materials [Member]" />
+            <Label Id="2" Label="10/1/2008 - 9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Electronics and Performance Materials [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ElectronicsAndPerformanceMaterialsMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>12</Id>
+          <Labels>
+            <Label Id="1" Label=" Electronics and Performance Materials [Member]" />
+            <Label Id="2" Label="10/1/2007 - 9/30/2008" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Electronics and Performance Materials [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_ElectronicsAndPerformanceMaterialsMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>14</Id>
+      <Label>Segment depreciation and amortization</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_SegmentReportingInformationDepreciationDepletionAndAmortizationExpense</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>169000000</NumericAmount>
+          <RoundedNumericAmount>169.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>178200000</NumericAmount>
+          <RoundedNumericAmount>178.2</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>208000000</NumericAmount>
+          <RoundedNumericAmount>208.0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Amount of depreciation, depletion, and amortization expense for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 131
+ -Paragraph 27
+ -Subparagraph e
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>17</Id>
+      <Label>Equipment and Energy [Member]</Label>
+      <Level>0</Level>
+      <ElementName />
+      <ElementPrefix>na</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>na</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>true</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>http://airproducts.com/role/disclosurebusinesssegmentandgeographicinformationscheduleofsegmentdepreciationandamortizationdetails</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>13</Id>
+          <Labels>
+            <Label Id="1" Label=" Equipment and Energy [Member]" />
+            <Label Id="2" Label="10/1/2009 - 9/30/2010" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Equipment and Energy [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_EquipmentAndEnergyMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>14</Id>
+          <Labels>
+            <Label Id="1" Label=" Equipment and Energy [Member]" />
+            <Label Id="2" Label="10/1/2008 - 9/30/2009" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Equipment and Energy [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_EquipmentAndEnergyMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+        <Columns>
+          <LabelColumn>false</LabelColumn>
+          <Id>15</Id>
+          <Labels>
+            <Label Id="1" Label=" Equipment and Energy [Member]" />
+            <Label Id="2" Label="10/1/2007 - 9/30/2008" />
+          </Labels>
+          <CurrencyCode>USD</CurrencyCode>
+          <FootnoteIndexer />
+          <hasSegments>true</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <Segments>
+            <Segment>
+              <IsDefaultForEntity>false</IsDefaultForEntity>
+              <Name />
+              <IsFromEntityGroup>false</IsFromEntityGroup>
+              <ValueName>Equipment and Energy [Member]</ValueName>
+              <ValueType>dei_LegalEntityAxis</ValueType>
+              <Namespace>xbrldi</Namespace>
+              <Schema>http://xbrl.org/2006/xbrldi</Schema>
+              <DimensionInfo>
+                <Id>apd_EquipmentAndEnergyMember</Id>
+                <dimensionId>dei_LegalEntityAxis</dimensionId>
+                <type>explicitMember</type>
+              </DimensionInfo>
+            </Segment>
+          </Segments>
+          <Scenarios />
+          <Units>
+            <Unit>
+              <UnitID>Unit1</UnitID>
+              <UnitType>Standard</UnitType>
+              <StandardMeasure>
+                <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+                <MeasureValue>USD</MeasureValue>
+                <MeasureNamespace>iso4217</MeasureNamespace>
+              </StandardMeasure>
+              <Scale>0</Scale>
+            </Unit>
+          </Units>
+          <CurrencySymbol>$</CurrencySymbol>
+        </Columns>
+      </OriginalInstanceReportColumns>
+      <ElementDataType />
+      <SimpleDataType>na</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>18</Id>
+      <Label>Segment depreciation and amortization</Label>
+      <Level>2</Level>
+      <ElementName>us-gaap_SegmentReportingInformationDepreciationDepletionAndAmortizationExpense</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>debit</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>12700000</NumericAmount>
+          <RoundedNumericAmount>12.7</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>2</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>15900000</NumericAmount>
+          <RoundedNumericAmount>15.9</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+        <Cell>
+          <Id>3</Id>
+          <ShowCurrencySymbol>true</ShowCurrencySymbol>
+          <IsNumeric>true</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>11800000</NumericAmount>
+          <RoundedNumericAmount>11.8</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:monetaryItemType</ElementDataType>
+      <SimpleDataType>monetary</SimpleDataType>
+      <ElementDefenition>Amount of depreciation, depletion, and amortization expense for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 131
+ -Paragraph 27
+ -Subparagraph e
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>3</NumberOfCols>
+  <NumberOfRows>11</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>HundredThousands</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

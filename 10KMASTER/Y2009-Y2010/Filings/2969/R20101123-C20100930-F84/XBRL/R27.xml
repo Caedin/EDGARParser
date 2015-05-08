@@ -1,0 +1,275 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>108
+<FILENAME>R27.xml
+<DESCRIPTION>IDEA: Noncontrolling Interests
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Noncontrolling Interests</ReportName>
+  <ReportLongName>12001 - Disclosure - Noncontrolling Interests</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Noncontrolling Interest</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_MinorityInterestAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Noncontrolling Interests</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_MinorityInterestDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p style="margin: 12px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&lt;a name="tx17525_41"&gt; &lt;/a&gt;20. Noncontrolling Interests &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;In 2008, the Company entered into a put option agreement to purchase the remaining noncontrolling interest in CryoService Limited (CSL), a cryogenic and specialty gases company in the U.K. The Company increased its ownership at that time from &lt;font class="_mt"&gt;25&lt;/font&gt;% to &lt;font class="_mt"&gt;72&lt;/font&gt;%. Put options were issued which gave the noncontrolling shareholders the right to require the Company to purchase their shares in CSL. The options were effective beginning January 2010 and are exercisable only within a 20-day option period each year. The option price is based on a multiple of earnings formula. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;In June 2010, the Company entered into agreements obligating it to purchase &lt;font class="_mt"&gt;25&lt;/font&gt;% of the remaining shares of CSL. The agreements require the consideration, which is based on a multiple of earnings formula, to be remitted in January 2012. The share sale agreements effectively terminate the option agreements. The carrying value of the 25% noncontrolling interest at the time the sale share agreements were entered into was $&lt;font class="_mt"&gt;10.8&lt;/font&gt;. As a result of this arrangement, the Company reduced the noncontrolling interest for the 25% purchase obligation and recorded an estimated liability based on the earnings formula. As the purchase of the noncontrolling interest does not result in a change of control, the difference between the carrying value of the 25% noncontrolling interest and the liability recognized has been recorded as a $&lt;font class="_mt"&gt;28
+.3&lt;/font&gt; reduction in capital in excess of par value. At 30&amp;nbsp;September 2010, the liability amounted to $&lt;font class="_mt"&gt;42.0&lt;/font&gt; and has been reported in other noncurrent liabilities on the consolidated balance sheet. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The following table presents the effect of changes in ownership interests in subsidiaries on Air Products shareholder's equity: &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td width="66%"&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="3%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="6%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="8%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&amp;nbsp;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;2008&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Net income attributable to Air Products&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$1,029.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$631.3&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$909.7&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="margin-top: 0px; text-indent: -1em; margin-bottom: 0px; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Transfers to noncontrolling interests&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; text-indent: -1em; margin-bottom: 0px; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Decrease in Air Products capital in excess of par&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; text-indent: -1em; margin-bottom: 1px; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;value for purchase of noncontrolling interests&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;(28.3&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;#8212;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;#8212;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Changes from Net Income Attributable to Air Products and&lt;br /&gt;Transfers to Noncontrolling Interests&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;$1,000.8&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$631.3&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;$909.7&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin-top: 6px; margin-bottom: 0px; font-size: 1px;"&gt; &lt;/p&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>20. Noncontrolling Interests
+In 2008, the Company entered into a put option agreement to purchase the remaining noncontrolling interest in CryoService Limited</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Description of noncontrolling interest in consolidated subsidiaries which could include the name of the subsidiary, the ownership percentage held by the parent, the ownership percentage held by the noncontrolling owners, the amount of the noncontrolling interest, the location of this amount on the balance sheet (when not reported separately), an explanation of the increase or decrease in the amount of the noncontrolling interest, the noncontrolling interest share of the net income (loss) of the subsidiary, the location of this amount on the income statement (when not reported separately), the nature of the noncontrolling interest such as background information and terms, the amount of the noncontrolling interest represented by preferred stock, a description of the preferred stock, and the dividend requirements of the preferred stock.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Research Bulletin (ARB)
+ -Number 51
+ -Paragraph 38
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

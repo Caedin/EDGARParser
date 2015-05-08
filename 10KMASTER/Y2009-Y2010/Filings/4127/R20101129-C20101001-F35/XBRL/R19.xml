@@ -1,0 +1,333 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>16
+<FILENAME>R19.xml
+<DESCRIPTION>IDEA: Commitments
+<TEXT>
+<XBRL>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Commitments</ReportName>
+  <ReportLongName>0213 - Disclosure - Commitments</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Oct. 01, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Commitments [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>swks_CommitmentsAbstract</ElementName>
+      <ElementPrefix>swks</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Commitments Abstract.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>Commitments Abstract.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>COMMITMENTS</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_CommitmentsDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 13 - us-gaap:CommitmentsDisclosureTextBlock--&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;13. COMMITMENTS&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;In April&amp;#160;2010, the Company entered into a manufacturing services supply agreement which contained a
+   minimum purchase obligation. Pursuant to the terms of this agreeement, the Company is committted
+   to approximately $13&amp;#160;million in minimum purchases between April&amp;#160;2010 and December&amp;#160;2010. As of
+   October&amp;#160;1, 2010, the Company expects to meet the minimum purchase obligations under this agreement.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company has various operating leases primarily for computer equipment and buildings. Rent
+   expense amounted to $7.6&amp;#160;million, $8.0&amp;#160;million, and $8.6&amp;#160;million in fiscal years ended October&amp;#160;1,
+   2010, October&amp;#160;2, 2009, and October&amp;#160;3, 2008, respectively. Future minimum payments under these
+   non-cancelable leases are as follows (in thousands):
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="88%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&lt;b&gt;Fiscal Year&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td colspan="5" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2011
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;5,553&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2012
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;4,289&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2013
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,985&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2014
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,663&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;2015
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;2,293&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;Thereafter
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;4,028&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;21,811&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+           &lt;td nowrap="nowrap" colspan="2" align="right" style="border-top: 3px double #000000"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;In addition, the Company has entered into licensing agreements for intellectual property rights and
+   maintenance and support services. Pursuant to the terms of these agreements, the Company is
+   committed to making aggregate payments of $4.1&amp;#160;million, $3.0&amp;#160;million, and $0.7&amp;#160;million in fiscal
+   years 2011, 2012, and 2013, respectively.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Description of significant arrangements with third parties, which includes operating lease arrangements and arrangements in which the entity has agreed to expend funds to procure goods or services, or has agreed to commit resources to supply goods or services, and operating lease arrangements. Descriptions may include identification of the specific goods and services, period of time covered, minimum quantities and amounts, and cancellation rights.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 25
+ -Article 5
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 03
+ -Paragraph 17
+ -Article 9
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 03
+ -Paragraph 19
+ -Article 7
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

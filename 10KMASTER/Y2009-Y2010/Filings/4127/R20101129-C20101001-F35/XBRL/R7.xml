@@ -1,0 +1,232 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>44
+<FILENAME>R7.xml
+<DESCRIPTION>IDEA: Description of Business and Basis of Presentation
+<TEXT>
+<XBRL>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Description of Business and Basis of Presentation</ReportName>
+  <ReportLongName>0201 - Disclosure - Description of Business and Basis of Presentation</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Oct. 01, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Description of Business and Basis of Presentation [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_GeneralPoliciesAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>DESCRIPTION OF BUSINESS AND BASIS OF PRESENTATION</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 1 - us-gaap:OrganizationConsolidationAndPresentationOfFinancialStatementsDisclosureTextBlock--&gt;
+   &lt;div align="left" style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;!-- xbrl,ns --&gt;
+   &lt;!-- xbrl,nx --&gt;
+   &lt;div align="left"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="font-size: 10pt; margin-top: 0pt"&gt;&lt;b&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 12pt"&gt;&lt;b&gt;1. DESCRIPTION OF BUSINESS AND BASIS OF PRESENTATION&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;Skyworks Solutions, Inc. together with its consolidated subsidiaries, (&amp;#8220;Skyworks&amp;#8221; or the &amp;#8220;Company&amp;#8221;)
+   is an innovator of high reliability analog and mixed signal semiconductors. Leveraging core
+   technologies, Skyworks offers diverse standard and custom linear products supporting automotive,
+   broadband, cellular infrastructure, energy management, industrial, medical, military and cellular
+   handset applications. The Company&amp;#8217;s portfolio includes amplifiers, attenuators, detectors, diodes,
+   directional couplers, front-end modules, hybrids, infrastructure RF subsystems,
+   mixers/demodulators, phase shifters, PLLs/synthesizers/VCOs, power dividers/combiners, receivers,
+   switches and technical ceramics.
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;The Company has evaluated subsequent events through the date of issuance of the audited
+   consolidated financial statements.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Description containing the entire organization, consolidation and basis of presentation of financial statements disclosure. May be provided in more than one note to the financial statements, as long as users are provided with an understanding of (1) the significant judgments and assumptions made by an enterprise in determining whether it must consolidate a VIE and/or disclose information about its involvement with a VIE, (2) the nature of restrictions on a consolidated VIE's assets reported by an enterprise in its statement of financial position, including the carrying amounts of such assets, (3) the nature of, and changes in, the risks associated with an enterprise's involvement with the VIE, and (4) how an enterprise's involvement with the VIE affects the enterprise's financial position, financial performance, and cash flows.  Describes procedure if disclosures are provided in more than one note to the financial statements.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name FASB Staff Position (FSP)
+ -Number FAS140-4 and FIN46(R)-8
+ -Paragraph 8, C1, C7
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Research Bulletin (ARB)
+ -Number 51
+ -Paragraph 2-6
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Statement of Position (SOP)
+ -Number 94-6
+ -Paragraph 10
+
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name FASB Interpretation (FIN)
+ -Number 46R
+ -Paragraph 4, 14, 15
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

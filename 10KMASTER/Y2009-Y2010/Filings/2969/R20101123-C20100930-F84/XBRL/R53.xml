@@ -1,0 +1,1255 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>70
+<FILENAME>R53.xml
+<DESCRIPTION>IDEA: Supplemental Information (Tables)
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Supplemental Information (Tables)</ReportName>
+  <ReportLongName>32303 - Disclosure - Supplemental Information (Tables)</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Supplemental Information</Label>
+      <Level>0</Level>
+      <ElementName>apd_SupplementalInformationAbstract</ElementName>
+      <ElementPrefix>apd</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Schedule of Other Receivables and Current Assets</Label>
+      <Level>1</Level>
+      <ElementName>apd_ScheduleOfOtherReceivablesAndOtherCurrentAssetsTextBlock</ElementName>
+      <ElementPrefix>apd</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Schedule Of Other Receivables And Other Current Assets Text Block</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td width="79%"&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="3%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="6%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;Other Receivables and Current Assets&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" colspan="2"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" colspan="2"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;30&amp;nbsp;September&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Deferred tax assets&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$124.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$206.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Derivative instruments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;42.6&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;54.1&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Other receivables&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;120.7&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;89.9&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Current capital lease receivables&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;39.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;32.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Other&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;45.6&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;21.6&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$372.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$404.8&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>Other Receivables and Current</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Schedule Of Other Receivables And Other Current Assets Text Block</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>4</Id>
+      <Label>Schedule of Other Noncurrent Assets</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_ScheduleOfOtherAssetsNoncurrentTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;Other Noncurrent Assets&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;30&amp;nbsp;September&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Restricted cash&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$95.7&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$129.0&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Derivative instruments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;71.8&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;25.1&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Other long-term receivables&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;61.6&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;72.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Airgas investment&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;102.5&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;#8212;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Other investments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;1.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;19.4&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Deferred tax assets&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;85.5&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;71.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Prepaid pension benefit cost&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;#8212;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;8.4&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Other deferred charges&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;119.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;112.0&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$537.3&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$438.0&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>Other Noncurrent Assets
+&amp;nbsp;&amp;nbsp;
+
+
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+
+</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>This block of text may be used to disclose part or all of the information related to noncurrent assets.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 17
+ -Article 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>5</Id>
+      <Label>Schedule of Payables and Accrued Liabilities</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_AccountsPayableAndAccruedLiabilitiesDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;Payables and Accrued Liabilities&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;30&amp;nbsp;September&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Trade creditors&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$662.2&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$577.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Customer advances&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;80.7&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;72.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Accrued payroll and employee benefits&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;207.5&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;138.8&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Pension benefits&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;238.8&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;347.9&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Dividends payable&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;104.8&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;95.1&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Outstanding payments in excess of certain cash balances&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;31.4&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;25.2&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Accrued interest expense&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;52.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;59.2&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Derivative instruments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;31.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;61.3&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Global cost reduction plan accrual&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;1.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;110.4&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Acquisition-related accrual&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;117.7&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;#8212;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Miscellaneous&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;171.2&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;172.3&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Current liabilities of discontinued operations&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;1.0&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;14.4&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$1,702.0&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$1,674.8&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>Payables and Accrued Liabilities
+&amp;nbsp;&amp;nbsp;
+
+
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+
+</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Description and amounts of accounts payable and accrued disclosure at the end of the reporting period. This element may be used for the entire disclosure as a single block of text.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 19
+ -Subparagraph a
+ -Article 5
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 20, 24
+ -Article 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>6</Id>
+      <Label>Schedule of Other Noncurrent Liabilities</Label>
+      <Level>1</Level>
+      <ElementName>apd_ScheduleOfOtherNoncurrentLiabilitiesTextBlock</ElementName>
+      <ElementPrefix>apd</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Schedule of Other Noncurrent Liabilities</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td width="73%"&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="3%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="3%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="5%"&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;Other Noncurrent Liabilities&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;30&amp;nbsp;September&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2"&gt;&amp;nbsp;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" colspan="2" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Pension benefits&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$803.2&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$795.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Postretirement benefits&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;107.2&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;102.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Other employee benefits&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;103.5&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;105.1&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Contingencies related to uncertain tax positions&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;228.8&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;193.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Advance payments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;69.6&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;90.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Environmental liabilities&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;79.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;93.4&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Liability related to purchase of shares from noncontrolling interests&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;42.0&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;#8212;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Derivative instruments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;22.3&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;48.4&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Miscellaneous&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;112.8&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;93.1&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$1,569.3&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$1,522.0&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>Other Noncurrent Liabilities
+&amp;nbsp;&amp;nbsp;
+
+
+
+&amp;nbsp;&amp;nbsp;
+
+
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+
+</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Schedule of Other Noncurrent Liabilities</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>7</Id>
+      <Label>Schedule of Accumulated Other Comprehensive Income (Loss)</Label>
+      <Level>1</Level>
+      <ElementName>apd_ScheduleOfAccumulatedOtherComprehensiveIncomeTextBlock</ElementName>
+      <ElementPrefix>apd</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>Schedule Of Accumulated Other Comprehensive Income Text Block</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;Accumulated Other Comprehensive Income (Loss)&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;30&amp;nbsp;September&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Net unrealized holding gain on investments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$20.7&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$10.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Net unrecognized (loss) on derivatives qualifying as hedges&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;(21.9&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(25.1&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Foreign currency translation adjustments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt; &lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;(44.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(179.8&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Pension and postretirement benefits&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;(1,114.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(967.4&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$(1,159.4&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$(1,161.8&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>Accumulated Other Comprehensive Income (Loss)
+&amp;nbsp;&amp;nbsp;
+
+
+
+&amp;nbsp;&amp;nbsp;
+
+
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+
+
+</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Schedule Of Accumulated Other Comprehensive Income Text Block</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>8</Id>
+      <Label>Schedule of Other Income (Expenses), Net</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_OtherIncomeAndOtherExpenseDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>terselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;Other Income (Expenses), Net&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;2010&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2009&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;2008&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Technology and royalty income&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$19.0&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$19.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$18.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Interest income&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;3.4&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;7.4&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;8.2&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Foreign exchange&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;4.0&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(3.8&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;3.6&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Sale of assets and investments&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;13.2&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(3.0&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;6.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Amortization of intangibles&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;(8.4&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(10.1&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(9.8&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Property damage and related expenses, net of insurance recoveries&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;4.1&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;4.9&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;(13.5&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;)&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Miscellaneous&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;3.4&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;8.1&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;12.2&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;$38.7&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$23.0&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;$25.8&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" nowrap="nowrap"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>Other Income (Expenses),</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Discloses other income or other expense items (both operating and nonoperating). Sources of nonoperating income or nonoperating expense that should be disclosed in this note, or in the income statement, include amounts earned from dividends, interest on securities, profits (losses) on securities, net and miscellaneous other income or income deductions.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 03
+ -Paragraph 3, 6, 7, 9
+ -Article 5
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>7</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

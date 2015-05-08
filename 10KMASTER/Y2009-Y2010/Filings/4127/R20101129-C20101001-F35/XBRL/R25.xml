@@ -1,0 +1,769 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>43
+<FILENAME>R25.xml
+<DESCRIPTION>IDEA: Quarterly Financial Data (Unaudited)
+<TEXT>
+<XBRL>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Quarterly Financial Data (Unaudited)</ReportName>
+  <ReportLongName>0219 - Disclosure - Quarterly Financial Data (Unaudited)</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Oct. 01, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Quarterly Financial Data [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_QuarterlyFinancialDataAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>QUARTERLY FINANCIAL DATA (UNAUDITED)</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_QuarterlyFinancialInformationTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 19 - us-gaap:QuarterlyFinancialInformationTextBlock--&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;&lt;b&gt;19. QUARTERLY FINANCIAL DATA (UNAUDITED)&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 6pt"&gt;(In thousands, except per share data)
+   &lt;/div&gt;
+   &lt;div align="center"&gt;
+   &lt;table style="font-size: 10pt; text-align: left" cellspacing="0" border="0" cellpadding="0" width="100%"&gt;
+   &lt;!-- Begin Table Head --&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td width="40%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="5%"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td width="1%"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;First&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Second&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Third&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Fourth&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Quarter&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Quarter&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Quarter&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Quarter&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="center" colspan="2"&gt;&lt;b&gt;Year&lt;/b&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Head --&gt;
+   &lt;!-- Begin Table Body --&gt;
+   &lt;tr style="font-size: 1px"&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td colspan="19" align="left" style="border-top: 1px solid #000000"&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&lt;b&gt;Fiscal 2010&lt;/b&gt;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Net revenues
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;245,138&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;238,058&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;275,370&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;313,283&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;1,071,849&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Gross profit
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;102,554&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;99,854&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;118,266&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;136,159&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;456,833&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Net income
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;28,010&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;27,744&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;34,736&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;46,804&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;137,294&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Per share data (1)
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:45px; text-indent:-15px"&gt;Net income, basic
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.16&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.16&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.20&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.26&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.78&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:45px; text-indent:-15px"&gt;Net income, diluted
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.16&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.15&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.19&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.25&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.75&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;&lt;!-- Blank Space --&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&amp;#160;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:15px; text-indent:-15px"&gt;&lt;b&gt;Fiscal 2009 (2,3)&lt;/b&gt;
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Net revenues
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;210,228&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;172,990&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;191,213&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;228,146&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="left"&gt;$&lt;/td&gt;
+       &lt;td align="right"&gt;802,577&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Gross profit
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;83,867&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;64,875&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;76,950&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;92,528&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;318,220&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Net income (loss)
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;23,584&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(5,678&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;18,740&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;58,337&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;94,983&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:30px; text-indent:-15px"&gt;Per share data (1)
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:45px; text-indent:-15px"&gt;Net income (loss), basic
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.14&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(0.03&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.11&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.34&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.57&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+       &lt;td&gt;
+   &lt;div style="margin-left:45px; text-indent:-15px"&gt;Net income (loss), diluted
+   &lt;/div&gt;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.14&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;(0.03&lt;/td&gt;
+       &lt;td nowrap="nowrap"&gt;)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.11&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.33&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td align="right"&gt;0.56&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- End Table Body --&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left"&gt;
+   &lt;div style="font-size: 3pt; margin-top: 16pt; width: 18%; border-top: 1px solid #000000"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="3%"&gt;&lt;/td&gt;
+       &lt;td width="1%"&gt;&lt;/td&gt;
+       &lt;td width="96%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;(1)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;Earnings per share calculations for each of the quarters are based on the weighted average
+   number of shares outstanding and included common stock equivalents in each period. Therefore,
+   the sums of the quarters do not necessarily equal the full year earnings per share.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 3pt"&gt;
+   &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;(2)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;During the second quarter of fiscal year 2009, the Company implemented a restructuring plan
+   to reduce global headcount by approximately 4%, or 150 employees. The total charges related
+   to the plan were $19.4&amp;#160;million. Due to accounting classifications, the charges associated
+   with the plan are recorded in various lines and are summarized as follows: Cost of goods sold
+   adjustments include approximately $3.5&amp;#160;million of inventory write-downs. Restructuring and
+   other charges primarily consisted of $4.5&amp;#160;million related to severance and benefits, $5.6
+   million related to the impairment of long-lived assets, $2.0&amp;#160;million related to lease
+   obligations, $2.3&amp;#160;million related to the impairment of technology licenses and design software
+   and $1.5&amp;#160;million related to other charges.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 3pt"&gt;
+   &lt;td&gt;&amp;#160;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td nowrap="nowrap" align="left"&gt;(3)&lt;/td&gt;
+       &lt;td&gt;&amp;#160;&lt;/td&gt;
+       &lt;td&gt;Effective October&amp;#160;3, 2009, the Company adopted ASC 470-20- &lt;i&gt;Debt, Debt with Conversion and
+   Other Options &lt;/i&gt;(&amp;#8220;ASC 470-20&amp;#8221;) in accordance with GAAP. The Company&amp;#8217;s financial statements and
+   the accompanying footnotes for all prior periods presented have been adjusted to reflect the
+   retrospective adoption of this new accounting principle.&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div align="left"&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-top: 0pt"&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; background: transparent; color: #000000"&gt;
+   &lt;tr&gt;
+   &lt;td width="3%"&gt;&lt;/td&gt;
+   &lt;td width="1%"&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+   &lt;td nowrap="nowrap" align="left"&gt;
+   &lt;b&gt;
+   &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;&lt;/td&gt;
+   &lt;td&gt;
+   &lt;b&gt;
+   &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 0pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="left"&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-top: 0pt"&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; background: transparent; color: #000000"&gt;
+   &lt;tr&gt;
+   &lt;td width="3%"&gt;&lt;/td&gt;
+   &lt;td width="1%"&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+   &lt;td nowrap="nowrap" align="left"&gt;
+   &lt;b&gt;
+   &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;&lt;/td&gt;
+   &lt;td&gt;
+   &lt;b&gt;
+   &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 0pt"&gt;
+   &lt;i&gt;
+   &lt;/i&gt;
+   &lt;/div&gt;
+   &lt;div align="left" style="font-size: 10pt; margin-top: 0pt"&gt;
+   &lt;/div&gt;
+   &lt;!-- Folio --&gt;
+   &lt;!-- /Folio --&gt;
+   &lt;/div&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="font-family: 'Times New Roman',Times,serif"&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>This element can be used to disclose the entire quarterly financial data disclosure in the annual financial statements as a single block of text.  The disclosure includes a tabular presentation of financial information for each fiscal quarter for the current and previous year, including revenues, gross profit, income (loss) before extraordinary items and cumulative effect of a change in accounting principle and earnings per share data. It also includes an indication if the information in the note is unaudited, comments on the aggregate effect of year-end adjustments, and an explanation of matters or transactions that affect comparability or are pertinent to an understanding of the information furnished. Alternatively, the details of this disclosure can be reported using the elements in this group, or by using other taxonomy elements and applying the appropriate quarterly date and period contexts when creating an instance document. For example, the element for "Interest and Dividend I
+ncome, Operating" may be used by financial institutions from the Statement of Income, applying the appropriate quarterly date and period context when creating an instance document.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Staff Accounting Bulletin (SAB)
+ -Number Topic 6
+ -Section G
+ -Subsection 1
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 28
+ -Paragraph 23, 24
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 28
+ -Paragraph 30
+ -Subparagraph a-j
+
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-K (SK)
+ -Number 229
+ -Section 302
+ -Paragraph a
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

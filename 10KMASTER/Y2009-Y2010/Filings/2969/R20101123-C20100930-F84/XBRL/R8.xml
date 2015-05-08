@@ -1,0 +1,374 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>46
+<FILENAME>R8.xml
+<DESCRIPTION>IDEA: Major Accounting Policies
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Major Accounting Policies</ReportName>
+  <ReportLongName>10101 - Disclosure - Major Accounting Policies</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Major Accounting Policies</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_GeneralPoliciesAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Major Accounting Policies</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_SignificantAccountingPoliciesTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;div&gt;
+&lt;p style="margin-top: 18px; margin-bottom: 0px;"&gt;&lt;font style="font-family: Times New Roman;" class="_mt" size="2"&gt;&lt;b&gt;&lt;a name="fin17525_1"&gt; &lt;/a&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p style="margin: 18px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&lt;a name="tx17525_22"&gt; &lt;/a&gt;1.&amp;nbsp;&amp;nbsp;Major Accounting Policies &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Consolidation Principles &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The consolidated financial statements include the accounts of Air Products and Chemicals, Inc. and those of its controlled subsidiaries (the Company or Air Products), which are generally majority owned. Intercompany transactions and balances are eliminated in consolidation. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company consolidates all entities that it controls. The general condition for control is ownership of a majority of the voting interests of an entity. Control may also exist in arrangements where the Company is the primary beneficiary of a variable interest entity. An entity that will absorb the majority of a variable interest entity's expected losses or expected residual returns is considered a primary beneficiary of that entity. The Company has determined that it is not a primary beneficiary in any material variable interest entity. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Estimates and Assumptions &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The preparation of the financial statements in accordance with U.S. generally accepted accounting principles requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the consolidated financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from those estimates. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Revenue Recognition &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Revenue from product sales is recognized as risk and title to the product transfers to the customer (which generally occurs at the time shipment is made), the sales price is fixed or determinable, and collectibility is reasonably assured. Sales returns and allowances are not a business practice in the industry. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Revenues from equipment sale contracts are recorded primarily using the percentage-of-completion method. Under this method, revenues from the sale of major equipment, such as liquefied natural gas (LNG)&amp;nbsp;heat exchangers and large air separation units, are recognized primarily based on labor hours incurred to date compared with total estimated labor hours. Changes to total estimated labor hours and anticipated losses, if any, are recognized in the period determined. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 6px; margin-bottom: 0px; font-size: 1px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Amounts billed for shipping and handling fees are classified as sales in the consolidated income statements. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Amounts billed for sales and use taxes, value-added taxes, and certain excise and other specific transactional taxes imposed on revenue-producing transactions are presented on a net basis and excluded from sales in the consolidated income statements. The Company records a liability until remitted to the respective taxing authority. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Certain contracts associated with facilities that are built to provide product to a specific customer are required to be accounted for as leases. In cases where operating lease treatment is necessary, there is no difference in revenue recognition over the life of the contract as compared to accounting for the contract as product sales. In cases where capital lease treatment is necessary, the timing of revenue and expense recognition is impacted. Revenue and expense are recognized up front for the sale of equipment component of the contract as compared to revenue recognition over the life of the arrangement under contracts not qualifying as capital leases. Additionally, a portion of the revenue representing interest income from the financing component of the lease receivable is reflected as sales over the life of the contract. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;If an arrangement involves multiple deliverables, the delivered items are considered separate units of accounting if the items have value on a stand-alone basis and there is objective and reliable evidence of their fair values. Revenues from the arrangement are allocated to the separate units of accounting based on their relative fair values. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Cost of Sales &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Cost of sales predominantly represents the cost of tangible products sold. These costs include labor, raw materials, plant engineering, power, depreciation, production supplies and materials packaging costs, and maintenance costs. Costs incurred for shipping and handling are also included in cost of sales. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Depreciation &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Depreciation is recorded using the straight-line method, which deducts equal amounts of the cost of each asset from earnings every year over its expected economic useful life. The principal lives for major classes of plant and equipment are summarized in the table below: &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table border="0" cellspacing="0" cellpadding="0" width="98%" align="center"&gt;
+&lt;tr&gt;&lt;td width="49%"&gt; &lt;/td&gt;
+&lt;td valign="bottom" width="5%"&gt; &lt;/td&gt;
+&lt;td width="46%"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&amp;nbsp;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Principal Estimated Useful Lives&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Buildings&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;30 years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Production facilities &lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;sup style="position: relative; bottom: 0.8ex; vertical-align: baseline;"&gt;(A) &lt;/sup&gt;&lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt; &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top"&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Merchant Gases&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;15 years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Tonnage Gases&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;font class="_mt"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;15 &lt;/font&gt;&lt;/font&gt;to&amp;nbsp;&lt;font class="_mt"&gt;20&lt;/font&gt; years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Electronics and Performance Materials&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;10 to 15 years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 2em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Equipment and Energy&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;5 to 20 years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr bgcolor="#cceeff"&gt;&lt;td valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Distribution equipment &lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;sup style="position: relative; bottom: 0.8ex; vertical-align: baseline;"&gt;(B)&lt;/sup&gt;&lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt; &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;font class="_mt"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;5 &lt;/font&gt;&lt;/font&gt;to&amp;nbsp;&lt;font class="_mt"&gt;25&lt;/font&gt; years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="border-bottom: #000000 1px solid;" valign="top"&gt;
+&lt;p style="text-indent: -1em; margin-left: 1em;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Other machinery and equipment&lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="bottom"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style="border-bottom: #000000 1px solid;" valign="top" align="right"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;10 to 25 years&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse;" class="MetaData" border="0" cellspacing="0" cellpadding="0" width="100%"&gt;
+&lt;tr&gt;&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="4%" align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;sup style="position: relative; bottom: 0.8ex; vertical-align: baseline;"&gt;(A)&lt;/sup&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td class="MetaData" valign="top" align="left"&gt;
+&lt;p align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;Depreciable lives of production facilities related to long-term customer supply contracts associated with the tonnage gases business are matched to the contract lives. &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 3px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%"&gt;
+&lt;tr&gt;&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="4%" align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;&lt;sup style="position: relative; bottom: 0.8ex; vertical-align: baseline;"&gt;(B)&lt;/sup&gt;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="left"&gt;
+&lt;p align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="1"&gt;The depreciable lives for various types of distribution equipment are&amp;nbsp;&lt;font class="_mt"&gt;10&lt;/font&gt; to&amp;nbsp;&lt;font class="_mt"&gt;25&lt;/font&gt; years for cylinders, depending on the nature and properties of the product;&amp;nbsp;&lt;font class="_mt"&gt;20&lt;/font&gt;&amp;nbsp;years for tanks;&amp;nbsp;&lt;font class="_mt"&gt;7.5&lt;/font&gt;&amp;nbsp;years for customer stations;&amp;nbsp;&lt;font class="_mt"&gt;5&lt;/font&gt; to&amp;nbsp;&lt;font class="_mt"&gt;15&lt;/font&gt;&amp;nbsp;years for tractors and trailers. &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Selling and Administrative &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The principal components of selling and administrative expenses are salaries, advertising, and promotional costs. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Postemployment Benefits &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company has substantive ongoing severance arrangements. Termination benefits provided to employees as part of the global cost reduction plan (discussed in Note 5, Global Cost Reduction Plan) are consistent with termination benefits in previous, similar arrangements. Because the Company's plan met the definition of an ongoing benefit arrangement, a liability was recognized for termination benefits when probable and estimable. These criteria are met when management, with the appropriate level of authority, approves and commits to its plan of action for termination; the plan identifies the employees to be terminated and their related benefits; and the plan is to be completed within one year. During periods of operations where terminations are made on an as-needed basis, absent a detailed committed plan, terminations are accounted for on an individual basis and a liability is recognized when probable and estimable. 
+&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Financial Instruments &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company addresses certain financial exposures through a controlled program of risk management that includes the use of derivative financial instruments. Refer to Note 13, Financial Instruments, for further detail on the types and use of derivative instruments that the Company enters into. The types of derivative financial instruments permitted for such risk management programs are specified in policies set by management. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Major financial institutions are counterparties to all of these derivative contracts. The Company has established counterparty credit guidelines and only enters into transactions with financial institutions of investment grade or better. Management believes the risk of incurring losses related to credit risk is remote, and any losses would be immaterial to the consolidated financial results, financial condition, or liquidity. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company recognizes these derivatives on the balance sheet at fair value. On the date the derivative instrument is entered into, the Company generally designates the derivative as either (1)&amp;nbsp;a hedge of a forecasted transaction or of the variability of cash flows to be received or paid related to a recognized asset or liability (cash flow hedge), (2)&amp;nbsp;a hedge of a net investment in a foreign operation (net investment hedge), or (3)&amp;nbsp;a hedge of the fair value of a recognized asset or liability or of an unrecognized firm commitment (fair value hedge). &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The following details the accounting treatment of the Company's cash flow, fair value, net investment, and non-designated hedges: &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%"&gt;
+&lt;tr&gt;&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="3%" align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;bull;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="left"&gt;
+&lt;p align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Changes in the fair value of a derivative that is designated as and meets all the required criteria for a cash flow hedge are recorded in Accumulated Other Comprehensive Income (AOCI) and then recognized in earnings when the hedged items affect earnings. &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%"&gt;
+&lt;tr&gt;&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="3%" align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;bull;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="left"&gt;
+&lt;p align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Changes in the fair value of a derivative that is designated as and meets all the required criteria for a fair value hedge, along with the gain or loss on the hedged asset or liability that is attributable to the hedged risk, are recorded in current period earnings. &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%"&gt;
+&lt;tr&gt;&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="3%" align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;bull;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="left"&gt;
+&lt;p align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Changes in the fair value of a derivative and foreign currency debt that are designated as and meet all the required criteria for a hedge of a net investment are recorded as translation adjustments in AOCI. &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin-top: 0px; margin-bottom: 0px; font-size: 6px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="border-collapse: collapse;" border="0" cellspacing="0" cellpadding="0" width="100%"&gt;
+&lt;tr&gt;&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="3%" align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;bull;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td valign="top" align="left"&gt;
+&lt;p align="left"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Changes in the fair value of a derivative that is not designated as a hedge are recorded immediately in earnings. &lt;/font&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td width="1%"&gt;&lt;font class="_mt" size="1"&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company formally documents the relationships between hedging instruments and hedged items, as well as its risk management objective and strategy for undertaking various hedge transactions. This process includes relating derivatives that are designated as fair value or cash flow hedges to specific assets and liabilities on the balance sheet or to specific firm commitments or forecasted transactions. The Company also formally assesses, at the inception of the hedge and on an ongoing basis, whether each derivative is highly effective in offsetting changes in fair values or cash flows of the hedged item. If it is determined that a derivative is not highly effective as a hedge, or if a derivative ceases to be a highly effective hedge, the Company will discontinue hedge accounting with respect to that derivative prospectively. &lt;/font&gt;&lt;/p&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;
+&lt;/font&gt;
+&lt;div&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;strong&gt;Foreign Currency &lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Since the Company does business in many foreign countries, fluctuations in currency exchange rates affect the Company's financial position and results of operations. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;In most of the Company's foreign operations, local currency is considered the functional currency. Generally, foreign subsidiaries translate their assets and liabilities into U.S. dollars at current exchange rates&amp;#8212;that is, the rates in effect at the end of the fiscal period. The gains or losses that result from this process are shown in AOCI in the equity section of the consolidated balance sheet. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The revenue and expense accounts of foreign subsidiaries are translated into U.S. dollars at the average exchange rates that prevailed during the period. Therefore, the U.S. dollar value of these items on the consolidated income statement fluctuates from period to period, depending on the value of the dollar against foreign currencies. Some transactions are made in currencies different from an entity's functional currency. Gains and losses from these foreign currency transactions are generally included in earnings as they occur. &lt;/font&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;strong&gt;Environmental Expenditures &lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Accruals for environmental loss contingencies are recorded when it is probable that a liability has been incurred and the amount of loss can be reasonably estimated. Remediation costs are capitalized if the costs improve the Company's property as compared with the condition of the property when originally constructed or acquired, or if the costs prevent environmental contamination from future operations. The Company expenses environmental costs related to existing conditions resulting from past or current operations and from which no current or future benefit is discernible. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 6px; margin-bottom: 0px; font-size: 1px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The measurement of environmental liabilities is based on an evaluation of currently available information with respect to each individual site and considers factors such as existing technology, presently enacted laws and regulations, and prior experience in remediation of contaminated sites. An environmental liability related to cleanup of a contaminated site might include, for example, a provision for one or more of the following types of costs: site investigation and testing costs, cleanup costs, costs related to soil and water contamination resulting from tank ruptures, post-remediation monitoring costs, and outside legal fees. These liabilities include costs related to other potentially responsible parties to the extent that the Company has reason to believe such parties will not fully pay their proportionate share. They do not take into account any claims for recoveries from insurance or other parties and are n
+ot discounted. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;As assessments and remediation progress at individual sites, the amount of projected cost is reviewed periodically, and the liability is adjusted to reflect additional technical and legal information that becomes available. Management has a well-established process in place to identify and monitor the Company's environmental exposures. An environmental accrual analysis is prepared and maintained that lists all environmental loss contingencies, even where an accrual has not been established. This analysis assists in monitoring the Company's overall environmental exposure and serves as a tool to facilitate ongoing communication among the Company's technical experts, environmental managers, environmental lawyers, and financial management to ensure that required accruals are recorded and potential exposures disclosed. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Actual costs to be incurred at identified sites in future periods may vary from the estimates, given inherent uncertainties in evaluating environmental exposures. Refer to Note 17, Commitments and Contingencies, for additional information on the Company's environmental loss contingencies. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The accruals for environmental liabilities are reflected in the consolidated balance sheets, primarily as part of other noncurrent liabilities, and will be paid over a period of up to&amp;nbsp;&lt;font class="_mt"&gt;30&lt;/font&gt; years. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Litigation &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;In the normal course of business, the Company is involved in legal proceedings. The Company accrues a liability for such matters when it is probable that a liability has been incurred and the amount can be reasonably estimated. When only a range of possible loss can be established, the most probable amount in the range is accrued. If no amount within this range is a better estimate than any other amount within the range, the minimum amount in the range is accrued. The accrual for a litigation loss contingency includes estimates of potential damages and other directly related costs expected to be incurred. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Share-Based Compensation &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company has various share-based compensation programs, which include stock options, deferred stock units, and restricted stock. Refer to Note 19, Share-Based Compensation, for further detail. The Company expenses the grant-date fair value of these awards over the vesting period during which employees perform related services. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Income Taxes &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company accounts for income taxes under the liability method. Under this method, deferred tax assets and liabilities are recognized for the tax effects of temporary differences between the financial reporting and tax bases of assets and liabilities using enacted tax rates. A principal temporary difference results from the excess of tax depreciation over book depreciation because accelerated methods of depreciation and shorter useful lives are used for income tax purposes. The cumulative impact of a change in tax rates or regulations is included in income tax expense in the period that includes the enactment date. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;A tax benefit for an uncertain tax position is recognized when it is more likely than not that the position will be sustained upon examination based on its technical merits. This position is measured as the largest amount of tax benefit that is greater than &lt;font class="_mt"&gt;50&lt;/font&gt;% likely of being realized. Interest and penalties related to unrecognized tax benefits are recognized as a component of income tax expense. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Cash and Cash Items &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Cash and cash items include cash, time deposits, and certificates of deposit acquired with an original maturity of three months or less. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Trade Receivables, Less Allowances for Doubtful Accounts &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Trade receivables primarily comprise amounts owed to the Company through its operating activities and are presented net of allowances for doubtful accounts. The allowances for doubtful accounts represent estimated uncollectible receivables associated with potential customer defaults on contractual obligations. A provision for customer defaults is made on a general formula basis when it is determined that the risk of some default is probable and estimable but cannot yet be associated with specific customers. The assessment of the likelihood of customer defaults is based on various factors, including the length of time the receivables are past due, historical experience, and existing economic conditions. The allowances also include amounts for certain customers where a risk of default has been specifically identified considering factors such as the financial condition of the customer and customer disputes over contrac
+tual terms and conditions. Provisions to the allowances for doubtful accounts charged against income were $&lt;font class="_mt"&gt;29.5&lt;/font&gt;, $&lt;font class="_mt"&gt;37.8&lt;/font&gt;, and $&lt;font class="_mt"&gt;14.4&lt;/font&gt; in 2010, 2009, and 2008, respectively. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Inventories &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Inventories are stated at the lower of cost or market. The Company writes down its inventories for estimated obsolescence or unmarketable inventory based upon assumptions about future demand and market conditions. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company utilizes the last-in, first-out (LIFO)&amp;nbsp;method for determining the cost of inventories in the Merchant Gases, Tonnage Gases, and Electronics and Performance Materials segments in the United States. Inventories for these segments outside of the United States are accounted for on the first-in, first-out (FIFO)&amp;nbsp;method, as the LIFO method is not generally permitted in the foreign jurisdictions where these segments operate. The inventories of the Equipment and Energy segment on a worldwide basis, as well as all other inventories, are accounted for on the FIFO basis. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;At the business segment level, inventories are recorded at FIFO and the LIFO pool adjustments are not allocated to the business segments. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Equity Investments &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The equity method of accounting is used when the Company has a 20% or greater interest in other companies and exercises significant influence but does not have operating control. Under the equity method, original investments are recorded at cost and adjusted by the Company's share of undistributed earnings or losses of these companies. Equity investments are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of the investment may not be recoverable. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Plant and Equipment &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Plant and equipment is stated at cost less accumulated depreciation. Construction costs, labor, and applicable overhead related to installations are capitalized. Expenditures for additions and improvements that extend the lives or increase the capacity of plant assets are capitalized. The costs of maintenance and repairs of plant and equipment are charged to expense as incurred. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Fully depreciated assets are retained in the gross plant and equipment and accumulated depreciation accounts until they are removed from service. In the case of disposals, assets and related depreciation are removed from the accounts, and the net amounts, less proceeds from disposal, are included in income. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Restricted Cash &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Restricted cash includes the proceeds from the issuance of certain industrial revenue bonds that must be held in escrow until related project spending occurs. Restricted cash is classified as noncurrent assets in the consolidated balance sheets. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Capitalized Interest &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;As the Company builds new plant and equipment, it includes in the cost of these assets a portion of the interest payments it makes during the year. The amount of capitalized interest was $&lt;font class="_mt"&gt;14.3&lt;/font&gt;, $&lt;font class="_mt"&gt;21.9&lt;/font&gt;, and $&lt;font class="_mt"&gt;22.1&lt;/font&gt; in 2010, 2009, and 2008, respectively. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Asset Retirement Obligations &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The fair value of a liability for an asset retirement obligation is recognized in the period in which it is incurred. The liability is measured at discounted fair value and is adjusted to its present value in subsequent periods as accretion expense is recorded. The corresponding asset retirement costs are capitalized as part of the carrying amount of the related long-lived asset and depreciated over the asset's useful life. The Company's asset retirement obligations are primarily associated with Tonnage Gases on-site long-term supply contracts, under which the Company has built a facility on land leased from the customer and is obligated to remove the facility at the end of the contract term. The Company's asset retirement obligations totaled $&lt;font class="_mt"&gt;57.6&lt;/font&gt; and $&lt;font class="_mt"&gt;43.5&lt;/font&gt; at&amp;nbsp;&lt;font class="_mt"&gt;30&lt;/font&gt;&amp;nbsp;September 2010 and 2009, 
+respectively. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin-top: 6px; margin-bottom: 0px; font-size: 1px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Computer Software &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The Company capitalizes costs incurred to purchase or develop software for internal use. Capitalized costs include purchased computer software packages, payments to vendors/consultants for development and implementation or modification to a purchased package to meet Company requirements, payroll and related costs for employees directly involved in development, and interest incurred while software is being developed. Capitalized computer software costs are included in the balance sheet classification plant and equipment and depreciated over the estimated useful life of the software, generally a period of three to ten years. The Company's SAP system is being depreciated over a ten-year life. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Impairment of Long-Lived Assets &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Long-lived assets are evaluated for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. The Company assesses recoverability by comparing the carrying amount of the asset to estimated undiscounted future cash flows expected to be generated by the asset. If an asset is considered impaired, the impairment loss to be recognized is measured as the amount by which the asset's carrying amount exceeds its fair value. Long-lived assets to be disposed of are reported at the lower of carrying amount or fair value less cost to sell. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Goodwill &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Acquisitions are accounted for using the acquisition method. The purchase price is allocated to the assets acquired and liabilities assumed based on their estimated fair market values. Any excess purchase price over the fair market value of the net assets acquired, including identified intangibles, is recorded as goodwill. Preliminary purchase price allocations are made at the date of acquisition and finalized when information needed to affirm underlying estimates is obtained, within a maximum allocation period of one year. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Goodwill is subject to impairment testing at least annually. In addition, goodwill is tested more frequently if a change in circumstances or the occurrence of events indicates that potential impairment exists. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Intangible Assets &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Intangible assets with determinable lives primarily consist of customer relationships and purchased patents and technology. The Company has no acquired intangible assets with indefinite lives. The cost of intangible assets with determinable lives is amortized on a straight-line basis over the estimated period of economic benefit. No residual value is estimated for these intangible assets. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Customer relationships are generally amortized over periods of five to twenty-five years. Purchased patents and technology and other intangibles are amortized based on contractual terms, ranging generally from five to twenty years. Amortizable lives are adjusted whenever there is a change in the estimated period of economic benefit. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Retirement Benefits &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The cost of retiree benefits is recognized over the employees' service period. The Company is required to use actuarial methods and assumptions in the valuation of defined benefit obligations and the determination of expense. Differences between actual and expected results or changes in the value of obligations and plan assets are not recognized in earnings as they occur but, rather, systematically and gradually over subsequent periods. Refer to Note 16, Retirement Benefits, for disclosures related to the Company's pension and other postretirement benefits. &lt;/font&gt;&lt;/p&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>1.&amp;nbsp;&amp;nbsp;Major Accounting Policies
+Consolidation Principles
+The consolidated financial statements include the accounts of Air Products and Chemicals,</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>This element may be used to describe all significant accounting policies of the reporting entity.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 22
+ -Paragraph 8
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

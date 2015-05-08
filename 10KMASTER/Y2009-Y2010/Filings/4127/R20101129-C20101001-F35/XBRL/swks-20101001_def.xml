@@ -1,0 +1,77 @@
+
+<DOCUMENT>
+<TYPE>EX-101.DEF
+<SEQUENCE>14
+<FILENAME>swks-20101001_def.xml
+<DESCRIPTION>EX-101 DEFINITION LINKBASE DOCUMENT
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created with Bowne Tagger XBRL Enabler by Bowne Software version 10.0.0.114-->
+<!--Based on XBRL 2.1-->
+<link:linkbase xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xbrl.org/2003/linkbase" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" roleURI="http://skyworksinc.com/role/StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+  <link:arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+  <link:definitionLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" xlink:title="0140 - Statement - Consolidated Statements of Stockholders' Equity and Comprehensive Income (Loss)">
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CommonStockMember" xlink:label="us-gaap_CommonStockMember" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_TreasuryStockMember" xlink:label="us-gaap_TreasuryStockMember" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="us-gaap_AdditionalPaidInCapitalMember" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RetainedEarningsMember" xlink:label="us-gaap_RetainedEarningsMember" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeMember" xlink:label="us-gaap_AccumulatedOtherComprehensiveIncomeMember" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockholdersEquity" xlink:label="us-gaap_StockholdersEquity" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_SharesIssued" xlink:label="us-gaap_SharesIssued" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetIncomeLoss" xlink:label="us-gaap_NetIncomeLoss" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_ImpairmentOfAuctionRateSecurity" xlink:label="swks_ImpairmentOfAuctionRateSecurity" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax" xlink:label="us-gaap_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" xlink:label="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ComprehensiveIncomeNetOfTax" xlink:label="us-gaap_ComprehensiveIncomeNetOfTax" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" xlink:label="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansShares" xlink:label="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansShares" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature" xlink:label="us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" xlink:label="us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" xlink:label="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesShares" xlink:label="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesShares" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_SharesWithheldForTaxesValue" xlink:label="swks_SharesWithheldForTaxesValue" />
+    <link:loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_SharesWithheldForTaxesShares" xlink:label="swks_SharesWithheldForTaxesShares" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementEquityComponentsAxis" order="1" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain" order="1" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_CommonStockMember" order="1" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_TreasuryStockMember" order="2" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_AdditionalPaidInCapitalMember" order="3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_RetainedEarningsMember" order="4" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_AccumulatedOtherComprehensiveIncomeMember" order="5" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementTable" order="2" xbrldt:closed="true" xbrldt:contextElement="segment" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockholdersEquity" order="1" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_SharesIssued" order="2" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_NetIncomeLoss" order="3" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_ImpairmentOfAuctionRateSecurity" order="4" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax" order="5" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" order="6" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_ComprehensiveIncomeNetOfTax" order="7" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" order="8" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansShares" order="9" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature" order="10" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" order="11" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" order="12" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesShares" order="13" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_SharesWithheldForTaxesValue" order="14" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="swks_SharesWithheldForTaxesShares" order="15" />
+  </link:definitionLink>
+  <link:definitionLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" xlink:title="0140 - Statement - Consolidated Statements of Stockholders' Equity and Comprehensive Income (Loss)">
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis" />
+    <link:loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain" />
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain" order="1" />
+  </link:definitionLink>
+</link:linkbase>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

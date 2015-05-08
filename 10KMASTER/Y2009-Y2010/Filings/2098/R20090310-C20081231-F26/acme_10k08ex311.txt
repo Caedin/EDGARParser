@@ -1,0 +1,48 @@
+<TITLE> KXNAME ACME UNITED CORP</TITLE> 
+<DOCUMENT>
+<TYPE>EX-31
+<SEQUENCE>5
+<FILENAME>acme_10k08ex311.txt
+<DESCRIPTION>EXHIBIT 31.1
+<TEXT>
+Exhibit 31.1
+
+
+                            CERTIFICATION PURSUANT TO
+                             18 U.S.C. SECTION 1350,
+                             AS ADOPTED PURSUANT TO
+                  SECTION 906 OF THE SARBANES-OXLEY ACT OF 2002
+
+
+The undersigned officer of Acme United Corporation (the "Company") hereby
+certifies to my knowledge that the Company's annual report on Form 10-K for the
+annual period ended December 31, 2008 (the "Report"), as filed with the
+Securities and Exchange Commission on the date hereof, fully complies with the
+requirements of section 13(a) or 15(d), as applicable, of the Securities
+Exchange Act of 1934, as amended, and that the information contained in the
+Report fairly presents, in all material respects, the financial condition and
+results of operations of the Company. This certification is provided solely
+pursuant to 18 U.S.C. Section 1350, as adopted pursuant to Section 906 of the
+Sarbanes-Oxley Act of 2002, and shall not be deemed to be a part of the Report
+or "filed" for any purpose whatsoever.
+
+
+By          /s/ WALTER C. JOHNSEN
+         ------------------------------
+                Walter C. Johnsen
+                  Chairman and
+             Chief Executive Officer
+
+Dated: March 10, 2009
+
+
+A signed original of this written statement required by Section 906, or other
+document authenticating, acknowledging, or otherwise adopting the signature that
+appears in typed form within the electronic version of this written statement
+required by Section 906, has been provided to Acme United Corporation and will
+be retained by Acme United Corporation and furnished to the Securities and
+Exchange Commission or its staff upon request.
+
+</TEXT>
+</DOCUMENT>
+KXEX31

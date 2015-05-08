@@ -1,0 +1,32 @@
+<TITLE> KXNAME ACME UNITED CORP</TITLE> 
+<DOCUMENT>
+<TYPE>EX-23
+<SEQUENCE>3
+<FILENAME>acme_10k08ex231.txt
+<DESCRIPTION>EXHIBIT 23.1
+<TEXT>
+EXHIBIT 23.1
+
+       Consent of UHY LLP, Independent Registered Public Accounting Firm
+
+We consent to the incorporation by reference in the Registration Statements
+(Form S-8 Nos. 333-84499, 33-98918, 333-26737, 333-70346, 333-126478 and
+333-145516) pertaining to the Acme United Corporation Amended and Restated
+Employee Stock Option Plan, the Registration Statements (Form S-8 Nos.
+333-84505, 333-26739, 333-70348, 333-126478 and 333-145516) pertaining to the
+Acme United Corporation Non-Salaried Director Stock Option Plan and the
+Registration Statement (Form S-8 No. 333-84509) pertaining to the Acme United
+Corporation Deferred Compensation Plan for Directors and Acme United Corporation
+Deferred Compensation Plan for Walter C. Johnsen of our report dated March 10,
+2009, with respect to the consolidated financial statements and schedule of Acme
+United Corporation and subsidiaries included in the Annual Report (Form 10-K)
+for the year ended December 31, 2008.
+
+
+/s/ UHY LLP
+
+Hartford, Connecticut
+March 10, 2009
+</TEXT>
+</DOCUMENT>
+KXEX23

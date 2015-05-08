@@ -1,0 +1,1413 @@
+
+<DOCUMENT>
+<TYPE>EX-101.SCH
+<SEQUENCE>12
+<FILENAME>apd-20100930.xsd
+<DESCRIPTION>XBRL TAXONOMY EXTENSION SCHEMA
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created with Crossfire XBRL Enabler by Rivet Software version 3.0.3938.19448-->
+<!--Based on XBRL 2.1-->
+<!--Created on: 11/22/2010 3:22:54 PM-->
+<!--Modified on: 11/22/2010 3:22:54 PM-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://airproducts.com/2010-09-30" xmlns:apd="http://airproducts.com/2010-09-30" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:us-types="http://xbrl.us/us-types/2009-01-31">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://airproducts.com/role/DocumentAndCompanyInformation" id="DocumentAndCompanyInformation">
+        <link:definition>00090 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/IncomeStatements" id="IncomeStatements">
+        <link:definition>00100 - Statement - CONSOLIDATED INCOME STATEMENTS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/BalanceSheets" id="BalanceSheets">
+        <link:definition>00200 - Statement - CONSOLIDATED BALANCE SHEETS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/BalanceSheetsParenthetical" id="BalanceSheetsParenthetical">
+        <link:definition>00210 - Statement - CONSOLIDATED BALANCE SHEETS (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/StatementsOfCashFlows" id="StatementsOfCashFlows">
+        <link:definition>00300 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/StatementConsolidatedStatementsOfEquityParenthetical" id="StatementConsolidatedStatementsOfEquityParenthetical">
+        <link:definition>00410 - Statement - CONSOLIDATED STATEMENTS OF EQUITY (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIntangibleAssetsTableOfAcquiredIntangibleAssets" id="DisclosureIntangibleAssetsTableOfAcquiredIntangibleAssets">
+        <link:definition>31103 - Disclosure - Intangible Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsTablesNew" id="DisclosureRetirementBenefitsTablesNew">
+        <link:definition>31603 - Disclosure - Retirement Benefits (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationTables" id="DisclosureSupplementalInformationTables">
+        <link:definition>32303 - Disclosure - Supplemental Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGlobalCostReductionPlanGlobalCostReductionPlanAsItRelatesToBusinessesAtSegmentLevelDetails" id="DisclosureGlobalCostReductionPlanGlobalCostReductionPlanAsItRelatesToBusinessesAtSegmentLevelDetails">
+        <link:definition>40502 - Disclosure - Global Cost Reduction Plan (Global Cost Reduction Plan as it relates to businesses at segment level) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGlobalCostReductionPlanTableOfChangesForGlobalCostReductionPlanDetails" id="DisclosureGlobalCostReductionPlanTableOfChangesForGlobalCostReductionPlanDetails">
+        <link:definition>40503 - Disclosure - Global Cost Reduction Plan (Table of Changes for the Global Cost Reduction Plan) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsUSHealthcareDetails" id="DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsUSHealthcareDetails">
+        <link:definition>40602 - Disclosure - Discontinued Operations (Table of Operating Results of Discontinued Operations) (U.S. Healthcare) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsPolymerEmulsionsBusinessDetails" id="DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsPolymerEmulsionsBusinessDetails">
+        <link:definition>40604 - Disclosure - Discontinued Operations (Table of Operating Results of Discontinued Operations) (Polymer Emulsions Business) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsHppcBusinessDetails" id="DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsHppcBusinessDetails">
+        <link:definition>40606 - Disclosure - Discontinued Operations (Table of Operating Results of Discontinued Operations) (HPPC Business) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsDetails" id="DisclosureDiscontinuedOperationsTableOfOperatingResultsOfDiscontinuedOperationsDetails">
+        <link:definition>40607 - Disclosure - Discontinued Operations (Table of Operating Results of Discontinued Operations) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureInventoriesScheduleOfInventoryDetails" id="DisclosureInventoriesScheduleOfInventoryDetails">
+        <link:definition>40701 - Disclosure - Inventories (Schedule of Inventory) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSummarizedFinancialInformationOfEquityAffiliatesTableOfSummarizedFinancialInformationOfEquityAffiliatesDetails" id="DisclosureSummarizedFinancialInformationOfEquityAffiliatesTableOfSummarizedFinancialInformationOfEquityAffiliatesDetails">
+        <link:definition>40802 - Disclosure - Summarized Financial Information of Equity Affiliates (Table of Summarized Financial Information of Equity Affiliates) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosurePlantAndEquipmentScheduleOfMajorClassesOfPlantAndEquipmentAtCostDetail" id="DisclosurePlantAndEquipmentScheduleOfMajorClassesOfPlantAndEquipmentAtCostDetail">
+        <link:definition>40901 - Disclosure - Plant and Equipment (Schedule of Major Classes of Plant and Equipment at Cost) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGoodwillScheduleOfGoodwillBySegmentDetails" id="DisclosureGoodwillScheduleOfGoodwillBySegmentDetails">
+        <link:definition>41001 - Disclosure - Goodwill (Schedule of Goodwill by Segment) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIntangibleAssetsScheduleOfAcquiredIntangibleAssetsDetails" id="DisclosureIntangibleAssetsScheduleOfAcquiredIntangibleAssetsDetails">
+        <link:definition>41101 - Disclosure - Intangible Assets (Schedule of Acquired Intangible Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIntangibleAssetsScheduleOfIntangibleAssetsProjectedAmortizationDetails" id="DisclosureIntangibleAssetsScheduleOfIntangibleAssetsProjectedAmortizationDetails">
+        <link:definition>41103 - Disclosure - Intangible Assets (Schedule of Intangible Assets Projected Amortization) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureLeasesScheduleOfMinimumLeasePaymentsDueDetails" id="DisclosureLeasesScheduleOfMinimumLeasePaymentsDueDetails">
+        <link:definition>41202 - Disclosure - Leases (Schedule of Minimum Lease Payments Due) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureLeasesScheduleOfLeaseReceivablesDetails" id="DisclosureLeasesScheduleOfLeaseReceivablesDetails">
+        <link:definition>41203 - Disclosure - Leases (Schedule of Lease Receivables) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureLeasesScheduleOfMinimumLeasePaymentsToBeCollectedDetails" id="DisclosureLeasesScheduleOfMinimumLeasePaymentsToBeCollectedDetails">
+        <link:definition>41204 - Disclosure - Leases (Schedule of Minimum Lease Payments to be Collected) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFinancialInstrumentsScheduleOfOutstandingCurrencyPriceRiskManagementInstrumentsDetails" id="DisclosureFinancialInstrumentsScheduleOfOutstandingCurrencyPriceRiskManagementInstrumentsDetails">
+        <link:definition>41301 - Disclosure - Financial Instruments (Schedule of Outstanding Currency Price Risk Management Instruments) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewfinancialInstrumentsOptionsContractNarrativeDetails" id="DisclosureNewfinancialInstrumentsOptionsContractNarrativeDetails">
+        <link:definition>41302 - Disclosure - Financial Instruments (Options Contract) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFinancialInstrumentsScheduleOfCrossCurrencyInterestRateSwapsDetails" id="DisclosureFinancialInstrumentsScheduleOfCrossCurrencyInterestRateSwapsDetails">
+        <link:definition>41303 - Disclosure - Financial Instruments (Schedule of Cross Currency Interest Rate Swaps) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFinancialInstrumentsScheduleOfCommodityContractsDetails" id="DisclosureFinancialInstrumentsScheduleOfCommodityContractsDetails">
+        <link:definition>41304 - Disclosure - Financial Instruments (Schedule of Commodity Contracts) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewfinancialInstrumentsTableOfFairValueAndBalanceSheetLocationOfOutstandingDerivativesDetails" id="DisclosureNewfinancialInstrumentsTableOfFairValueAndBalanceSheetLocationOfOutstandingDerivativesDetails">
+        <link:definition>41305 - Disclosure - Financial Instruments (Fair Value of Derivative Instruments) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewfinancialInstrumentsTableOfGainOrLossRelatedToCashFlowNetInvestmentAndNonDesignatedHedgesDetails" id="DisclosureNewfinancialInstrumentsTableOfGainOrLossRelatedToCashFlowNetInvestmentAndNonDesignatedHedgesDetails">
+        <link:definition>41306 - Disclosure - Financial Instruments (Schedule of the Gain/Loss Related to Derivative Instruments) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFairValeMeasurementsScheduleOfCarryingValuesAndFairValuesOfFinancialInstrumentsDetails" id="DisclosureFairValeMeasurementsScheduleOfCarryingValuesAndFairValuesOfFinancialInstrumentsDetails">
+        <link:definition>41401 - Disclosure - Fair Vale Measurements (Schedule of the Carrying Values and Fair Values of Financial Instruments) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFairValueMeasurementsScheduleOfFairValueOfAssetsAndLiabilitiesDetails" id="DisclosureFairValueMeasurementsScheduleOfFairValueOfAssetsAndLiabilitiesDetails">
+        <link:definition>41402 - Disclosure - Fair Value Measurements (Schedule of Fair Value of Assets and Liabilities) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDebtScheduleOfTotalDebtDetails" id="DisclosureDebtScheduleOfTotalDebtDetails">
+        <link:definition>41501 - Disclosure - Debt (Schedule of Total Debt) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDebtScheduleOfShortTermBorrowingsDetails" id="DisclosureDebtScheduleOfShortTermBorrowingsDetails">
+        <link:definition>41502 - Disclosure - Debt (Schedule of Short-term Borrowings) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDebtScheduleOfLongTermDebtDetails" id="DisclosureDebtScheduleOfLongTermDebtDetails">
+        <link:definition>41504 - Disclosure - Debt (Schedule of Long-term Debt) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewretirementBenefitsScheduleOfNetPeriodicBenefitCostsDetails" id="DisclosureNewretirementBenefitsScheduleOfNetPeriodicBenefitCostsDetails">
+        <link:definition>41601 - Disclosure - Retirement Benefits (Defined Benefit Pension Plans) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfNetPeriodicBenefitCostsDetails" id="DisclosureRetirementBenefitsScheduleOfNetPeriodicBenefitCostsDetails">
+        <link:definition>41602 - Disclosure - Retirement Benefits (Schedule of the Net Periodic Benefit Costs) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfWeightedAverageAssumptionsUsedInCalculationOfNetPeriodicPensionCostDetails" id="DisclosureRetirementBenefitsScheduleOfWeightedAverageAssumptionsUsedInCalculationOfNetPeriodicPensionCostDetails">
+        <link:definition>41603 - Disclosure - Retirement Benefits (Schedule of the Weighted Average Assumptions Used in the Calculation of Net Periodic Pension Cost) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfWeightedAverageAssumptionsUsedInCalculationOfPboDetails" id="DisclosureRetirementBenefitsScheduleOfWeightedAverageAssumptionsUsedInCalculationOfPboDetails">
+        <link:definition>41604 - Disclosure - Retirement Benefits (Schedule of the Weighted Average Assumptions Used in the Calculation of PBO) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfChangesInPboAndFairValueOfPlanAssetsBasedOnPlanYearMeasurementDateDetails" id="DisclosureRetirementBenefitsScheduleOfChangesInPboAndFairValueOfPlanAssetsBasedOnPlanYearMeasurementDateDetails">
+        <link:definition>41605 - Disclosure - Retirement Benefits (Defined Benefit Plan Amounts Recognized in Balance Sheet) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfChangesInPlanAssetsAndBenefitObligationRecognizedInAociOnPretaxBasisDetails" id="DisclosureRetirementBenefitsScheduleOfChangesInPlanAssetsAndBenefitObligationRecognizedInAociOnPretaxBasisDetails">
+        <link:definition>41606 - Disclosure - Retirement Benefits (Schedule of Changes in Plan Assets and Benefit Obligation Recognized In AOCI on a Pretax Basis) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfComponentsRecognizedInAociOnPretaxBasisDetails" id="DisclosureRetirementBenefitsScheduleOfComponentsRecognizedInAociOnPretaxBasisDetails">
+        <link:definition>41607 - Disclosure - Retirement Benefits (Schedule of the Components Recognized in AOCI on a Pretax Basis) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfAmountOfAociExpectedToBeRecognizedAsComponentOfNetPeriodicPensionCostDetails" id="DisclosureRetirementBenefitsScheduleOfAmountOfAociExpectedToBeRecognizedAsComponentOfNetPeriodicPensionCostDetails">
+        <link:definition>41608 - Disclosure - Retirement Benefits (Schedule of AOCI Expected to be Recognized as a Component of Net Periodic Pension Cost in Next Fiscal Year) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfTargetAndActualAssetAllocationsDetails" id="DisclosureRetirementBenefitsScheduleOfTargetAndActualAssetAllocationsDetails">
+        <link:definition>41609 - Disclosure - Retirement Benefits (Schedule of Target and Actual Asset Allocations) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfPensionPlanAssetsMeasuredAtFairValueDetails" id="DisclosureRetirementBenefitsScheduleOfPensionPlanAssetsMeasuredAtFairValueDetails">
+        <link:definition>41610 - Disclosure - Retirement Benefits (Schedule of Pension Plan Assets Measured at Fair Value) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfChangesInFairValueOfPensionPlanAssetsClassifiedAsLevel3Details" id="DisclosureRetirementBenefitsScheduleOfChangesInFairValueOfPensionPlanAssetsClassifiedAsLevel3Details">
+        <link:definition>41611 - Disclosure - Retirement Benefits (Schedule of Changes in Fair Value of Pension Plan Assets Classified as Level 3) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfProjectedBenefitPaymentsReflectingExpectedFutureBenefitsDetails" id="DisclosureRetirementBenefitsScheduleOfProjectedBenefitPaymentsReflectingExpectedFutureBenefitsDetails">
+        <link:definition>41612 - Disclosure - Retirement Benefits (Schedule of Projected Benefit Payments) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfPensionPlansWherePboExceedsValueOfPlanAssetsDetails" id="DisclosureRetirementBenefitsScheduleOfPensionPlansWherePboExceedsValueOfPlanAssetsDetails">
+        <link:definition>41613 - Disclosure - Retirement Benefits (Schedule of Pension Plans Where the PBO Exceeds the Value of Plan Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfPensionPlansWhereAboExceedsValueOfPlanAssetsDetails" id="DisclosureRetirementBenefitsScheduleOfPensionPlansWhereAboExceedsValueOfPlanAssetsDetails">
+        <link:definition>41614 - Disclosure - Retirement Benefits (Schedule of Pension Plans Where the ABO Exceeds the Value of Plan Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsDefinedContributionPlansNarrativeDetails" id="DisclosureRetirementBenefitsDefinedContributionPlansNarrativeDetails">
+        <link:definition>41615 - Disclosure - Retirement Benefits (Defined Contribution Plans) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfOtherPostretirementBenefitPlansCostComponentsDetails" id="DisclosureRetirementBenefitsScheduleOfOtherPostretirementBenefitPlansCostComponentsDetails">
+        <link:definition>41616 - Disclosure - Retirement Benefits (Schedule of Other Postretirement Benefit Plans' Cost Components) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfChangesInAccumulatedPostretirementBenefitObligationAndAmountsRecognizedInConsolidatedBalanceSheetsDetails" id="DisclosureRetirementBenefitsScheduleOfChangesInAccumulatedPostretirementBenefitObligationAndAmountsRecognizedInConsolidatedBalanceSheetsDetails">
+        <link:definition>41618 - Disclosure - Retirement Benefits (Schedule of Changes in Accumulated Postretirement Benefit Obligation and Amounts Recognized in the Consolidated Balance Sheets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfChangesInBenefitObligationRecognizedInAociOnPretaxBasisForOtherPostretirementBenefitPlansDetails" id="DisclosureRetirementBenefitsScheduleOfChangesInBenefitObligationRecognizedInAociOnPretaxBasisForOtherPostretirementBenefitPlansDetails">
+        <link:definition>41619 - Disclosure - Retirement Benefits (Schedule of Changes in Benefit Obligation Recognized in AOCI on a Pretax Basis for Other Postretirement Benefit Plans) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfComponentsOfOtherPostretirementBenefitPlansRecognizedInAociOnPretaxBasisDetails" id="DisclosureRetirementBenefitsScheduleOfComponentsOfOtherPostretirementBenefitPlansRecognizedInAociOnPretaxBasisDetails">
+        <link:definition>41620 - Disclosure - Retirement Benefits (Schedule of Components of Other Postretirement Benefit Plans Recognized in AOCI on a Pretax Basis) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsScheduleOfProjectedBenefitPaymentsForOtherPostretirementBenefitPlansDetails" id="DisclosureRetirementBenefitsScheduleOfProjectedBenefitPaymentsForOtherPostretirementBenefitPlansDetails">
+        <link:definition>41622 - Disclosure - Retirement Benefits (Schedule of Projected Benefit Payments for Other Postretirement Benefit Plans) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCommitmentsAndContingenciesScheduleOfFuturePaymentsUnderUnconditionalPurchaseObligationsDetails" id="DisclosureCommitmentsAndContingenciesScheduleOfFuturePaymentsUnderUnconditionalPurchaseObligationsDetails">
+        <link:definition>41707 - Disclosure - Commitments and Contingencies (Schedule of Future Payments Under Unconditional Purchase Obligations) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationShareBasedCompensationCostRecognizedInIncomeStatementDetails" id="DisclosureShareBasedCompensationShareBasedCompensationCostRecognizedInIncomeStatementDetails">
+        <link:definition>41901 - Disclosure - Share-Based Compensation (Share-Based Compensation Cost Recognized in the Income Statement) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationNarrativeStockOptionsDetails" id="DisclosureShareBasedCompensationNarrativeStockOptionsDetails">
+        <link:definition>41903 - Disclosure - Share-Based Compensation (Stock Options) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationScheduleOfAssumptionsUsedToEstimateFairValueOfOptionsGrantedDetails" id="DisclosureShareBasedCompensationScheduleOfAssumptionsUsedToEstimateFairValueOfOptionsGrantedDetails">
+        <link:definition>41904 - Disclosure - Share-Based Compensation (Schedule of Assumptions Used to Estimate the Fair Value of Options Granted) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationScheduleOfStockOptionActivityDetails" id="DisclosureShareBasedCompensationScheduleOfStockOptionActivityDetails">
+        <link:definition>41905 - Disclosure - Share-Based Compensation (Schedule of Stock Option Activity) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewshareBasedCompensationDeferredStockUnitsNarrativeDetails" id="DisclosureNewshareBasedCompensationDeferredStockUnitsNarrativeDetails">
+        <link:definition>41906 - Disclosure - Share-Based Compensation (Deferred Stock Units) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationScheduleOfDeferredStockUnitsDetails" id="DisclosureShareBasedCompensationScheduleOfDeferredStockUnitsDetails">
+        <link:definition>41907 - Disclosure - Share-Based Compensation (Schedule of Deferred Stock Units) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationScheduleOfRestrictedStockDetails" id="DisclosureShareBasedCompensationScheduleOfRestrictedStockDetails">
+        <link:definition>41908 - Disclosure - Share-Based Compensation (Schedule of Restricted Stock) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewshareBasedCompensationRestrictedStockNarrativeDetails" id="DisclosureNewshareBasedCompensationRestrictedStockNarrativeDetails">
+        <link:definition>41909 - Disclosure - Share-Based Compensation (Restricted Stock) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNoncontrollingInterestsNarrativeDetails" id="DisclosureNoncontrollingInterestsNarrativeDetails">
+        <link:definition>42001 - Disclosure - Noncontrolling Interests (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNoncontrollingInterestsScheduleOfChangesInOwnershipInterestsDetails" id="DisclosureNoncontrollingInterestsScheduleOfChangesInOwnershipInterestsDetails">
+        <link:definition>42002 - Disclosure - Noncontrolling Interests (Schedule of Changes in Ownership Interests) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureEarningsPerShareScheduleOfEarningsPerShareDetails" id="DisclosureEarningsPerShareScheduleOfEarningsPerShareDetails">
+        <link:definition>42101 - Disclosure - Earnings per Share (Schedule of Earnings Per Share) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewearningsPerShareNarrativeDetails" id="DisclosureNewearningsPerShareNarrativeDetails">
+        <link:definition>42102 - Disclosure - Earnings per Share (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesScheduleOfComponentsOfIncomeTaxesDetail" id="DisclosureIncomeTaxesScheduleOfComponentsOfIncomeTaxesDetail">
+        <link:definition>42201 - Disclosure - Income Taxes (Schedule of Components of Income Taxes) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesComponentsOfDeferredTaxesDetails" id="DisclosureIncomeTaxesComponentsOfDeferredTaxesDetails">
+        <link:definition>42202 - Disclosure - Income Taxes (Components of Deferred Taxes) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesEffectiveTaxRateReconciliationDetail" id="DisclosureIncomeTaxesEffectiveTaxRateReconciliationDetail">
+        <link:definition>42204 - Disclosure - Income Taxes (Effective Tax Rate Reconciliation) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesScheduleOfIncomeUSAndForeignOperationsBeforeTaxesAndNoncontrollingInterestsDetail" id="DisclosureIncomeTaxesScheduleOfIncomeUSAndForeignOperationsBeforeTaxesAndNoncontrollingInterestsDetail">
+        <link:definition>42205 - Disclosure - Income Taxes (Schedule of Income U.S. and Foreign Operations Before Taxes and Noncontrolling Interests) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesScheduleOfReconciliationOfUnrecognizedTaxBenefitsDetail" id="DisclosureIncomeTaxesScheduleOfReconciliationOfUnrecognizedTaxBenefitsDetail">
+        <link:definition>42206 - Disclosure - Income Taxes (Schedule of Reconciliation of Unrecognized Tax Benefits) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationScheduleOfOtherReceivablesAndCurrentAssetsDetails" id="DisclosureSupplementalInformationScheduleOfOtherReceivablesAndCurrentAssetsDetails">
+        <link:definition>42301 - Disclosure - Supplemental Information (Schedule of Other Receivables and Current Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationScheduleOfOtherNoncurrentAssetsDetails" id="DisclosureSupplementalInformationScheduleOfOtherNoncurrentAssetsDetails">
+        <link:definition>42302 - Disclosure - Supplemental Information (Schedule of Other Noncurrent Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationScheduleOfPayablesAndAccruedLiabilitiesDetails" id="DisclosureSupplementalInformationScheduleOfPayablesAndAccruedLiabilitiesDetails">
+        <link:definition>42303 - Disclosure - Supplemental Information (Schedule of Payables and Accrued Liabilities) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationScheduleOfDeferredIncomeAndOtherNoncurrentLiabilitiesDetails" id="DisclosureSupplementalInformationScheduleOfDeferredIncomeAndOtherNoncurrentLiabilitiesDetails">
+        <link:definition>42304 - Disclosure - Supplemental Information (Schedule of Other Noncurrent Liabilities) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationScheduleOfAccumulatedOtherComprehensiveIncomeLossDetails" id="DisclosureSupplementalInformationScheduleOfAccumulatedOtherComprehensiveIncomeLossDetails">
+        <link:definition>42305 - Disclosure - Supplemental Information (Schedule of Accumulated Other Comprehensive Income (Loss)) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationScheduleOfOtherIncomeExpenseDetails" id="DisclosureSupplementalInformationScheduleOfOtherIncomeExpenseDetails">
+        <link:definition>42306 - Disclosure - Supplemental Information (Schedule of Other Income (Expenses)) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentOperatingIncomeDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentOperatingIncomeDetails">
+        <link:definition>42502 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Operating Income) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentDepreciationAndAmortizationDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentDepreciationAndAmortizationDetails">
+        <link:definition>42503 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Depreciation and Amortization) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentTotalAssetsDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentTotalAssetsDetails">
+        <link:definition>42505 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Total Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureScheduleIivaluationAndQualifyingAccountsDetails" id="DisclosureScheduleIivaluationAndQualifyingAccountsDetails">
+        <link:definition>42604 - Disclosure - Schedule II-Valuation and Qualifying Accounts (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/StatementConsolidatedStatementsOfEquityss" id="StatementConsolidatedStatementsOfEquityss">
+        <link:definition>00400 - Statement - CONSOLIDATED STATEMENTS OF EQUITY</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBasisOfPresentationAndMajorAccountingPolicieskeep" id="DisclosureBasisOfPresentationAndMajorAccountingPolicieskeep">
+        <link:definition>10101 - Disclosure - Major Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewAccountingGuidancekeep" id="DisclosureNewAccountingGuidancekeep">
+        <link:definition>10201 - Disclosure - New Accounting Guidance</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureAirgasTransaction" id="DisclosureAirgasTransaction">
+        <link:definition>10301 - Disclosure - Airgas Transaction</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessCombinations" id="DisclosureBusinessCombinations">
+        <link:definition>10401 - Disclosure - Business Combinations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGlobalCostReductionPlankeep" id="DisclosureGlobalCostReductionPlankeep">
+        <link:definition>10501 - Disclosure - Global Cost Reduction Plan</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationskeep" id="DisclosureDiscontinuedOperationskeep">
+        <link:definition>10601 - Disclosure - Discontinued Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureInventorieskeep" id="DisclosureInventorieskeep">
+        <link:definition>10701 - Disclosure - Inventories</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSummarizedFinancialInformationOfEquityAffiliates" id="DisclosureSummarizedFinancialInformationOfEquityAffiliates">
+        <link:definition>10801 - Disclosure - Summarized Financial Information of Equity Affiliates</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosurePlantAndEquipment" id="DisclosurePlantAndEquipment">
+        <link:definition>10901 - Disclosure - Plant and Equipment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGoodwillkeep" id="DisclosureGoodwillkeep">
+        <link:definition>11001 - Disclosure - Goodwill</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIntangible" id="DisclosureIntangible">
+        <link:definition>11101 - Disclosure - Intangible Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureLeases" id="DisclosureLeases">
+        <link:definition>11201 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFinancialInstrumentskeep" id="DisclosureFinancialInstrumentskeep">
+        <link:definition>11301 - Disclosure - Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFairValueMeasurementskeep" id="DisclosureFairValueMeasurementskeep">
+        <link:definition>11401 - Disclosure - Fair Value Measurements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDebt" id="DisclosureDebt">
+        <link:definition>11501 - Disclosure - Debt</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitskeep" id="DisclosureRetirementBenefitskeep">
+        <link:definition>11601 - Disclosure - Retirement Benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCommitmentsAndContingencieskeep" id="DisclosureCommitmentsAndContingencieskeep">
+        <link:definition>11701 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCapitalStock" id="DisclosureCapitalStock">
+        <link:definition>11801 - Disclosure - Capital Stock</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationkeep" id="DisclosureShareBasedCompensationkeep">
+        <link:definition>11901 - Disclosure - Share-Based Compensation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNoncontrollingInterests" id="DisclosureNoncontrollingInterests">
+        <link:definition>12001 - Disclosure - Noncontrolling Interests</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureEarningsPerSharekeep" id="DisclosureEarningsPerSharekeep">
+        <link:definition>12101 - Disclosure - Earnings per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxes" id="DisclosureIncomeTaxes">
+        <link:definition>12201 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationkeep" id="DisclosureSupplementalInformationkeep">
+        <link:definition>12301 - Disclosure - Supplemental Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSummaryByQuarterUnaudited" id="DisclosureSummaryByQuarterUnaudited">
+        <link:definition>12401 - Disclosure - Summary by Quarter (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformation" id="DisclosureBusinessSegmentAndGeographicInformation">
+        <link:definition>12501 - Disclosure - Business Segment and Geographic Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureScheduleIivaluationAndQualifyingAccounts" id="DisclosureScheduleIivaluationAndQualifyingAccounts">
+        <link:definition>12601 - Disclosure - Schedule II-Valuation and Qualifying Accounts</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBasisOfPresentationAndMajorAccountingPoliciesPolicies" id="DisclosureBasisOfPresentationAndMajorAccountingPoliciesPolicies">
+        <link:definition>20102 - Disclosure - Major Accounting Policies (Policy)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureMajorAccountingPoliciesTables" id="DisclosureMajorAccountingPoliciesTables">
+        <link:definition>30103 - Disclosure - Major Accounting Policies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGlobalCostReductionPlanTables" id="DisclosureGlobalCostReductionPlanTables">
+        <link:definition>30503 - Disclosure - Global Cost Reduction Plan (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperations" id="DisclosureDiscontinuedOperations">
+        <link:definition>30603 - Disclosure - Discontinued Operations (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureInventoriesTables" id="DisclosureInventoriesTables">
+        <link:definition>30703 - Disclosure - Inventories (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSummariedFinancialInformationOfEquityAffiliatesTables" id="DisclosureSummariedFinancialInformationOfEquityAffiliatesTables">
+        <link:definition>30803 - Disclosure - Summarized Financial Information of Equity Affiliates (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosurePlantAndEquipmentTables" id="DisclosurePlantAndEquipmentTables">
+        <link:definition>30903 - Disclosure - Plant and Equipment (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGoodwillTables" id="DisclosureGoodwillTables">
+        <link:definition>31003 - Disclosure - Goodwill (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureLeasesTables" id="DisclosureLeasesTables">
+        <link:definition>31203 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFinancialInstrumentsTables" id="DisclosureFinancialInstrumentsTables">
+        <link:definition>31303 - Disclosure - Financial Instruments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFairValueMeasurementsTables" id="DisclosureFairValueMeasurementsTables">
+        <link:definition>31403 - Disclosure - Fair Value Measurements (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDebtTables" id="DisclosureDebtTables">
+        <link:definition>31503 - Disclosure - Debt (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCommitmentsAndContingenciesTables" id="DisclosureCommitmentsAndContingenciesTables">
+        <link:definition>31703 - Disclosure - Commitments and Contingencies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCaptialStockTables" id="DisclosureCaptialStockTables">
+        <link:definition>31803 - Disclosure - Capital Stock (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationTables" id="DisclosureShareBasedCompensationTables">
+        <link:definition>31903 - Disclosure - Share-Based Compensation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNoncontrollingInterestsTables" id="DisclosureNoncontrollingInterestsTables">
+        <link:definition>32003 - Disclosure - Noncontrolling Interests (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureEarningsPerShareTables" id="DisclosureEarningsPerShareTables">
+        <link:definition>32103 - Disclosure - Earnings per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesTables" id="DisclosureIncomeTaxesTables">
+        <link:definition>32203 - Disclosure - Income Taxes (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSummaryByQuarterTables" id="DisclosureSummaryByQuarterTables">
+        <link:definition>32403 - Disclosure - Summary by Quarter (Unaudited) (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationTables" id="DisclosureBusinessSegmentAndGeographicInformationTables">
+        <link:definition>32503 - Disclosure - Business Segment and Geographic Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureScheduleIivaluationAndQualifyingAccountsTables" id="DisclosureScheduleIivaluationAndQualifyingAccountsTables">
+        <link:definition>32603 - Disclosure - Schedule II-Valuation and Qualifying Accounts (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureMajorAccountingPoliciesNarrativeDetails" id="DisclosureMajorAccountingPoliciesNarrativeDetails">
+        <link:definition>40101 - Disclosure - Major Accounting Policies (Schedule of the Principal Lives for Major Classes of Plant and Equipment) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureMajorAccountingPoliciesTableOfPrincipalLivesForMajorClassesOfPropertyAndEquipmentParentheticalDetails" id="DisclosureMajorAccountingPoliciesTableOfPrincipalLivesForMajorClassesOfPropertyAndEquipmentParentheticalDetails">
+        <link:definition>40102 - Disclosure - Major Accounting Policies (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureAirgasTransactionDetailsKeep" id="DisclosureAirgasTransactionDetailsKeep">
+        <link:definition>40301 - Disclosure - Airgas Transaction (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessCombinationsDetailsKeep" id="DisclosureBusinessCombinationsDetailsKeep">
+        <link:definition>40401 - Disclosure - Business Combinations (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGlobalCostReductionPlanDetailsKeep" id="DisclosureGlobalCostReductionPlanDetailsKeep">
+        <link:definition>40501 - Disclosure - Global Cost Reduction Plan (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsNarrativeDetail" id="DisclosureDiscontinuedOperationsNarrativeDetail">
+        <link:definition>40601 - Disclosure - Discontinued Operations (US Healthcare) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsNarrativePolymerEmulsionsDetails" id="DisclosureDiscontinuedOperationsNarrativePolymerEmulsionsDetails">
+        <link:definition>40603 - Disclosure - Discontinued Operations (Polymer Emulsions) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDiscontinuedOperationsNarrativeHppcDetails" id="DisclosureDiscontinuedOperationsNarrativeHppcDetails">
+        <link:definition>40605 - Disclosure - Discontinued Operations (HPPC) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureEquityDetailsKeep" id="DisclosureEquityDetailsKeep">
+        <link:definition>40801 - Disclosure - Summarized Financial Information of Equity Affiliates (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosurePlantAndEquipmentNarrativeDetail" id="DisclosurePlantAndEquipmentNarrativeDetail">
+        <link:definition>40902 - Disclosure - Plant and Equipment (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureGoodwillNarrativeDetails" id="DisclosureGoodwillNarrativeDetails">
+        <link:definition>41002 - Disclosure - Goodwill (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIntangibleAssetsNarrativeDetails" id="DisclosureIntangibleAssetsNarrativeDetails">
+        <link:definition>41102 - Disclosure - Intangible Assets (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureLeasesLesseeAccountingNarrativeDetail" id="DisclosureLeasesLesseeAccountingNarrativeDetail">
+        <link:definition>41201 - Disclosure - Leases (Lessee and Lessor Accounting) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewfinancialInstrumentsNarrativeCreditRiskRelatedContingentFeaturesDetails" id="DisclosureNewfinancialInstrumentsNarrativeCreditRiskRelatedContingentFeaturesDetails">
+        <link:definition>41307 - Disclosure - Financial Instruments (Credit Risk-Related Contingent Features) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewfinancialInstrumentsNarrativeCounterpartyCreditRiskManagementDetails" id="DisclosureNewfinancialInstrumentsNarrativeCounterpartyCreditRiskManagementDetails">
+        <link:definition>41308 - Disclosure - Financial Instruments (Counterparty Credit Risk Management) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureFairValueMeasurementsNarrativeDetails" id="DisclosureFairValueMeasurementsNarrativeDetails">
+        <link:definition>41403 - Disclosure - Fair Value Measurements (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureDebtNarrativeDetails" id="DisclosureDebtNarrativeDetails">
+        <link:definition>41503 - Disclosure - Debt (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsOtherPostretirementBenefitsNarrativeDetails" id="DisclosureRetirementBenefitsOtherPostretirementBenefitsNarrativeDetails">
+        <link:definition>41617 - Disclosure - Retirement Benefits (Other Postretirement Benefits) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureRetirementBenefitsTableOfAssumedHealthcareTrendRatesDetails" id="DisclosureRetirementBenefitsTableOfAssumedHealthcareTrendRatesDetails">
+        <link:definition>41621 - Disclosure - Retirement Benefits (Schedule of Assumed Healthcare Trend Rates) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCommitmentsAndContingenciesLitigationNarrativeDetails" id="DisclosureCommitmentsAndContingenciesLitigationNarrativeDetails">
+        <link:definition>41701 - Disclosure - Commitments and Contingencies (Litigation and Environmental) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCommitmentsAndContingenciesPaceNarrativeDetails" id="DisclosureCommitmentsAndContingenciesPaceNarrativeDetails">
+        <link:definition>41702 - Disclosure - Commitments and Contingencies (Pace) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCommitmentsAndContingenciesPiedmontDetails" id="DisclosureCommitmentsAndContingenciesPiedmontDetails">
+        <link:definition>41703 - Disclosure - Commitments and Contingencies (Piedmont) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewcommitmentsAndContingenciesPaulsboroNarrativeDetails" id="DisclosureNewcommitmentsAndContingenciesPaulsboroNarrativeDetails">
+        <link:definition>41704 - Disclosure - Commitments and Contingencies (Paulsboro) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewcommitmentsAndContingenciesGuaranteesAndWarrantiesNarrativeDetails" id="DisclosureNewcommitmentsAndContingenciesGuaranteesAndWarrantiesNarrativeDetails">
+        <link:definition>41705 - Disclosure - Commitments and Contingencies (Guarantees and Warranties) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewcommitmentsAndContingenciesPutOptionAgreementsNarrativeDetails" id="DisclosureNewcommitmentsAndContingenciesPutOptionAgreementsNarrativeDetails">
+        <link:definition>41706 - Disclosure - Commitments and Contingencies (Put Option Agreements) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewcommitmentsAndContingenciesPurchaseObligationsNarrativeDetails" id="DisclosureNewcommitmentsAndContingenciesPurchaseObligationsNarrativeDetails">
+        <link:definition>41708 - Disclosure - Commitments and Contingencies (Purchase Obligations) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureCaptialStockNarrativeDetails" id="DisclosureCaptialStockNarrativeDetails">
+        <link:definition>41801 - Disclosure - Capital Stock (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureShareBasedCompensationDetailsKeep" id="DisclosureShareBasedCompensationDetailsKeep">
+        <link:definition>41902 - Disclosure - Share-Based Compensation (Schedule of Total Before-tax Share-Based Compensation Cost by Type of Program) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesNarrativeDetail" id="DisclosureIncomeTaxesNarrativeDetail">
+        <link:definition>42203 - Disclosure - Income Taxes (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureIncomeTaxesTableOfOpenFiscalYearsSubjectToExaminationByMajorTaxJurisdictionDetail" id="DisclosureIncomeTaxesTableOfOpenFiscalYearsSubjectToExaminationByMajorTaxJurisdictionDetail">
+        <link:definition>42207 - Disclosure - Income Taxes (Schedule of Open Fiscal Years Subject to Examination By Major Tax Jurisdiction) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSupplementalInformationLossFromPropertyDamageAndAdditionalIncomeStatementInformationNarrativeDetails" id="DisclosureSupplementalInformationLossFromPropertyDamageAndAdditionalIncomeStatementInformationNarrativeDetails">
+        <link:definition>42307 - Disclosure - Supplemental Information (Loss from Property Damage and Additional Income Statement Information) (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureSummaryByQuarterDetails" id="DisclosureSummaryByQuarterDetails">
+        <link:definition>42401 - Disclosure - Summary by Quarter (Schedule of Unaudited Operating Results by Quarter) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfBusinessSegmentInformationDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfBusinessSegmentInformationDetails">
+        <link:definition>42501 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Revenue from External Customers) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentEquityAffiliatesIncomeDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentEquityAffiliatesIncomeDetails">
+        <link:definition>42504 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Equity Affiliates' Income) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationNarrativeDetails" id="DisclosureBusinessSegmentAndGeographicInformationNarrativeDetails">
+        <link:definition>42506 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Investments in and Advances to Equity Affiliates) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentIdentifiableAssetsDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentIdentifiableAssetsDetails">
+        <link:definition>42507 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Identifiable Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentExpendituresForLongLivedAssetsDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfSegmentExpendituresForLongLivedAssetsDetails">
+        <link:definition>42508 - Disclosure - Business Segment and Geographic Information (Schedule of Segment Expenditures for Long-Lived Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfGeographicInformationDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfGeographicInformationDetails">
+        <link:definition>42509 - Disclosure - Business Segment and Geographic Information (Schedule of Geographic Information - Revenues from External Customers) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureBusinessSegmentAndGeographicInformationScheduleOfGeographicInformationLongLivedAssetsDetails" id="DisclosureBusinessSegmentAndGeographicInformationScheduleOfGeographicInformationLongLivedAssetsDetails">
+        <link:definition>42510 - Disclosure - Business Segment and Geographic Information (Schedule of Geographic Information - Long-Lived Assets) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://airproducts.com/role/DisclosureNewbusinessSegmentAndGeographicInformationNarrativeDetails" id="DisclosureNewbusinessSegmentAndGeographicInformationNarrativeDetails">
+        <link:definition>42511 - Disclosure - Business Segment and Geographic Information (Narrative) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="apd-20100930_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="apd-20100930_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="apd-20100930_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="apd-20100930_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <import namespace="http://xbrl.us/us-types/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-types-2009-01-31.xsd" />
+  <import namespace="http://xbrl.us/us-gaap/negated/2008-03-31" schemaLocation="http://www.xbrl.org/lrr/role/negated-2008-03-31.xsd" />
+  <import namespace="http://xbrl.us/us-roles/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-roles-2009-01-31.xsd" />
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <import namespace="http://xbrl.us/us-gaap/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd" />
+  <import namespace="http://xbrl.us/invest/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/invest-2009-01-31.xsd" />
+  <import namespace="http://xbrl.us/dei/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd" />
+  <element id="apd_OtherIncomeExpenseNet" name="OtherIncomeExpenseNet" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_IncreaseDecreaseContractsInProgress" name="IncreaseDecreaseContractsInProgress" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_NoncurrentCapitalLeaseReceivablesAdjustment" name="NoncurrentCapitalLeaseReceivablesAdjustment" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_DiscontinuedOperationsAbstract" name="DiscontinuedOperationsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="apd_GoodwillAbstract" name="GoodwillAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="apd_CommitmentsAndContingenciesAbstract" name="CommitmentsAndContingenciesAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="apd_SupplementalInformationAbstract" name="SupplementalInformationAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="apd_ProceedsFromSaleOfAssetsAndInvestments" name="ProceedsFromSaleOfAssetsAndInvestments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_InvestmentInAndAdvancesToUnconsolidatedAffiliates" name="InvestmentInAndAdvancesToUnconsolidatedAffiliates" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_OtherReceivablesAndCurrentAssets" name="OtherReceivablesAndCurrentAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_LossGainOnSaleOfAssetsAndInvestments" name="LossGainOnSaleOfAssetsAndInvestments" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_SupplementalInformationTextBlock" name="SupplementalInformationTextBlock" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="apd_FairValueMeasurementsAbstract" name="FairValueMeasurementsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="apd_ImpairmentOfAssetsOfContinuingOperations" name="ImpairmentOfAssetsOfContinuingOperations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ImpairmentOfAssetsOfDiscontinuedOperations" name="ImpairmentOfAssetsOfDiscontinuedOperations" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_IncomeLossFromContinuingOperationsBeforeTaxes" name="IncomeLossFromContinuingOperationsBeforeTaxes" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_DocumentAndEntityInformationAbstract" name="DocumentAndEntityInformationAbstract" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_BusinessSegmentAndGeographicInformationAbstract" name="BusinessSegmentAndGeographicInformationAbstract" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfInventoryTextBlock" name="ScheduleOfInventoryTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CashPricePerShareOfTenderOffer" name="CashPricePerShareOfTenderOffer" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_RestructuringChargesPerShareAmount" name="RestructuringChargesPerShareAmount" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_RestructuringChargesAfterTax" name="RestructuringChargesAfterTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_AssetImpairmentsOtherCostsMember" name="AssetImpairmentsOtherCostsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeveranceAndOtherBenefitsMember" name="SeveranceAndOtherBenefitsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OneTimeIncomeTaxBenefitPerShareAmount" name="OneTimeIncomeTaxBenefitPerShareAmount" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DiscontinuedOperationImpairmentChargeNet" name="DiscontinuedOperationImpairmentChargeNet" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_DiscontinuedOperationImpairmentCharge" name="DiscontinuedOperationImpairmentCharge" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ElectronicsAndPerformanceMaterialsMember" name="ElectronicsAndPerformanceMaterialsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_TonnageGasesMember" name="TonnageGasesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_MerchantGasesMember" name="MerchantGasesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfForwardExchangeContracts" name="ScheduleOfForwardExchangeContracts" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfCrossCurrencyInterestRateSwaps" name="ScheduleOfCrossCurrencyInterestRateSwaps" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherLiabilitiesNoncurrentMember" name="OtherLiabilitiesNoncurrentMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfCarryingValuesAndFairValuesOfFinancialInstrumentsTextBlock" name="ScheduleOfCarryingValuesAndFairValuesOfFinancialInstrumentsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalLossContingenciesPayoutPeriodMaximum" name="EnvironmentalLossContingenciesPayoutPeriodMaximum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PaceFloridaMember" name="PaceFloridaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AllocatedShareBasedCompensationExpenseNet" name="AllocatedShareBasedCompensationExpenseNet" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTermMaximum" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTermMaximum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMaximum" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMaximum" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMinimum" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMinimum" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTermMinimum" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedTermMinimum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfIdentifiableAssetsBySegment" name="ScheduleOfIdentifiableAssetsBySegment" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_FrenchSagaMember" name="FrenchSagaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfFairValueOfAssetsAndLiabilitiesTextBlock" name="ScheduleOfFairValueOfAssetsAndLiabilitiesTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PotentialAcquisitionCostOfAcquiredEntityPurchasePrice" name="PotentialAcquisitionCostOfAcquiredEntityPurchasePrice" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_PotentialAcquisitionCostOfAcquiredEntityEquityInterestsIssuedAndIssuable" name="PotentialAcquisitionCostOfAcquiredEntityEquityInterestsIssuedAndIssuable" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ExpectedCostOfAcquiredEntityLiabilitiesIncurred" name="ExpectedCostOfAcquiredEntityLiabilitiesIncurred" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_TotalExpectedAcquisitionRelatedCostsMinimum" name="TotalExpectedAcquisitionRelatedCostsMinimum" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_TotalExpectedAcquisitionRelatedCostsMaximum" name="TotalExpectedAcquisitionRelatedCostsMaximum" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ExpectedFuturePaymentToAcquireBusinessesGross" name="ExpectedFuturePaymentToAcquireBusinessesGross" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_BusinessAcquisitionPurchasePriceAllocationOtherNetAssets" name="BusinessAcquisitionPurchasePriceAllocationOtherNetAssets" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_RestructuringNoncashItems" name="RestructuringNoncashItems" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_CashFlowHedgeGainLossReclassifiedToCostOfSalesSalesNet" name="CashFlowHedgeGainLossReclassifiedToCostOfSalesSalesNet" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_DefinedBenefitPlanEstimatedCashContributionsAndBenefitPayments" name="DefinedBenefitPlanEstimatedCashContributionsAndBenefitPayments" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_PurchaseOfAirgasStock" name="PurchaseOfAirgasStock" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_SignificantNoncashTransaction" name="SignificantNoncashTransaction" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_OtherComprehensiveIncomeUnrealizedHoldingGainLossOnAvailableForSaleSecuritiesArisingDuringPeriodNetOfTax" name="OtherComprehensiveIncomeUnrealizedHoldingGainLossOnAvailableForSaleSecuritiesArisingDuringPeriodNetOfTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_CustomerBankruptcy" name="CustomerBankruptcy" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_GainLossOnSaleOfDiscontinuedOperations" name="GainLossOnSaleOfDiscontinuedOperations" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_AirgasMember" name="AirgasMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SharesPurchasedPriorToTenderOffer" name="SharesPurchasedPriorToTenderOffer" nillable="true" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_CustomerBankruptcyAndAssetActions" name="CustomerBankruptcyAndAssetActions" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_LiabilityRelatedToObligationToPurchase" name="LiabilityRelatedToObligationToPurchase" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_AgreementsToPurchaseRemainingShares" name="AgreementsToPurchaseRemainingShares" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_DefinedBenefitPlanOtherNetPeriodicBenefitCost" name="DefinedBenefitPlanOtherNetPeriodicBenefitCost" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ScheduleOfEarningsPerShareByCommonClass" name="ScheduleOfEarningsPerShareByCommonClass" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_BusinessAcquisitonPercentageOfVotingInterestsToBeAcquired" name="BusinessAcquisitonPercentageOfVotingInterestsToBeAcquired" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_BusinessCombinationAcquisitionRelatedCost" name="BusinessCombinationAcquisitionRelatedCost" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_TermLoanCreditFacilityCommittedFinancing" name="TermLoanCreditFacilityCommittedFinancing" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_TransactionCostsIncurredDuringPeriodAfterTax" name="TransactionCostsIncurredDuringPeriodAfterTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_TransactionCostsIncurredDuringPeriodAfterTaxPerShare" name="TransactionCostsIncurredDuringPeriodAfterTaxPerShare" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LiabilitiesAssociatedWithAcquisitions" name="LiabilitiesAssociatedWithAcquisitions" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_DiscontinuedOperationImpairmentChargePerShare" name="DiscontinuedOperationImpairmentChargePerShare" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_IncomeTaxBenefitImpairmentChargePerShareAmount" name="IncomeTaxBenefitImpairmentChargePerShareAmount" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CustomerBankruptcyAdjustment" name="CustomerBankruptcyAdjustment" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_SummarizedFinancialInformationOfEquityAffiliatesAbstract" name="SummarizedFinancialInformationOfEquityAffiliatesAbstract" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_NumberOfPositionsToBeEliminated" name="NumberOfPositionsToBeEliminated" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CapitalStockAbstract" name="CapitalStockAbstract" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_CapitalStockTextBlock" name="CapitalStockTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LeasesOfLesseeAndLessorDisclosureTextBlock" name="LeasesOfLesseeAndLessorDisclosureTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UsHealthcareMember" name="UsHealthcareMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PolymerEmulsionsBusinessMember" name="PolymerEmulsionsBusinessMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_HppcBusinessMember" name="HppcBusinessMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OperatingResultsOfDiscontinuedOperations" name="OperatingResultsOfDiscontinuedOperations" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LossOnSaleOfBusinessesAndImpairmentWriteDownToEstimatedNetRealizableValueNetOfTax" name="LossOnSaleOfBusinessesAndImpairmentWriteDownToEstimatedNetRealizableValueNetOfTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_EnvironmentalObligationExpenseAssociatedWithPiedmontSite" name="EnvironmentalObligationExpenseAssociatedWithPiedmontSite" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ProductionFacilitiesEstimatedUsefulLifeMerchantGases" name="ProductionFacilitiesEstimatedUsefulLifeMerchantGases" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesEstimatedMinimumUsefulLifeTonnageGases" name="ProductionFacilitiesEstimatedMinimumUsefulLifeTonnageGases" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesEstimatedMaximumUsefulLifeTonnageGases" name="ProductionFacilitiesEstimatedMaximumUsefulLifeTonnageGases" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CryoserviceLimitedMember" name="CryoserviceLimitedMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesEstimatedMinimumUsefulLifeElectronicAndPerformanceMaterials" name="ProductionFacilitiesEstimatedMinimumUsefulLifeElectronicAndPerformanceMaterials" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesEstimatedMaximumUsefulLifeElectronicsAndPerformanceMaterials" name="ProductionFacilitiesEstimatedMaximumUsefulLifeElectronicsAndPerformanceMaterials" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherMachineryAndEquipmentEstimatedUsefulLifeMinimum" name="OtherMachineryAndEquipmentEstimatedUsefulLifeMinimum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherMachineryAndEquipmentEstimatedUsefulLifeMaximum" name="OtherMachineryAndEquipmentEstimatedUsefulLifeMaximum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CylindersMember" name="CylindersMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_TanksMember" name="TanksMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CustomerStationsMember" name="CustomerStationsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeveranceAndOtherBenefitCosts" name="SeveranceAndOtherBenefitCosts" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_AssetImpairmentsOtherCosts" name="AssetImpairmentsOtherCosts" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_TableOfSummarizedFinancialInformationOfEquityAffiliates" name="TableOfSummarizedFinancialInformationOfEquityAffiliates" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EquityMethodInvestmentSummarizedFinancialInformationSalesLessCostOfSales" name="EquityMethodInvestmentSummarizedFinancialInformationSalesLessCostOfSales" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_UseOfEstimatesTextBlock" name="UseOfEstimatesTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PostemploymentBenefitPlansPolicyTextBlock" name="PostemploymentBenefitPlansPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LitigationPolicyTextBlock" name="LitigationPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationOptionAndIncentivePlansPolicyTextBlock" name="ShareBasedCompensationOptionAndIncentivePlansPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CapitalizedInterestPolicyTextBlock" name="CapitalizedInterestPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_GoodwillPolicyTextBlock" name="GoodwillPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IntangibleAssetsPolicyTextBlock" name="IntangibleAssetsPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_RetirementBenefitsPolicyTextBlock" name="RetirementBenefitsPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AssetRetirementObligationPolicyTextBlock" name="AssetRetirementObligationPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EquityMethodInvestmentsPolicyTextBlock" name="EquityMethodInvestmentsPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalCostsPolicyTextBlock" name="EnvironmentalCostsPolicyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_WuxiHiTechGasCoLtdMember" name="WuxiHiTechGasCoLtdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_TecnologiaEnNitrogenoSDeRLDeCVMember" name="TecnologiaEnNitrogenoSDeRLDeCVMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SembcorpAirProductsHycoPteLtdMember" name="SembcorpAirProductsHycoPteLtdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SapioProduzioneIdrogenoOssigenoSRLMember" name="SapioProduzioneIdrogenoOssigenoSRLMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_KulimIndustrialGasesSdnBhdMember" name="KulimIndustrialGasesSdnBhdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_InoxAirProductsLimitedInoxMember" name="InoxAirProductsLimitedInoxMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_InfraGroupMember" name="InfraGroupMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_HighTechGasesBeijingCoLtdMember" name="HighTechGasesBeijingCoLtdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_HelapSMember" name="HelapSMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DupontAirProductsNanomaterialsLlcMember" name="DupontAirProductsNanomaterialsLlcMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DaidoAirProductsElectronicsIncMember" name="DaidoAirProductsElectronicsIncMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ChengduAirGasProductsLtdMember" name="ChengduAirGasProductsLtdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_BangkokIndustrialGasesCompanyLtdMember" name="BangkokIndustrialGasesCompanyLtdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_BangkokCogenerationCompanyLimitedMember" name="BangkokCogenerationCompanyLimitedMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AirProductsSouthAfricaMember" name="AirProductsSouthAfricaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EquityAffiliateInvestmentInNetAssetsOfAndAdvancesIncludedInInvestmentInForeignAffiliates" name="EquityAffiliateInvestmentInNetAssetsOfAndAdvancesIncludedInInvestmentInForeignAffiliates" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ScheduleOfMajorClassesOfPlantAndEquipmentAtCost" name="ScheduleOfMajorClassesOfPlantAndEquipmentAtCost" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesMember" name="ProductionFacilitiesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DistributionEquipmentMember" name="DistributionEquipmentMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PatentsAndTechnologyMember" name="PatentsAndTechnologyMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherIntangibleAssetsMember" name="OtherIntangibleAssetsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UnearnedCapitalLeaseInterestIncome" name="UnearnedCapitalLeaseInterestIncome" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_IntercompanyLoanMember" name="IntercompanyLoanMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnergyMember" name="EnergyMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Debenture875Member" name="Debenture875Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeriesD68Member" name="SeriesD68Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeriesE76Member" name="SeriesE76Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeriesF62Member" name="SeriesF62Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeriesG41Member" name="SeriesG41Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Note415Member" name="Note415Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Note4375Member" name="Note4375Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DebtPayableInOtherCurrencies" name="DebtPayableInOtherCurrencies" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_Eurobonds12FloatingRateMember" name="Eurobonds12FloatingRateMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Eurobonds425Member" name="Eurobonds425Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Eurobonds375Member" name="Eurobonds375Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Eurobonds3875Member" name="Eurobonds3875Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Eurobonds4625Member" name="Eurobonds4625Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IndustrialRevenueBonds" name="IndustrialRevenueBonds" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_IndustrialRevenueBondsProceedsHeldInEscrowAndClassifiedAsNoncurrentAsset" name="IndustrialRevenueBondsProceedsHeldInEscrowAndClassifiedAsNoncurrentAsset" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_CommitmentsMaintainedByCompanySForeignSubsidiaries" name="CommitmentsMaintainedByCompanySForeignSubsidiaries" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_OtherReceivablesMember" name="OtherReceivablesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherAssetsNoncurrentMember" name="OtherAssetsNoncurrentMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfWeightedAverageAssumptionsUsedInCalculationOfNetPeriodicPensionCostTextBlock" name="ScheduleOfWeightedAverageAssumptionsUsedInCalculationOfNetPeriodicPensionCostTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherPostretirementBenefitsMember" name="OtherPostretirementBenefitsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfWeightedAverageAssumptionsUsedInCalculationOfPboTextBlock" name="ScheduleOfWeightedAverageAssumptionsUsedInCalculationOfPboTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfActualAndTargetAssetAllocationsTextBlock" name="ScheduleOfActualAndTargetAssetAllocationsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfPensionPlanAssetsMeasuredAtFairValueTextBlock" name="ScheduleOfPensionPlanAssetsMeasuredAtFairValueTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfChangesInFairValueOfPensionPlanAssetsClassifiedAsLevel3TextBlock" name="ScheduleOfChangesInFairValueOfPensionPlanAssetsClassifiedAsLevel3TextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfProjectedBenefitPaymentsTextBlock" name="ScheduleOfProjectedBenefitPaymentsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfPensionPlansWhereAboExceedsValueOfPlanAssetsTextBlock" name="ScheduleOfPensionPlansWhereAboExceedsValueOfPlanAssetsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UnfundedPensionArrangementsDueToJurisdictionalPractices" name="UnfundedPensionArrangementsDueToJurisdictionalPractices" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_USMember" name="USMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_InternationalMember" name="InternationalMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DefinedBenefitPlanSpecialTerminationBenefitsSettlementsAndCurtailments" name="DefinedBenefitPlanSpecialTerminationBenefitsSettlementsAndCurtailments" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_DefinedBenefitPlanCurrencyTranslationAndOther" name="DefinedBenefitPlanCurrencyTranslationAndOther" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_FairvalueliabilitiesMeasuredOnRecurringBasisTotalLiabilities" name="FairvalueliabilitiesMeasuredOnRecurringBasisTotalLiabilities" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_GoodwillCurrencyTranslationAndOther" name="GoodwillCurrencyTranslationAndOther" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_TyczkaIndustrieGasesGmbhMember" name="TyczkaIndustrieGasesGmbhMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_BondsGovernmentAndCorporateMember" name="BondsGovernmentAndCorporateMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_RealEstateCommingledFundsMember" name="RealEstateCommingledFundsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherCommingledFundsMember" name="OtherCommingledFundsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_InsuranceContractsMember" name="InsuranceContractsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_GlobalCostReductionPlanMember" name="GlobalCostReductionPlanMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AccumulatedBenefitObligationMember" name="AccumulatedBenefitObligationMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfIntangibleAssetsProjectedAmortizationTextBlock" name="ScheduleOfIntangibleAssetsProjectedAmortizationTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UsHealthcarePolymersEmulsionsAndHppcBusinessesMember" name="UsHealthcarePolymersEmulsionsAndHppcBusinessesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OutstandingCommonStockAuthorizedToBeRepurchasedRemaining" name="OutstandingCommonStockAuthorizedToBeRepurchasedRemaining" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_OutstandingCommonStockAuthorizedToBeRepurchased" name="OutstandingCommonStockAuthorizedToBeRepurchased" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_FiniteLivedProjectedIntangibleAssetsAmortizationTotal" name="FiniteLivedProjectedIntangibleAssetsAmortizationTotal" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_TableOfFutureMinimumLeasePaymentsCapitalOperatingLeasesTextBlock" name="TableOfFutureMinimumLeasePaymentsCapitalOperatingLeasesTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfRestrictedStock" name="ScheduleOfRestrictedStock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfBeforeTaxShareBasedCompensationCostsByProgramTypeTextBlock" name="ScheduleOfBeforeTaxShareBasedCompensationCostsByProgramTypeTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfAssumedHealthcareTrendRatesTextblock" name="ScheduleOfAssumedHealthcareTrendRatesTextblock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationArrangementBySharebasedpaymentawardequityinstrumentsOtherThanOptionsGrantsInPeriodWeightedAveragePayOutDateFairValue" name="ShareBasedCompensationArrangementBySharebasedpaymentawardequityinstrumentsOtherThanOptionsGrantsInPeriodWeightedAveragePayOutDateFairValue" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ShareBasedCompensationArrangementBySharebasedpaymentawardequityInstrumentsOtherThanOptionsPayOutsInPeriod" name="ShareBasedCompensationArrangementBySharebasedpaymentawardequityInstrumentsOtherThanOptionsPayOutsInPeriod" nillable="true" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationExercisablePeriod" name="ShareBasedCompensationExercisablePeriod" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DecreaseInCapitalInExcessOfParValueForPurchaseOfNoncontrollingInterests" name="DecreaseInCapitalInExcessOfParValueForPurchaseOfNoncontrollingInterests" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_DecreaseInAirProductsCapitalInExcessOfParValueForPurchaseOfNoncontrollingInterests" name="DecreaseInAirProductsCapitalInExcessOfParValueForPurchaseOfNoncontrollingInterests" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_IncomeUsAndForeignOperationsBeforeTaxesAndNoncontrollingInterestTextBlock" name="IncomeUsAndForeignOperationsBeforeTaxesAndNoncontrollingInterestTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DeferredTaxAssetsTaxUnremittedEarningsOfForeignEntities" name="DeferredTaxAssetsTaxUnremittedEarningsOfForeignEntities" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_EffectiveIncomeTaxRateReconciliationTaxDonationOfInvestmentsTaxRate" name="EffectiveIncomeTaxRateReconciliationTaxDonationOfInvestmentsTaxRate" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EffectiveIncomeTaxRateReconciliationTaxAuditSettlementsAndAdjustmentsTaxRate" name="EffectiveIncomeTaxRateReconciliationTaxAuditSettlementsAndAdjustmentsTaxRate" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncomeLossFromContinuingOperationsBeforeIncomeTaxesEquityAffiliates" name="IncomeLossFromContinuingOperationsBeforeIncomeTaxesEquityAffiliates" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_UnrecognizedTaxBenefitsIncreaseResultingFromForeignCurrencyTranslation" name="UnrecognizedTaxBenefitsIncreaseResultingFromForeignCurrencyTranslation" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_UnitedStatesMember" name="UnitedStatesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_KoreaMember" name="KoreaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_TaiwanMember" name="TaiwanMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SpainMember" name="SpainMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PolandMember" name="PolandMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_NetherlandsMember" name="NetherlandsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_GermanyMember" name="GermanyMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UnitedKingdomMember" name="UnitedKingdomMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CanadaMember" name="CanadaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfOtherReceivablesAndOtherCurrentAssetsTextBlock" name="ScheduleOfOtherReceivablesAndOtherCurrentAssetsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherReceivablesAndOtherCurrentAssets" name="OtherReceivablesAndOtherCurrentAssets" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_GainLossOnSaleOfAssetsAndInvestments" name="GainLossOnSaleOfAssetsAndInvestments" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_NitrogenTriflourideFacilityMember" name="NitrogenTriflourideFacilityMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncomeFromPreviouslyWriteDownsOfReceivables" name="IncomeFromPreviouslyWriteDownsOfReceivables" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_PropertyDamageAfterTaxGainLossPerShare" name="PropertyDamageAfterTaxGainLossPerShare" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_PropertyDamageAfterTaxGainLoss" name="PropertyDamageAfterTaxGainLoss" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_AllowanceForCertainNotesReceivableMember" name="AllowanceForCertainNotesReceivableMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfTotalDebtTextBlock" name="ScheduleOfTotalDebtTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ApproximateNumberOfSitesCompanyWasDesignatedPotentiallyResponsiblePartyByEnvironmentalProtectionAgency" name="ApproximateNumberOfSitesCompanyWasDesignatedPotentiallyResponsiblePartyByEnvironmentalProtectionAgency" nillable="true" type="xbrli:integerItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalLossContingenciesPretaxExpense" name="EnvironmentalLossContingenciesPretaxExpense" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_EnvironmentalLossContingenciesEstimatedCostsThroughCompletionMaximum" name="EnvironmentalLossContingenciesEstimatedCostsThroughCompletionMaximum" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_EnvironmentalLossContingenciesEstimatedCostsThroughCompletionMinimum" name="EnvironmentalLossContingenciesEstimatedCostsThroughCompletionMinimum" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_MaximumPotentialGuaranteedDebtRepaymentsOfUnconsolidatedEquityAffiliates" name="MaximumPotentialGuaranteedDebtRepaymentsOfUnconsolidatedEquityAffiliates" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_TermsOfGuaranteedRepaymentOfUnconsolidatedEquityAffiliatesBorrowingsMaximum" name="TermsOfGuaranteedRepaymentOfUnconsolidatedEquityAffiliatesBorrowingsMaximum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_TermsOfGuaranteedRepaymentOfUnconsolidatedEquityAffiliatesBorrowingsMinimum" name="TermsOfGuaranteedRepaymentOfUnconsolidatedEquityAffiliatesBorrowingsMinimum" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_InoxapMember" name="InoxapMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SanFuGasCompanyLtdMember" name="SanFuGasCompanyLtdMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EstimatedPurchasePriceForRemainingStock" name="EstimatedPurchasePriceForRemainingStock" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_MinimumEstimatedOptionPerSharePriceInRupees" name="MinimumEstimatedOptionPerSharePriceInRupees" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_PercentageOfStockRemainingForPurchase" name="PercentageOfStockRemainingForPurchase" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UnrecordedUnconditionalPurchaseObligationBalanceTotal" name="UnrecordedUnconditionalPurchaseObligationBalanceTotal" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_ProjectedBenefitObligationMember" name="ProjectedBenefitObligationMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleSummarizingQuarterlyOperationResults" name="ScheduleSummarizingQuarterlyOperationResults" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_MarketPricePerCommonShareHigh" name="MarketPricePerCommonShareHigh" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PropertyDamageInsuranceRecoveriesOtherIncomeAfterTax" name="PropertyDamageInsuranceRecoveriesOtherIncomeAfterTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_PropertyDamageInsuranceRecoveriesOtherIncomePerShare" name="PropertyDamageInsuranceRecoveriesOtherIncomePerShare" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ScheduleOfAssetsByGeographicalAreaTextBlock" name="ScheduleOfAssetsByGeographicalAreaTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfSegmentReportingTotalAssetsTextBlock" name="ScheduleOfSegmentReportingTotalAssetsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfSegmentReportingEquityAffiliatesIncomeTextBlock" name="ScheduleOfSegmentReportingEquityAffiliatesIncomeTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfSegmentReportingDepreciationAndAmortizationTextBlock" name="ScheduleOfSegmentReportingDepreciationAndAmortizationTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EquipmentAndEnergyMember" name="EquipmentAndEnergyMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SegmentReportingInformationConsolidatedExpendituresForAdditionsToLongLivedAssets" name="SegmentReportingInformationConsolidatedExpendituresForAdditionsToLongLivedAssets" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_SegmentReportingInformationOtherExpendituresForAdditionsToLongLivedAssets" name="SegmentReportingInformationOtherExpendituresForAdditionsToLongLivedAssets" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_AllOtherMember" name="AllOtherMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LatinAmericaMember" name="LatinAmericaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EuropeMember" name="EuropeMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AsiaMember" name="AsiaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LatinAmericaOtherMember" name="LatinAmericaOtherMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ExportSalesToUnconsolidatedCustomers" name="ExportSalesToUnconsolidatedCustomers" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_MarketPricePerCommonShareLow" name="MarketPricePerCommonShareLow" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfSegmentExpendituresForLongLivedAssetsTextBlock" name="ScheduleOfSegmentExpendituresForLongLivedAssetsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PiedmontFloridaMember" name="PiedmontFloridaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PaulsboroNewJerseyMember" name="PaulsboroNewJerseyMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalMember" name="EnvironmentalMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfAccumulatedOtherComprehensiveIncomeTextBlock" name="ScheduleOfAccumulatedOtherComprehensiveIncomeTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OtherSegmentsMember" name="OtherSegmentsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfSegmentOperatingIncomeTextBlock" name="ScheduleOfSegmentOperatingIncomeTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleIIValuationAndQualifyingAccountsAbstract" name="ScheduleIIValuationAndQualifyingAccountsAbstract" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfValuationAndQualifyingAccountsTextBlock" name="ScheduleOfValuationAndQualifyingAccountsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ValuationAllowancesAndReservesCumulativeTranslationAdjustments" name="ValuationAllowancesAndReservesCumulativeTranslationAdjustments" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_DisposalGroupIncludingDiscontinuedOperationAssetsOfDisposalGroupTotal" name="DisposalGroupIncludingDiscontinuedOperationAssetsOfDisposalGroupTotal" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_DisposalGroupIncludingDiscontinuedOperationLiabilitiesOfDisposalGroupTotal" name="DisposalGroupIncludingDiscontinuedOperationLiabilitiesOfDisposalGroupTotal" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ReceivablesTradeAndOtherAccountsReceivableAllowanceForDoubtfulAccountsTextBlock" name="ReceivablesTradeAndOtherAccountsReceivableAllowanceForDoubtfulAccountsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_September302009Member" name="September302009Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Acquisitions2008Member" name="Acquisitions2008Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Acquisitions2009Member" name="Acquisitions2009Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_GlobalCostReductionPlanAtSegmentLevelTextBlock" name="GlobalCostReductionPlanAtSegmentLevelTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerShare" name="DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerShare" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalCostsOfPropertyForSaleDisposalOrAbandonmentAccruedExitCostsNetOfTax" name="EnvironmentalCostsOfPropertyForSaleDisposalOrAbandonmentAccruedExitCostsNetOfTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_EnvironmentalCostsOfPropertyForSaleDisposalOrAbandonmentAccruedExitCostsNetOfTaxPerShare" name="EnvironmentalCostsOfPropertyForSaleDisposalOrAbandonmentAccruedExitCostsNetOfTaxPerShare" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_MinimumPercentageNeededForPositionToBeSustainedUponExamination" name="MinimumPercentageNeededForPositionToBeSustainedUponExamination" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_TotalGoodwillAssociatedWithAffiliateCompaniesAccountedForByEquityMethod" name="TotalGoodwillAssociatedWithAffiliateCompaniesAccountedForByEquityMethod" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_SummarizedFinancialInformationOfEquityAffiliatesTextBlock" name="SummarizedFinancialInformationOfEquityAffiliatesTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfSegmentInvestmentInAndAdvancesToEquityAffiliatesTextBlock" name="ScheduleOfSegmentInvestmentInAndAdvancesToEquityAffiliatesTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PropertyDamangeBeforeTaxGainLoss" name="PropertyDamangeBeforeTaxGainLoss" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_ProvisionForDoubtfulAccountsAfterTaxImpact" name="ProvisionForDoubtfulAccountsAfterTaxImpact" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ProvisionForDoubtfulAccountsPerShare" name="ProvisionForDoubtfulAccountsPerShare" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ComponentsOfIncomeTaxes" name="ComponentsOfIncomeTaxes" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ComponentsOfDeferredTaxes" name="ComponentsOfDeferredTaxes" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EffectiveTaxRateReconciliation" name="EffectiveTaxRateReconciliation" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_OpenTaxYearsByMajorTaxJurisdictionTextBlock" name="OpenTaxYearsByMajorTaxJurisdictionTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncomeTaxContingencyTextBlock" name="IncomeTaxContingencyTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_RemainingSharesHeldByOtherShareholders" name="RemainingSharesHeldByOtherShareholders" nillable="true" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_GuaranteesAndWarrantiesMember" name="GuaranteesAndWarrantiesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CapitalLeaseAccumulatedDepreciation" name="CapitalLeaseAccumulatedDepreciation" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_TotalNetLeaseReceivableIncludedPrincipallyInNoncurrentCapitalLeaseReceivables" name="TotalNetLeaseReceivableIncludedPrincipallyInNoncurrentCapitalLeaseReceivables" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_DefinedBenefitPlanAmountsRecognizedInBalanceSheetTextBlock" name="DefinedBenefitPlanAmountsRecognizedInBalanceSheetTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfOtherPostretirementBenefitPlansCostComponentsTextBlock" name="ScheduleOfOtherPostretirementBenefitPlansCostComponentsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfChangesInAccumulatedPostretirementBenefitObligationAndAmountsRecognizedInConsolidatedBalanceSheetsTextBlock" name="ScheduleOfChangesInAccumulatedPostretirementBenefitObligationAndAmountsRecognizedInConsolidatedBalanceSheetsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfChangesInPlanAssetsAndPboRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisTextBlock" name="ScheduleOfChangesInPlanAssetsAndPboRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfComponentsRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisTextBlock" name="ScheduleOfComponentsRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfAccumulatedOtherComprehensiveIncomeExpectedToBeRecognizedAsComponentOfNetPeriodicPensionCostInNextFiscalYearTextBlock" name="ScheduleOfAccumulatedOtherComprehensiveIncomeExpectedToBeRecognizedAsComponentOfNetPeriodicPensionCostInNextFiscalYearTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfProjectedBenefitPaymentsForOtherPostretirementBenefitPlansTextBlock" name="ScheduleOfProjectedBenefitPaymentsForOtherPostretirementBenefitPlansTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfComponentsOfOtherPostretirementBenefitPlansRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisTextBlock" name="ScheduleOfComponentsOfOtherPostretirementBenefitPlansRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfChangesInBenefitObligationRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisForOtherPostretirementBenefitPlansTextBlock" name="ScheduleOfChangesInBenefitObligationRecognizedInAccumulatedOtherComprehensiveIncomeOnPretaxBasisForOtherPostretirementBenefitPlansTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DepreciationTextBlock" name="DepreciationTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ImpairmentReducedCarryingAmountOfGoodwillAndIntangibleAssets" name="ImpairmentReducedCarryingAmountOfGoodwillAndIntangibleAssets" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_ElktonAndPiedmontFacilitiesMember" name="ElktonAndPiedmontFacilitiesMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalLiabilitiesPaymentPeriod" name="EnvironmentalLiabilitiesPaymentPeriod" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_SeveranceBenefitsAndPensionRelatedCostsAssociatedWithWorkforceReduction" name="SeveranceBenefitsAndPensionRelatedCostsAssociatedWithWorkforceReduction" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_FairValueAssetsMeasuredOnRecurringBasisToTotalAssets" name="FairValueAssetsMeasuredOnRecurringBasisToTotalAssets" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ChangesFromNetIncomeAndTransfersToNoncontrollingInterests" name="ChangesFromNetIncomeAndTransfersToNoncontrollingInterests" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_FairValueByBalanceSheetGroupingAxis" name="FairValueByBalanceSheetGroupingAxis" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_PortionAtFairValueDomain" name="PortionAtFairValueDomain" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AssetsDiscontinuedOperations" name="AssetsDiscontinuedOperations" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_CurrentLiabilitiesOfDiscontinuedOperations" name="CurrentLiabilitiesOfDiscontinuedOperations" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_AcquisitionRelatedAccrual" name="AcquisitionRelatedAccrual" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_AdditionalProceedsInFinalSettlementOfClaimAfterTax" name="AdditionalProceedsInFinalSettlementOfClaimAfterTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_AdditionalProceedsInFinalSettlementOfClaimPreTax" name="AdditionalProceedsInFinalSettlementOfClaimPreTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_AdditionalProceedsInFinalSettlementOfClaimPerShare" name="AdditionalProceedsInFinalSettlementOfClaimPerShare" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncomeFromPreviouslyWriteDownsOfReceivablesPreTax" name="IncomeFromPreviouslyWriteDownsOfReceivablesPreTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_IncomeFromPreviouslyWriteDownsOfReceivablesPerShare" name="IncomeFromPreviouslyWriteDownsOfReceivablesPerShare" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_RestructuringAndRelatedCostCostIncurredToDateAfterTax" name="RestructuringAndRelatedCostCostIncurredToDateAfterTax" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_RestructuringAndRelatedCostCostIncurredToDatePerShare" name="RestructuringAndRelatedCostCostIncurredToDatePerShare" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_GrossMinimumLeasePaymentsReceivable" name="GrossMinimumLeasePaymentsReceivable" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_PercentageSaleOfInvestmentInCash" name="PercentageSaleOfInvestmentInCash" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DonationOfInvestment" name="DonationOfInvestment" nillable="true" type="us-types:percentItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShortTermBorrowingsAssociatedWithBusinessAcquisitions" name="ShortTermBorrowingsAssociatedWithBusinessAcquisitions" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_VariableRateIndustrialRevenueBonds05Member" name="VariableRateIndustrialRevenueBonds05Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Other23Member" name="Other23Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EurobondsOther50Member" name="EurobondsOther50Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_UnitedStates50Member" name="UnitedStates50Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_CommittedCreditFacility" name="CommittedCreditFacility" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_RatioOfTotalDebtToEbitda" name="RatioOfTotalDebtToEbitda" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncreaseDecreaseInShortTermBorrowings" name="IncreaseDecreaseInShortTermBorrowings" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_CashPaidForInterestAndTaxesAbstract" name="CashPaidForInterestAndTaxesAbstract" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" abstract="true" xbrli:periodType="duration" />
+  <element id="apd_EquityMutualFundsMember" name="EquityMutualFundsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EquityPooledFundsMember" name="EquityPooledFundsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_MutualFundsMember" name="MutualFundsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_PooledFundsMember" name="PooledFundsMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ScheduleOfPensionPlansWherePboExceedsValueOfPlanAssetsTextBlock" name="ScheduleOfPensionPlansWherePboExceedsValueOfPlanAssetsTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AccumulatedPostretirementBenefitMember" name="AccumulatedPostretirementBenefitMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_MiscellaneousOtherNoncurrentLiabilities" name="MiscellaneousOtherNoncurrentLiabilities" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_ClosingStockPrice" name="ClosingStockPrice" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_ExcessTaxBenefitFromShareBasedCompensation" name="ExcessTaxBenefitFromShareBasedCompensation" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_ChinaMember" name="ChinaMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisable" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisable" nillable="true" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_LossContingencyCivilFinesImposed" name="LossContingencyCivilFinesImposed" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_GoodwillTextBlock" name="GoodwillTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesEstimatedMinimumUsefulLifeEquipmentAndEnergy" name="ProductionFacilitiesEstimatedMinimumUsefulLifeEquipmentAndEnergy" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_ProductionFacilitiesEstimatedMaximumUsefulLifeEquipmentAndEnergy" name="ProductionFacilitiesEstimatedMaximumUsefulLifeEquipmentAndEnergy" nillable="true" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndCurtailmentsTotal" name="DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndCurtailmentsTotal" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_SegmentTotalMember" name="SegmentTotalMember" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncrementalCommonSharesAttributableToOtherAwardPlans" name="IncrementalCommonSharesAttributableToOtherAwardPlans" nillable="true" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_AcquisitionRelatedCosts" name="AcquisitionRelatedCosts" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_Foreign51Member" name="Foreign51Member" nillable="true" type="us-types:domainItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_IncomeLossFromOperationsOfDiscontinuedOperations" name="IncomeLossFromOperationsOfDiscontinuedOperations" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="apd_PeriodForReallocationOfPurchasePrice" name="PeriodForReallocationOfPurchasePrice" nillable="true" type="xbrli:integerItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_Libor" name="Libor" nillable="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsWeightedAverageExercisePrice" name="ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsWeightedAverageExercisePrice" nillable="true" type="us-types:perShareItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" />
+  <element id="apd_UnsolicitedTenderOfferTextBlock" name="UnsolicitedTenderOfferTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+  <element id="apd_EnvironmentalObligationTotal" name="EnvironmentalObligationTotal" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="debit" />
+  <element id="apd_EnvironmentalObligation" name="EnvironmentalObligation" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="apd_UnrecordedUnconditionalPurchaseObligationBalanceThereafter" name="UnrecordedUnconditionalPurchaseObligationBalanceThereafter" nillable="true" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="instant" xbrli:balance="credit" />
+  <element id="apd_ScheduleOfOtherNoncurrentLiabilitiesTextBlock" name="ScheduleOfOtherNoncurrentLiabilitiesTextBlock" nillable="true" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration" />
+</schema>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

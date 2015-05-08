@@ -1,0 +1,210 @@
+
+<DOCUMENT>
+<TYPE>EX-101.SCH
+<SEQUENCE>10
+<FILENAME>swks-20101001.xsd
+<DESCRIPTION>EX-101 SCHEMA DOCUMENT
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="us-ascii"?>
+<!--XBRL document created with Bowne Tagger. XBRL Parser version 10.0.0.71-->
+<!--Based on XBRL 2.1-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://skyworksinc.com/2010-10-01" xmlns:swks="http://skyworksinc.com/2010-10-01" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:us-types="http://xbrl.us/us-types/2009-01-31">
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://skyworksinc.com/role/Contingencies" id="Contingencies">
+        <link:definition>0214 - Disclosure - Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/ValuationAndQualifyingAccounts" id="ValuationAndQualifyingAccounts">
+        <link:definition>0301 - Schedule - Valuation and Qualifying Accounts</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/QuarterlyFinancialData" id="QuarterlyFinancialData">
+        <link:definition>0219 - Disclosure - Quarterly Financial Data (Unaudited)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/RestructuringAndOtherCharges" id="RestructuringAndOtherCharges">
+        <link:definition>0216 - Disclosure - Restructuring and Other Charges</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/GuaranteesAndIndemnities" id="GuaranteesAndIndemnities">
+        <link:definition>0215 - Disclosure - Guarantees and Indemnities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/Commitments" id="Commitments">
+        <link:definition>0213 - Disclosure - Commitments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/EmployeeBenefitPlanPensionsAndOtherRetireeBenefits" id="EmployeeBenefitPlanPensionsAndOtherRetireeBenefits">
+        <link:definition>0212 - Disclosure - Employee Benefit Plan, Pensions and Other Retiree Benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/SegmentInformationAndConcentrations" id="SegmentInformationAndConcentrations">
+        <link:definition>0218 - Disclosure - Segment Information and Concentrations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/StockholdersEquity" id="StockholdersEquity">
+        <link:definition>0211 - Disclosure - Stockholders' Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/BusinessCombinations" id="BusinessCombinations">
+        <link:definition>0203 - Disclosure - Business Combinations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/SummaryOfSignificantAccountingPolicies" id="SummaryOfSignificantAccountingPolicies">
+        <link:definition>0202 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/Inventory" id="Inventory">
+        <link:definition>0206 - Disclosure - Inventory</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" id="StatementsOfStockholdersEquityAndComprehensiveIncomeLoss">
+        <link:definition>0140 - Statement - Consolidated Statements of Stockholders' Equity and Comprehensive Income (Loss)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/DocumentAndEntityInformation" id="DocumentAndEntityInformation">
+        <link:definition>00 - Document - Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/EarningsPerShare" id="EarningsPerShare">
+        <link:definition>0217 - Disclosure - Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/IncomeTaxes" id="IncomeTaxes">
+        <link:definition>0210 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/BorrowingArrangements" id="BorrowingArrangements">
+        <link:definition>0209 - Disclosure - Borrowing Arrangements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/GoodwillAndIntangibleAssets" id="GoodwillAndIntangibleAssets">
+        <link:definition>0208 - Disclosure - Goodwill and Intangible Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/PropertyPlantAndEquipment" id="PropertyPlantAndEquipment">
+        <link:definition>0207 - Disclosure - Property, Plant and Equipment</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/FinancialInstruments" id="FinancialInstruments">
+        <link:definition>0205 - Disclosure - Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/MarketableSecurities" id="MarketableSecurities">
+        <link:definition>0204 - Disclosure - Marketable Securities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/DescriptionOfBusinessAndBasisOfPresentation" id="DescriptionOfBusinessAndBasisOfPresentation">
+        <link:definition>0201 - Disclosure - Description of Business and Basis of Presentation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/StatementsOfCashFlows" id="StatementsOfCashFlows">
+        <link:definition>0130 - Statement - Consolidated Statements of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/BalanceSheetsParenthetical" id="BalanceSheetsParenthetical">
+        <link:definition>0121 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/role/BalanceSheets" id="BalanceSheets">
+        <link:definition>0120 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://skyworksinc.com/StatementsOfOperations" id="StatementsOfOperations">
+        <link:definition>0110 - Statement - Consolidated Statements of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="swks-20101001_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Calculation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="swks-20101001_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Presentation Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="swks-20101001_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Label Links, all" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="swks-20101001_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:title="Definition Links, all" />
+    </appinfo>
+  </annotation>
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <import namespace="http://xbrl.us/dei/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/non-gaap/dei-2009-01-31.xsd" />
+  <import namespace="http://xbrl.us/us-gaap/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd" />
+  <import namespace="http://xbrl.us/us-types/2009-01-31" schemaLocation="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-types-2009-01-31.xsd" />
+  <element id="swks_ContributionOfCommonSharesToSavingsAndRetirementPlans" name="ContributionOfCommonSharesToSavingsAndRetirementPlans" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="swks_DocumentAndEntityInformationAbstract" name="DocumentAndEntityInformationAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_BorrowingArrangementsAbstract" name="BorrowingArrangementsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_GoodwillAndIntangibleAssetsAbstract" name="GoodwillAndIntangibleAssetsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_FinancialInstrumentsAbstract" name="FinancialInstrumentsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_SharesWithheldForTaxesShares" name="SharesWithheldForTaxesShares" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_SharesWithheldForTaxesValue" name="SharesWithheldForTaxesValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesShares" name="IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesShares" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" name="IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansShares" name="IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansShares" type="xbrli:sharesItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" name="IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="swks_BusinessCombinationsAbstract" name="BusinessCombinationsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_SegmentInformationAndConcentrationsAbstract" name="SegmentInformationAndConcentrationsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_SummaryOfSignificantAccountingPoliciesAbstract" name="SummaryOfSignificantAccountingPoliciesAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_GuaranteesAndIndemnitiesAbstract" name="GuaranteesAndIndemnitiesAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_ValuationAndQualifyingAccountsAbstract" name="ValuationAndQualifyingAccountsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_RestructuringAndOtherChargesTextBlock" name="RestructuringAndOtherChargesTextBlock" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_SegmentInformationAndConcentrationsTextBlock" name="SegmentInformationAndConcentrationsTextBlock" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_ImpairmentOfAuctionRateSecurity" name="ImpairmentOfAuctionRateSecurity" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="swks_ReacquisitionOfEquityInstruments" name="ReacquisitionOfEquityInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="credit" />
+  <element id="swks_AmortizationForIntangiblesAssets" name="AmortizationForIntangiblesAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" xbrli:balance="debit" />
+  <element id="swks_CommitmentsAbstract" name="CommitmentsAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_ContingenciesAbstract" name="ContingenciesAbstract" abstract="true" type="xbrli:stringItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+  <element id="swks_ContingenciesTextBlock" name="ContingenciesTextBlock" type="us-types:textBlockItemType" substitutionGroup="xbrli:item" nillable="true" xbrli:periodType="duration" />
+</schema>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

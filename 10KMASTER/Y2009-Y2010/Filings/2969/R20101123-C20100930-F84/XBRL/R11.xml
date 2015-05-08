@@ -1,0 +1,231 @@
+
+<DOCUMENT>
+<TYPE>XML
+<SEQUENCE>36
+<FILENAME>R11.xml
+<DESCRIPTION>IDEA: Business Combinations
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.2.0.7</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Business Combinations</ReportName>
+  <ReportLongName>10401 - Disclosure - Business Combinations</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Sep. 30, 2010" />
+      </Labels>
+      <CurrencyCode>USD</CurrencyCode>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Unit1</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit13</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>pure</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit15</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>Unit12</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+      <CurrencySymbol>$</CurrencySymbol>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Business Combinations</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_BusinessCombinationDescriptionAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>xbrli:stringItemType</ElementDataType>
+      <SimpleDataType>string</SimpleDataType>
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Business Combinations</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_BusinessCombinationDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;div&gt;
+&lt;p style="margin-top: 18px; margin-bottom: 0px;"&gt;&lt;font style="font-family: Times New Roman;" class="_mt" size="2"&gt;&lt;b&gt;&lt;a name="fin17525_4"&gt; &lt;/a&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p style="margin: 12px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;&lt;a name="tx17525_25"&gt; &lt;/a&gt;4.&amp;nbsp;&amp;nbsp;Business Combinations &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;In the second quarter of 2010, the Company entered into agreements that will enable it to acquire &lt;font class="_mt"&gt;100&lt;/font&gt;% of the outstanding shares of the French SAGA group (SAGA), which consists of SAGA, SAGA Medical, and SAGA Technologies. SAGA is an independent industrial gas provider in France with packaged gases, liquid bulk, and medical businesses. The acquisition of SAGA supports the Merchant Gases segment's integration strategy by enhancing market position in southwest and central France. SAGA revenues for calendar year 2009 were approximately &lt;font style="font-family: Times New Roman;" class="_mt" size="2"&gt;&amp;euro;&lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt; &lt;/font&gt;&lt;font class="_mt"&gt;25&lt;/font&gt;, or $&lt;font class="_mt"&gt;35&lt;/font&gt;. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Under the terms of these agreements, the Company purchased &lt;font class="_mt"&gt;51.47&lt;/font&gt;% of the shares of SAGA on 1&amp;nbsp;March 2010 for &lt;font style="font-family: Times New Roman;" class="_mt" size="2"&gt;&amp;euro;&lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&amp;nbsp;&lt;/font&gt;&lt;font class="_mt"&gt;34.5&lt;/font&gt; or $&lt;font class="_mt"&gt;47.2&lt;/font&gt; ($&lt;font class="_mt"&gt;25.0&lt;/font&gt; net of cash acquired of $22.2). The remaining shares are expected to be purchased by the end of calendar year 2010 for a fixed price of &lt;font style="font-family: Times New Roman;" class="_mt" size="2"&gt;&amp;euro;&lt;/font&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt; &lt;/font&gt;&lt;font class="_mt"&gt;44.8&lt;/font&gt;, or approximately $&lt;font class="_mt"&gt;61&lt;/font&gt;, under a put and call option structure. At 30&amp;nbsp;
+September 2010, this structure was accounted for as a financing of the purchase of the remaining shares and reported within short-term borrowings on the consolidated balance sheet. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;The acquisition of SAGA was accounted for as a business combination, and its results of operations were included in the Company's consolidated income statement after the acquisition date. The purchase price has been allocated to the assets acquired and the liabilities assumed based on their fair values as of the acquisition date, with the amount exceeding the fair value recorded as goodwill. During the fourth quarter of 2010, the Company finalized the purchase price allocation with no material adjustments made to the preliminary valuation. The final purchase price allocation included identified intangibles of $&lt;font class="_mt"&gt;42.5&lt;/font&gt;, plant and equipment of $&lt;font class="_mt"&gt;40.8&lt;/font&gt;, goodwill of $&lt;font class="_mt"&gt;35.0&lt;/font&gt; (which is deductible for tax purposes), and other net assets of $&lt;font class="_mt"&gt;12.7&lt;/font&gt;. Additionally, deferred tax liabili
+ties of $&lt;font class="_mt"&gt;23.0&lt;/font&gt; were recognized. The identified intangibles primarily relate to customer relationships and are being amortized over&amp;nbsp;&lt;font class="_mt"&gt;23&lt;/font&gt; years. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Goodwill, which was assigned to the Merchant Gases segment, largely consisted of expected revenue and cost synergies resulting from the business combination. Revenue synergies will result primarily from the sale of differentiated offerings and cost synergies from combining supply chains and optimization of the combined logistics. The fair value of plant and equipment was quantified primarily using a cost approach, by estimating reproduction/replacement cost consistent with assumptions market participants would use. Intangible assets consisted primarily of customer relationships for which fair value was determined using a discounted cash flow analysis under the income approach. The income approach required estimating a number of factors, including projected revenue growth, customer attrition rates, profit margin, and the discount rate. The remaining identifiable assets and liabilities were primarily cash, account
+s receivable, and payables and accrued liabilities, for which book value approximated fair value. &lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 6px 1% 0px;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;&lt;b&gt;Prior Year Acquisitions &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 1%;"&gt;&lt;font style="font-family: ARIAL;" class="_mt" size="2"&gt;Acquisitions in 2009, totaling $&lt;font class="_mt"&gt;32.7&lt;/font&gt;, included principally the purchase of S.I.Q. &amp;#8212; Beteiligungs GmbH, a manufacturer of epoxy additives. In 2008, acquisitions totaled $&lt;font class="_mt"&gt;72.0&lt;/font&gt; and included the purchase of an additional interest in CryoService Limited, a cryogenic and specialty gases company in the U.K. See Note 20, Noncontrolling Interests, for a discussion on a related put option agreement. &lt;/font&gt;&lt;/p&gt;&lt;/div&gt; &lt;/div&gt;</NonNumbericText>
+          <NonNumericTextHeader>4.&amp;nbsp;&amp;nbsp;Business Combinations
+In the second quarter of 2010, the Company entered into agreements that will enable it to acquire 100% of the outstanding</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDataType>us-types:textBlockItemType</ElementDataType>
+      <SimpleDataType>textblock</SimpleDataType>
+      <ElementDefenition>Description of a business combination (or series of individually immaterial business combinations) completed during the period, including background, timing, and recognized assets and liabilities. This element may be used as a single block of text to encapsulate the entire disclosure (including data and tables) regarding business combinations, including leverage buyout transactions (as applicable).</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 141
+ -Paragraph 51, 52
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Emerging Issues Task Force (EITF)
+ -Number 88-16
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 141R
+ -Paragraph 67-73
+
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 141R
+ -Paragraph F4
+ -Subparagraph e
+ -Appendix F
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>

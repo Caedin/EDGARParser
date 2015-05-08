@@ -1,0 +1,237 @@
+
+<DOCUMENT>
+<TYPE>EX-101.CAL
+<SEQUENCE>11
+<FILENAME>swks-20101001_cal.xml
+<DESCRIPTION>EX-101 CALCULATION LINKBASE DOCUMENT
+<TEXT>
+<XBRL>
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<!--XBRL document created with Bowne Tagger XBRL Enabler by Bowne Software version 10.0.0.71-->
+<!--Based on XBRL 2.1-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#StatementsOfOperations" roleURI="http://skyworksinc.com/StatementsOfOperations" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#BalanceSheets" roleURI="http://skyworksinc.com/role/BalanceSheets" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#BalanceSheetsParenthetical" roleURI="http://skyworksinc.com/role/BalanceSheetsParenthetical" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#StatementsOfCashFlows" roleURI="http://skyworksinc.com/role/StatementsOfCashFlows" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#DescriptionOfBusinessAndBasisOfPresentation" roleURI="http://skyworksinc.com/role/DescriptionOfBusinessAndBasisOfPresentation" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#MarketableSecurities" roleURI="http://skyworksinc.com/role/MarketableSecurities" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#FinancialInstruments" roleURI="http://skyworksinc.com/role/FinancialInstruments" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#PropertyPlantAndEquipment" roleURI="http://skyworksinc.com/role/PropertyPlantAndEquipment" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#GoodwillAndIntangibleAssets" roleURI="http://skyworksinc.com/role/GoodwillAndIntangibleAssets" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#BorrowingArrangements" roleURI="http://skyworksinc.com/role/BorrowingArrangements" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#IncomeTaxes" roleURI="http://skyworksinc.com/role/IncomeTaxes" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#EarningsPerShare" roleURI="http://skyworksinc.com/role/EarningsPerShare" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#DocumentAndEntityInformation" roleURI="http://skyworksinc.com/role/DocumentAndEntityInformation" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" roleURI="http://skyworksinc.com/role/StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#Inventory" roleURI="http://skyworksinc.com/role/Inventory" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#SummaryOfSignificantAccountingPolicies" roleURI="http://skyworksinc.com/role/SummaryOfSignificantAccountingPolicies" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#BusinessCombinations" roleURI="http://skyworksinc.com/role/BusinessCombinations" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#StockholdersEquity" roleURI="http://skyworksinc.com/role/StockholdersEquity" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#SegmentInformationAndConcentrations" roleURI="http://skyworksinc.com/role/SegmentInformationAndConcentrations" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#EmployeeBenefitPlanPensionsAndOtherRetireeBenefits" roleURI="http://skyworksinc.com/role/EmployeeBenefitPlanPensionsAndOtherRetireeBenefits" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#Commitments" roleURI="http://skyworksinc.com/role/Commitments" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#GuaranteesAndIndemnities" roleURI="http://skyworksinc.com/role/GuaranteesAndIndemnities" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#RestructuringAndOtherCharges" roleURI="http://skyworksinc.com/role/RestructuringAndOtherCharges" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#QuarterlyFinancialData" roleURI="http://skyworksinc.com/role/QuarterlyFinancialData" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#ValuationAndQualifyingAccounts" roleURI="http://skyworksinc.com/role/ValuationAndQualifyingAccounts" />
+  <roleRef xlink:type="simple" xlink:href="swks-20101001.xsd#Contingencies" roleURI="http://skyworksinc.com/role/Contingencies" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/StatementsOfOperations" xlink:title="0110 - Statement - Consolidated Statements of Operations">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_NetIncomeLoss" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" xlink:label="loc_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetIncomeLoss" xlink:to="loc_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherNonoperatingIncomeExpense" xlink:label="loc_OtherNonoperatingIncomeExpense" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" xlink:to="loc_OtherNonoperatingIncomeExpense" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_GainsLossesOnExtinguishmentOfDebt" xlink:label="loc_GainsLossesOnExtinguishmentOfDebt" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" xlink:to="loc_GainsLossesOnExtinguishmentOfDebt" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_InterestExpense" xlink:label="loc_InterestExpense" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" xlink:to="loc_InterestExpense" order="5" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OperatingIncomeLoss" xlink:label="loc_OperatingIncomeLoss" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments" xlink:to="loc_OperatingIncomeLoss" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OperatingExpenses" xlink:label="loc_OperatingExpenses" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OperatingIncomeLoss" xlink:to="loc_OperatingExpenses" order="20" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AmortizationOfIntangibleAssets" xlink:label="loc_AmortizationOfIntangibleAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OperatingExpenses" xlink:to="loc_AmortizationOfIntangibleAssets" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_SellingGeneralAndAdministrativeExpense" xlink:label="loc_SellingGeneralAndAdministrativeExpense" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OperatingExpenses" xlink:to="loc_SellingGeneralAndAdministrativeExpense" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ResearchAndDevelopmentExpense" xlink:label="loc_ResearchAndDevelopmentExpense" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OperatingExpenses" xlink:to="loc_ResearchAndDevelopmentExpense" order="5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_GrossProfit" xlink:label="loc_GrossProfit" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OperatingIncomeLoss" xlink:to="loc_GrossProfit" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CostOfGoodsSold" xlink:label="loc_CostOfGoodsSold" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_GrossProfit" xlink:to="loc_CostOfGoodsSold" order="20" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncomeTaxExpenseBenefit" xlink:label="loc_IncomeTaxExpenseBenefit" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetIncomeLoss" xlink:to="loc_IncomeTaxExpenseBenefit" order="5" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_SalesRevenueNet" xlink:label="loc_SalesRevenueNet" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_GrossProfit" xlink:to="loc_SalesRevenueNet" order="3.75" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RestructuringCharges" xlink:label="loc_RestructuringCharges" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OperatingExpenses" xlink:to="loc_RestructuringCharges" order="40" use="optional" weight="1" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/BalanceSheets" xlink:title="0120 - Statement - Consolidated Balance Sheets">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity" xlink:label="loc_LiabilitiesAndStockholdersEquity" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockholdersEquity" xlink:label="loc_StockholdersEquity" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_LiabilitiesAndStockholdersEquity" xlink:to="loc_StockholdersEquity" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax" xlink:label="loc_AccumulatedOtherComprehensiveIncomeLossNetOfTax" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_StockholdersEquity" xlink:to="loc_AccumulatedOtherComprehensiveIncomeLossNetOfTax" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit" xlink:label="loc_RetainedEarningsAccumulatedDeficit" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_StockholdersEquity" xlink:to="loc_RetainedEarningsAccumulatedDeficit" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_TreasuryStockValue" xlink:label="loc_TreasuryStockValue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_StockholdersEquity" xlink:to="loc_TreasuryStockValue" order="5" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdditionalPaidInCapitalCommonStock" xlink:label="loc_AdditionalPaidInCapitalCommonStock" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_StockholdersEquity" xlink:to="loc_AdditionalPaidInCapitalCommonStock" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_PreferredStockValue" xlink:label="loc_PreferredStockValue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_StockholdersEquity" xlink:to="loc_PreferredStockValue" order="0.625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_Liabilities" xlink:label="loc_Liabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_LiabilitiesAndStockholdersEquity" xlink:to="loc_Liabilities" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherLiabilitiesNoncurrent" xlink:label="loc_OtherLiabilitiesNoncurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Liabilities" xlink:to="loc_OtherLiabilitiesNoncurrent" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_LiabilitiesCurrent" xlink:label="loc_LiabilitiesCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Liabilities" xlink:to="loc_LiabilitiesCurrent" order="5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AccountsPayableCurrent" xlink:label="loc_AccountsPayableCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_LiabilitiesCurrent" xlink:to="loc_AccountsPayableCurrent" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherLiabilitiesCurrent" xlink:label="loc_OtherLiabilitiesCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_LiabilitiesCurrent" xlink:to="loc_OtherLiabilitiesCurrent" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_DebtCurrent" xlink:label="loc_DebtCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_LiabilitiesCurrent" xlink:to="loc_DebtCurrent" order="15" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_Assets" xlink:label="loc_Assets" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherAssetsNoncurrent" xlink:label="loc_OtherAssetsNoncurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Assets" xlink:to="loc_OtherAssetsNoncurrent" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_DeferredTaxAssetsNetNoncurrent" xlink:label="loc_DeferredTaxAssetsNetNoncurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Assets" xlink:to="loc_DeferredTaxAssetsNetNoncurrent" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IntangibleAssetsNetExcludingGoodwill" xlink:label="loc_IntangibleAssetsNetExcludingGoodwill" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Assets" xlink:to="loc_IntangibleAssetsNetExcludingGoodwill" order="5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_Goodwill" xlink:label="loc_Goodwill" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Assets" xlink:to="loc_Goodwill" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_PropertyPlantAndEquipmentNet" xlink:label="loc_PropertyPlantAndEquipmentNet" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Assets" xlink:to="loc_PropertyPlantAndEquipmentNet" order="1.25" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AssetsCurrent" xlink:label="loc_AssetsCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Assets" xlink:to="loc_AssetsCurrent" order="0.625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_InventoryNet" xlink:label="loc_InventoryNet" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_AssetsCurrent" xlink:to="loc_InventoryNet" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RestrictedCashAndCashEquivalentsAtCarryingValue" xlink:label="loc_RestrictedCashAndCashEquivalentsAtCarryingValue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_AssetsCurrent" xlink:to="loc_RestrictedCashAndCashEquivalentsAtCarryingValue" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue" xlink:label="loc_CashAndCashEquivalentsAtCarryingValue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_AssetsCurrent" xlink:to="loc_CashAndCashEquivalentsAtCarryingValue" order="1.25" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ReceivablesNetCurrent" xlink:label="loc_ReceivablesNetCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_AssetsCurrent" xlink:to="loc_ReceivablesNetCurrent" order="3.75" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EmployeeRelatedLiabilitiesCurrent" xlink:label="loc_EmployeeRelatedLiabilitiesCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_LiabilitiesCurrent" xlink:to="loc_EmployeeRelatedLiabilitiesCurrent" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ConvertibleLongTermNotesPayable" xlink:label="loc_ConvertibleLongTermNotesPayable" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_Liabilities" xlink:to="loc_ConvertibleLongTermNotesPayable" order="7.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CommonStockValue" xlink:label="loc_CommonStockValue" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_StockholdersEquity" xlink:to="loc_CommonStockValue" order="1.71875" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherAssetsCurrent" xlink:label="loc_OtherAssetsCurrent" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_AssetsCurrent" xlink:to="loc_OtherAssetsCurrent" order="0.46875" use="optional" weight="1" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/BalanceSheetsParenthetical" xlink:title="0121 - Statement - Consolidated Balance Sheets (Parenthetical)" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/StatementsOfCashFlows" xlink:title="0130 - Statement - Consolidated Statements of Cash Flows">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:label="loc_CashAndCashEquivalentsPeriodIncreaseDecrease" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetCashProvidedByUsedInFinancingActivities" xlink:label="loc_NetCashProvidedByUsedInFinancingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="loc_NetCashProvidedByUsedInFinancingActivities" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ProceedsFromStockOptionsExercised" xlink:label="loc_ProceedsFromStockOptionsExercised" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="loc_ProceedsFromStockOptionsExercised" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_PaymentsForRepurchaseOfCommonStock" xlink:label="loc_PaymentsForRepurchaseOfCommonStock" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="loc_PaymentsForRepurchaseOfCommonStock" order="10" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetCashProvidedByUsedInInvestingActivities" xlink:label="loc_NetCashProvidedByUsedInInvestingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="loc_NetCashProvidedByUsedInInvestingActivities" order="10" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_PaymentsToAcquireProductiveAssets" xlink:label="loc_PaymentsToAcquireProductiveAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInInvestingActivities" xlink:to="loc_PaymentsToAcquireProductiveAssets" order="20" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetCashProvidedByUsedInOperatingActivities" xlink:label="loc_NetCashProvidedByUsedInOperatingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_CashAndCashEquivalentsPeriodIncreaseDecrease" xlink:to="loc_NetCashProvidedByUsedInOperatingActivities" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncreaseDecreaseInAccountsPayable" xlink:label="loc_IncreaseDecreaseInAccountsPayable" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_IncreaseDecreaseInAccountsPayable" order="20" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncreaseDecreaseInInventories" xlink:label="loc_IncreaseDecreaseInInventories" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_IncreaseDecreaseInInventories" order="10" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncreaseDecreaseInReceivables" xlink:label="loc_IncreaseDecreaseInReceivables" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_IncreaseDecreaseInReceivables" order="5" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_GainLossOnSaleOfPropertyPlantEquipment" xlink:label="loc_GainLossOnSaleOfPropertyPlantEquipment" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_GainLossOnSaleOfPropertyPlantEquipment" order="1.25" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_DeferredIncomeTaxExpenseBenefit" xlink:label="loc_DeferredIncomeTaxExpenseBenefit" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_DeferredIncomeTaxExpenseBenefit" order="0.625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_Depreciation" xlink:label="loc_Depreciation" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_Depreciation" order="0.0390625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ShareBasedCompensation" xlink:label="loc_ShareBasedCompensation" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_ShareBasedCompensation" order="0.01953125" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_NetIncomeLoss" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_NetIncomeLoss" order="0.009765625" use="optional" weight="1" priority="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_PaymentsToAcquireBusinessesNetOfCashAcquired" xlink:label="loc_PaymentsToAcquireBusinessesNetOfCashAcquired" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInInvestingActivities" xlink:to="loc_PaymentsToAcquireBusinessesNetOfCashAcquired" order="10" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_ContributionOfCommonSharesToSavingsAndRetirementPlans" xlink:label="swks_ContributionOfCommonSharesToSavingsAndRetirementPlans" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="swks_ContributionOfCommonSharesToSavingsAndRetirementPlans" order="0.0048828125" use="optional" weight="1" priority="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ProvisionForDoubtfulAccounts" xlink:label="loc_ProvisionForDoubtfulAccounts" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_ProvisionForDoubtfulAccounts" order="1.875" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncreaseDecreaseInOtherOperatingAssets" xlink:label="loc_IncreaseDecreaseInOtherOperatingAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_IncreaseDecreaseInOtherOperatingAssets" order="0.0018310546875" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncreaseDecreaseInOtherOperatingLiabilities" xlink:label="loc_IncreaseDecreaseInOtherOperatingLiabilities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_IncreaseDecreaseInOtherOperatingLiabilities" order="0.0006103515625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RepaymentsOfConvertibleDebt" xlink:label="loc_RepaymentsOfConvertibleDebt" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="loc_RepaymentsOfConvertibleDebt" order="1.875" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ProceedsFromRepaymentsOfRestrictedCashFinancingActivities" xlink:label="loc_ProceedsFromRepaymentsOfRestrictedCashFinancingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="loc_ProceedsFromRepaymentsOfRestrictedCashFinancingActivities" order="3.4375" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AssetImpairmentCharges" xlink:label="loc_AssetImpairmentCharges" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_AssetImpairmentCharges" order="1.5625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_InventoryWriteDown" xlink:label="loc_InventoryWriteDown" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_InventoryWriteDown" order="1.40625" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RestructuringCosts" xlink:label="loc_RestructuringCosts" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_RestructuringCosts" order="0.46875" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_IncomeTaxCreditsAndAdjustments" xlink:label="loc_IncomeTaxCreditsAndAdjustments" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_IncomeTaxCreditsAndAdjustments" order="0.00030517578125" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ProceedsFromSaleMaturityAndCollectionsOfInvestments" xlink:label="loc_ProceedsFromSaleMaturityAndCollectionsOfInvestments" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInInvestingActivities" xlink:to="loc_ProceedsFromSaleMaturityAndCollectionsOfInvestments" order="5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_PaymentsToAcquireInvestments" xlink:label="loc_PaymentsToAcquireInvestments" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInInvestingActivities" xlink:to="loc_PaymentsToAcquireInvestments" order="2.5" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RepaymentsOfSubordinatedDebt" xlink:label="loc_RepaymentsOfSubordinatedDebt" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="loc_RepaymentsOfSubordinatedDebt" order="0.078125" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_ReacquisitionOfEquityInstruments" xlink:label="swks_ReacquisitionOfEquityInstruments" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="swks_ReacquisitionOfEquityInstruments" order="3.046875" use="optional" weight="-1" priority="1" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_AmortizationForIntangiblesAssets" xlink:label="swks_AmortizationForIntangiblesAssets" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="swks_AmortizationForIntangiblesAssets" order="0.000152587890625" use="optional" weight="1" priority="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" xlink:label="loc_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities" order="0.9375" use="optional" weight="-1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ExcessTaxBenefitFromShareBasedCompensationFinancingActivities" xlink:label="loc_ExcessTaxBenefitFromShareBasedCompensationFinancingActivities" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInFinancingActivities" xlink:to="loc_ExcessTaxBenefitFromShareBasedCompensationFinancingActivities" order="3.2421875" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AmortizationOfFinancingCostsAndDiscounts" xlink:label="loc_AmortizationOfFinancingCostsAndDiscounts" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_NetCashProvidedByUsedInOperatingActivities" xlink:to="loc_AmortizationOfFinancingCostsAndDiscounts" order="0.21484375" use="optional" weight="1" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/DescriptionOfBusinessAndBasisOfPresentation" xlink:title="0201 - Disclosure - Description of Business and Basis of Presentation" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/MarketableSecurities" xlink:title="0204 - Disclosure - Marketable Securities" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/FinancialInstruments" xlink:title="0205 - Disclosure - Financial Instruments" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/PropertyPlantAndEquipment" xlink:title="0207 - Disclosure - Property, Plant and Equipment" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/GoodwillAndIntangibleAssets" xlink:title="0208 - Disclosure - Goodwill and Intangible Assets" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/BorrowingArrangements" xlink:title="0209 - Disclosure - Borrowing Arrangements" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/IncomeTaxes" xlink:title="0210 - Disclosure - Income Taxes" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/EarningsPerShare" xlink:title="0217 - Disclosure - Earnings Per Share" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/DocumentAndEntityInformation" xlink:title="00 - Document - Document and Entity Information" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/StatementsOfStockholdersEquityAndComprehensiveIncomeLoss" xlink:title="0140 - Statement - Consolidated Statements of Stockholders' Equity and Comprehensive Income (Loss)">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ComprehensiveIncomeNetOfTax" xlink:label="loc_ComprehensiveIncomeNetOfTax" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetIncomeLoss" xlink:label="loc_NetIncomeLoss" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ComprehensiveIncomeNetOfTax" xlink:to="loc_NetIncomeLoss" order="10" use="optional" weight="1" priority="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" xlink:label="loc_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_ComprehensiveIncomeNetOfTax" xlink:to="loc_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" order="15" use="optional" weight="1" priority="1" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_ImpairmentOfAuctionRateSecurity" xlink:label="swks_ImpairmentOfAuctionRateSecurity" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" xlink:to="swks_ImpairmentOfAuctionRateSecurity" order="5" use="optional" weight="1" priority="1" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax" xlink:label="loc_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax" />
+    <calculationArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:from="loc_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease" xlink:to="loc_OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentNetOfTax" order="2.5" use="optional" weight="1" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" xlink:label="swks_IssuanceAndExpenseOfCommonSharesForStockPurchasePlans401KAndStockOptionPlansValue" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" xlink:label="swks_IssuanceAndExpenseOfCommonSharesForRestrictedStockAndPerformanceSharesValue" />
+    <loc xlink:type="locator" xlink:href="swks-20101001.xsd#swks_SharesWithheldForTaxesValue" xlink:label="swks_SharesWithheldForTaxesValue" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature" xlink:label="loc_AdjustmentsToAdditionalPaidInCapitalConvertibleDebtWithConversionFeature" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" xlink:label="loc_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" />
+  </calculationLink>
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/Inventory" xlink:title="0206 - Disclosure - Inventory" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/SummaryOfSignificantAccountingPolicies" xlink:title="0202 - Disclosure - Summary of Significant Accounting Policies" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/BusinessCombinations" xlink:title="0203 - Disclosure - Business Combinations" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/StockholdersEquity" xlink:title="0211 - Disclosure - Stockholders' Equity" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/SegmentInformationAndConcentrations" xlink:title="0218 - Disclosure - Segment Information and Concentrations" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/EmployeeBenefitPlanPensionsAndOtherRetireeBenefits" xlink:title="0212 - Disclosure - Employee Benefit Plan, Pensions and Other Retiree Benefits" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/Commitments" xlink:title="0213 - Disclosure - Commitments" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/GuaranteesAndIndemnities" xlink:title="0215 - Disclosure - Guarantees and Indemnities" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/RestructuringAndOtherCharges" xlink:title="0216 - Disclosure - Restructuring and Other Charges" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/QuarterlyFinancialData" xlink:title="0219 - Disclosure - Quarterly Financial Data (Unaudited)" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/ValuationAndQualifyingAccounts" xlink:title="0301 - Schedule - Valuation and Qualifying Accounts" />
+  <calculationLink xlink:type="extended" xlink:role="http://skyworksinc.com/role/Contingencies" xlink:title="0214 - Disclosure - Contingencies" />
+</linkbase>
+</XBRL>
+</TEXT>
+
+</DOCUMENT>
