@@ -59,11 +59,11 @@ class Filing(object):
     cashFlowDictionary = ''
     yearsInStatement = []
 
-    def __init__(self, path_to_filing):
-        self.extractFilingType(path_to_filing)
-        self.extractCompanyID(path_to_filing)
-        self.extractReportPeriod(path_to_filing)
-        self.extractFilingText(path_to_filing)
+    def __init__(self, pathToFiling):
+        self.extractFilingType(pathToFiling)
+        self.extractCompanyID(pathToFiling)
+        self.extractReportPeriod(pathToFiling)
+        self.extractFilingText(pathToFiling)
         self.findStatementOfCashFlows()
         self.determineDenomination()
         self.cleanUpCashFlowTable()
