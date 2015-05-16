@@ -69,23 +69,23 @@ class Filing(object):
         self.cleanUpCashFlowTable()
         self.createCashFlowDictionary()
 
-    def extractFilingType(self, path_to_filing):
-        if '.htm' in path_to_filing:
+    def extractFilingType(self, pathToFiling):
+        if '.htm' in pathToFiling:
             self.filingType = 'HTML'
-        elif '.txt.' in path_to_filing:
+        elif '.txt.' in pathToFiling:
             self.filingType = 'TXT'
-        self.filingPath = path_to_filing
+        self.filingPath = pathToFiling
     
-    def extractCompanyID(self, path_to_filing):
-        path_parts = path_to_filing.split('\\')
+    def extractCompanyID(self, pathToFiling):
+        path_parts = pathToFiling.split('\\')
         self.companyID = path_parts[-3]
     
-    def extractReportPeriod(self, path_to_filing):
-        path_parts = path_to_filing.split('\\')
+    def extractReportPeriod(self, pathToFiling):
+        path_parts = pathToFiling.split('\\')
         self.reportPeriod = path_parts[-2].split('-')[1][1:]
         
-    def extractFilingText(self, path_to_filing):
-        with open(path_to_filing, 'rb') as input_stream:
+    def extractFilingText(self, pathToFiling):
+        with open(pathToFiling, 'rb') as input_stream:
             self.filingText = ''.join([x for x in input_stream])
              
     def findStatementOfCashFlows(self):
